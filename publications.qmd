@@ -1,0 +1,17 @@
+---
+title: "Publications"
+description: "Selected precision-conservation papers and the complete supplied publication record with DOI links."
+---
+
+My research spans agricultural landscapes and precision conservation, water quality, groundwater and environmental risk, and climate resilience. Recent first-authored work brings these strands together around spatial environmental decision-making.
+
+## Featured research
+
+{{< include _includes/featured.html >}}
+
+## Publication record
+
+Browse journal articles, book chapters, working papers, conference abstracts, technical reports, and public and policy writing. For current citation information, visit [Google Scholar](https://scholar.google.com/citations?user=1VymNoIAAAAJ&hl=en).
+
+{{< include _includes/publication-list.html >}}
+

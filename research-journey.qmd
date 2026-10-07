@@ -1,0 +1,18 @@
+---
+title: "Research Journey"
+description: "From environmental quality and spatial analysis to climate resilience, precision conservation, and adaptive decision support."
+---
+
+My research career has developed through three overlapping phases. The topics and locations have changed, but a common thread has remained: using environmental data, spatial analysis, and interdisciplinary methods to understand risk and support better decisions.
+
+<div class="timeline">
+<article class="timeline-card"><p class="eyebrow">Phase 1 · Overlapping research directions</p><h2>Environmental Quality, Water Resources, and Spatial Analysis</h2><p>Early work focused on groundwater quality, hydrogeochemistry, environmental contamination, human-health risk, GIS, geostatistics, and spatial patterns of environmental vulnerability.</p><p class="themes">Key themes: Water quality · Groundwater · Environmental pollution · GIS · Geostatistics · Environmental risk assessment</p></article>
+<article class="timeline-card"><p class="eyebrow">Phase 2 · Overlapping research directions</p><h2>Climate Adaptation, Resilience, and Science–Policy Practice</h2><p>Research and professional work expanded toward climate adaptation, resilience, climate-smart agriculture, ecosystem-based adaptation, climate finance, and the institutional conditions that determine whether environmental evidence leads to action.</p><p class="themes">Key themes: Climate adaptation · Resilience · Sustainable development · Climate-smart agriculture · Science–policy connections · Decision-making</p></article>
+<article class="timeline-card"><p class="eyebrow">Phase 3 · Overlapping research directions</p><h2>Precision Conservation and Resilient Agricultural Landscapes</h2><p>Doctoral and postdoctoral work brings these experiences together around agricultural landscapes, water quality, precision conservation, modelling, environmental monitoring, Earth observation, GeoAI, and adaptive decision support.</p><p class="themes">Key themes: Agricultural landscapes · Water quality · Precision conservation · Watershed modelling · Earth observation · GeoAI · Environmental monitoring · Decision support</p></article>
+</div>
+
+## A connected trajectory
+
+Measure environmental conditions → understand spatial risk → connect risk with resilience and management → identify where intervention is needed → evaluate what works → develop data-driven decision tools.
+
+[Explore the current research program →](research.qmd)

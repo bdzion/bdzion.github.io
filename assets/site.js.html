@@ -1,0 +1,33 @@
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.navbar-toggler')?.removeAttribute('role');
+  const search = document.getElementById('pub-search');
+  if (!search) return;
+  const topic = document.getElementById('pub-topic');
+  const author = document.getElementById('pub-author');
+  const status = document.getElementById('pub-status');
+  const entries = [...document.querySelectorAll('.publication-entry')];
+  document.querySelector('.publication-controls').hidden = false;
+  status.hidden = false;
+  function filter() {
+    const term = search.value.trim().toLocaleLowerCase();
+    let shown = 0;
+    for (const entry of entries) {
+      const matches = entry.textContent.toLocaleLowerCase().includes(term)
+        && (!topic.value || entry.dataset.topics.split('|').includes(topic.value))
+        && (!author.value || entry.dataset.first === 'true');
+      entry.hidden = !matches;
+      if (matches) shown++;
+    }
+    document.querySelectorAll('.publication-group').forEach(group => {
+      group.hidden = ![...group.querySelectorAll('.publication-entry')].some(entry => !entry.hidden);
+    });
+    status.textContent = shown ? `Showing ${shown} matching entries.` : 'No matching entries. Try another search or reset the filters.';
+  }
+  [search, topic, author].forEach(control => control.addEventListener('input', filter));
+  document.getElementById('pub-reset').addEventListener('click', () => {
+    search.value = ''; topic.value = ''; author.value = ''; filter(); search.focus();
+  });
+  filter();
+});
+</script>

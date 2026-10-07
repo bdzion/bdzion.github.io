@@ -1,0 +1,22 @@
+---
+title: "Collaboration"
+description: "Research partnerships across Earth observation, GeoAI, agricultural water quality, precision conservation, and decision support."
+---
+
+Collaboration is central to my research because challenges involving water quality, landscape resilience, sustainable food production, and environmental decision-making cross disciplinary and institutional boundaries.
+
+## Current research setting
+
+I am based at the University of Guelph, where my work connects geography, environmental science, agriculture, water resources, and food systems. My current research builds from precision conservation and watershed management toward a broader program on resilient agricultural landscapes and sustainable food production.
+
+## Established collaborations
+
+My research has developed through collaboration with universities, Environment and Climate Change Canada, conservation authorities, agricultural and environmental organizations, NGOs, international development organizations, and private-sector partners. These partnerships connect scientific research with operational environmental management and implementation.
+
+## Future collaboration interests
+
+<ul class="interest-list"><li>Earth Observation and Agricultural Remote Sensing</li><li>GeoAI and Spatial Environmental Intelligence</li><li>Agricultural Water Quality and Watershed Science</li><li>Precision and Multifunctional Conservation</li><li>Long-Term Environmental Monitoring</li><li>Climate-Resilient Agricultural Landscapes</li><li>Environmental Economics and Spatial Optimization</li><li>Decision-Support Systems and WebGIS</li><li>Food-System and Agricultural Resilience</li></ul>
+
+I welcome collaborations involving research projects, grant proposals, comparative studies, datasets, graduate student research, and applied environmental initiatives.
+
+[Get in touch →](contact.qmd){.button .primary}

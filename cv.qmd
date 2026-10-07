@@ -1,0 +1,50 @@
+---
+title: "Academic CV"
+description: "Education, appointments, teaching, awards, and a downloadable public academic CV."
+---
+
+My academic profile reflects an interdisciplinary career spanning environmental science, geography, watershed management, agricultural sustainability, geospatial analysis, machine learning, climate resilience, and science-to-decision practice.
+
+[Download the full academic CV (PDF)](assets/Md_Bodrud_Doza_Academic_CV.pdf){.button .primary}
+
+## Education
+
+- **PhD in Geography**, University of Guelph, September 2022–August 2026. Thesis: *Advancing Precision Conservation in Tile-Drained Agricultural Watersheds through Integrated Geospatial Analysis, Machine Learning, and Process-Based Modeling.*
+- **MSc in Environmental Sciences**, Jahangirnagar University, 2014.
+- **BSc (Honours) in Environmental Sciences**, Jahangirnagar University, 2010–2013.
+
+## Appointments
+
+**Postdoctoral Scholar**, Department of Geography, Environment and Geomatics, University of Guelph, September 2026–present. Earlier roles span academic research and teaching, conservation-authority analysis, NGOs, and consulting.
+
+[Explore the experience timeline →](experience.qmd)
+
+## Research and publications
+
+Peer-reviewed work across water quality, environmental risk, climate resilience, and precision conservation, including recent first-authored research on machine learning, best management practice prioritisation, and Great Lakes nutrient management.
+
+[Browse publications →](publications.qmd)
+
+## Teaching
+
+Teaching experience across five undergraduate geography courses at the University of Guelph, including Mapping and GIS and GIS and Spatial Analysis. Teaching interests include geospatial analysis, remote sensing, GeoAI, environmental modelling, watershed science, and environmental decision support.
+
+## Funding and proposal development
+
+Research funding from Environment and Climate Change Canada, alongside extensive proposal development and resource-mobilisation experience across university, NGO, government, and international-development settings. This work includes climate adaptation, ecosystem-based adaptation, agriculture, and resilience.
+
+## Selected awards
+
+- Ontario Graduate Scholarship, 2025–2026
+- Cecil H. Franklin Graduate Scholarship in Soil & Water Conservation, 2025
+- Ted Symons Scholarship, 2025
+- Arthur D. Latornell Graduate Scholarship, 2023
+- GEG Graduate Publication Awards, 2024 and 2025
+- International Doctoral Tuition Scholarship, Special Dean’s Award, and Kiyoko Miyanishi Graduate Geography Scholarship
+
+## Academic service
+
+Journal peer review, research collaboration, faculty search-committee service, professional memberships, conference participation, mentoring, and knowledge mobilisation. Professional memberships include the Canadian Water Resources Association, Canadian Geophysical Union, and Canadian Geomorphology Research Group.
+
+The full CV contains the detailed record of education, appointments, publications, funding, teaching, awards, professional experience, service, skills, and training.
+

@@ -1,0 +1,12 @@
+---
+title: "Contact"
+description: "Contact Md Bodrud-Doza at the University of Guelph for research and applied environmental collaborations."
+---
+
+I welcome inquiries related to research collaboration, grant development, graduate student research, environmental data analysis, remote sensing and GeoAI, watershed management, precision conservation, and resilient agricultural landscapes.
+
+<div class="contact-panel"><p class="eyebrow">Institutional email</p><a class="email-link" href="mailto:mbodrudd@uoguelph.ca">mbodrudd@uoguelph.ca</a><p>Department of Geography, Environment and Geomatics<br>University of Guelph<br>Guelph, Ontario, Canada</p></div>
+
+## Professional profiles
+
+<ul class="profile-list"><li><a href="https://scholar.google.com/citations?user=1VymNoIAAAAJ&amp;hl=en">Google Scholar ↗</a></li><li><a href="https://orcid.org/0000-0003-4694-4077">ORCID ↗</a></li><li><a href="https://www.linkedin.com/in/md-bodrud-doza-33156a80/">LinkedIn ↗</a></li><li><a href="https://github.com/bdzion">GitHub ↗</a></li><li><a href="https://www.researchgate.net/profile/Md-Bodrud-Doza">ResearchGate ↗</a></li><li><a href="https://www.sciencedirect.com/author/57189758827/m-bodrud-doza">ScienceDirect ↗</a></li></ul>

@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: python scripts/render_publications.py
+  render:
+    - "*.qmd"
+  resources:
+    - assets/portrait.webp
+    - assets/social.jpg
+    - assets/Md_Bodrud_Doza_Academic_CV.pdf
+    - publications.json
+website:
+  title: "Md Bodrud-Doza"
+  site-url: https://bdzion.github.io
+  description: "Resilient agricultural landscapes, water quality, and spatial environmental decision-making."
+  favicon: assets/favicon.svg
+  image: assets/social.jpg
+  open-graph: true
+  twitter-card: true
+  navbar:
+    background: light
+    collapse-below: xl
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: research-journey.qmd
+        text: Research Journey
+      - href: experience.qmd
+        text: Experience
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: collaboration.qmd
+        text: Collaboration
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "Md Bodrud-Doza · University of Guelph, Canada"
+    right:
+      - text: Email
+        href: mailto:mbodrudd@uoguelph.ca
+      - text: GitHub
+        href: https://github.com/bdzion
+  search:
+    location: navbar
+    type: overlay
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    lang: en-CA
+    link-external-newwindow: true
+    include-before-body: assets/before-body.html
+    include-after-body: assets/site.js.html
+    smooth-scroll: false
