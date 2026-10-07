@@ -7,3 +7,5 @@ Thumbs.db
 
 /.quarto/
 **/*.quarto_ipynb
+
+external-link-report.json

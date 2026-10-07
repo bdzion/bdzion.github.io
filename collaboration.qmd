@@ -1,22 +1,37 @@
 ---
 title: "Collaboration"
-description: "Research partnerships across Earth observation, GeoAI, agricultural water quality, precision conservation, and decision support."
+description: "Current research setting and developing collaborations in food-system resilience and spatial environmental decisions."
+page-layout: full
 ---
 
-Collaboration is central to my research because challenges involving water quality, landscape resilience, sustainable food production, and environmental decision-making cross disciplinary and institutional boundaries.
+I welcome collaboration that connects environmental evidence with decisions across agricultural landscapes, water resources, and food systems.
 
 ## Current research setting
 
-I am based at the University of Guelph, where my work connects geography, environmental science, agriculture, water resources, and food systems. My current research builds from precision conservation and watershed management toward a broader program on resilient agricultural landscapes and sustainable food production.
+<div class="cards three"><article class="research-card"><p class="eyebrow">Institution</p><h3>University of Guelph</h3><p><a href="https://www.uoguelph.ca/">University of Guelph</a>, Ontario, Canada.</p></article><article class="research-card"><p class="eyebrow">Department</p><h3>Geography, Environment and Geomatics</h3><p><a href="https://geg.uoguelph.ca/">GEG</a> · Geography, environmental science, and spatial research.</p></article><article class="research-card"><p class="eyebrow">Research connection</p><h3>Arrell Food Institute</h3><p><a href="https://arrellfoodinstitute.ca/">Arrell Food Institute</a> · Food-system research and collaboration networks.</p></article></div>
 
-## Established collaborations
+## Food-System Buffer Monitoring & Anticipatory Decision-Making
 
-My research has developed through collaboration with universities, Environment and Climate Change Canada, conservation authorities, agricultural and environmental organizations, NGOs, international development organizations, and private-sector partners. These partnerships connect scientific research with operational environmental management and implementation.
+<p class="eyebrow">Developing research direction · Submitted CPRA proposal</p>
 
-## Future collaboration interests
+The developing work asks how stress signals and weakening food-system buffers can be identified early enough to inform adaptation and policy. The CPRA proposal has been submitted; it is not an awarded or funded fellowship.
 
-<ul class="interest-list"><li>Earth Observation and Agricultural Remote Sensing</li><li>GeoAI and Spatial Environmental Intelligence</li><li>Agricultural Water Quality and Watershed Science</li><li>Precision and Multifunctional Conservation</li><li>Long-Term Environmental Monitoring</li><li>Climate-Resilient Agricultural Landscapes</li><li>Environmental Economics and Spatial Optimization</li><li>Decision-Support Systems and WebGIS</li><li>Food-System and Agricultural Resilience</li></ul>
+<div class="framework"><ol class="framework-stages"><li><span class="step-number" aria-hidden="true">01</span><h3>Stress signals</h3><p>Environmental · Remote sensing · Market · Socio-economic · Political-institutional</p></li><li><span class="step-number" aria-hidden="true">02</span><h3>Food-system buffers</h3><p>Environmental · Market · Livelihood · Institutional · Social-political</p></li><li><span class="step-number" aria-hidden="true">03</span><h3>Situation update</h3><p>What stress is increasing? Which buffers are weakening? What remains available? Who can access it?</p></li><li><span class="step-number" aria-hidden="true">04</span><h3>Anticipatory decision</h3><p>What adaptation or policy response is still possible?</p></li></ol></div>
 
-I welcome collaborations involving research projects, grant proposals, comparative studies, datasets, graduate student research, and applied environmental initiatives.
+The proposed work is designed to engage networks connected through Arrell Food Institute and Professor Evan Fraser, including FAO, Oxford Martin School, Cornell, and the RAAPID Center (University of Maryland/NASA Harvest). These are prospective network connections for the developing work.
 
-[Get in touch →](contact.qmd){.button .primary}
+## A connected collaboration ecosystem
+
+<div class="ecosystem"><div class="ecosystem-center"><strong>Developing research program</strong><span>Resilient landscapes · Sustainable food production · Environmental decisions</span></div><div class="ecosystem-grid"><p><strong>Current setting</strong>U of G · GEG · Arrell</p><p><strong>Applied collaboration interests</strong>Government · Conservation authorities · Agricultural organisations</p><p><strong>Methods to connect</strong>Earth observation · GeoAI · Environmental economics</p><p><strong>Geographies</strong>Canada · Great Lakes · Bangladesh · International</p></div></div>
+
+## Place-based research interest: Bangladesh
+
+Bangladesh has been a long-term research and professional context for my work on water quality, environmental risk, climate adaptation, agricultural resilience, and science–policy practice. I am interested in future collaborations connecting this experience with Earth observation, GeoAI, agricultural landscape management, and food-system resilience, including comparative work between Canada and Bangladesh.
+
+## Collaboration themes
+
+<div class="cards two"><article class="research-card"><p class="eyebrow">Spatial intelligence</p><h3>Earth observation & GeoAI</h3><p>Agricultural and environmental sensing, interpretation, and spatial prediction.</p></article><article class="research-card"><p class="eyebrow">Water & landscapes</p><h3>Watershed science & conservation</h3><p>Monitoring, nutrient management, and multi-benefit intervention portfolios.</p></article><article class="research-card"><p class="eyebrow">Adaptation</p><h3>Climate & food-system resilience</h3><p>Stress signals, system buffers, place-based experience, and anticipatory response.</p></article><article class="research-card"><p class="eyebrow">Evaluation</p><h3>Economics & spatial optimization</h3><p>Costs, trade-offs, local priorities, and feasible landscape interventions.</p></article><article class="research-card"><p class="eyebrow">Implementation</p><h3>Decision tools & science–policy</h3><p>WebGIS, applied decision products, stakeholder analysis, and knowledge mobilisation.</p></article><article class="research-card"><p class="eyebrow">Research exchange</p><h3>Comparative studies & mentoring</h3><p>Canada–Bangladesh research, datasets, grant development, and graduate research.</p></article></div>
+
+Past research and professional partnerships have involved universities, Environment and Climate Change Canada, conservation authorities, NGOs, and agricultural and environmental organisations.
+
+[Discuss a collaboration →](contact.qmd){.button .primary}

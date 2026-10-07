@@ -2,9 +2,11 @@ project:
   type: website
   output-dir: _site
   pre-render: python scripts/render_publications.py
+  post-render: python scripts/finalize_html.py
   render:
     - "*.qmd"
   resources:
+    - assets/images/**
     - assets/portrait.webp
     - assets/social.jpg
     - assets/Md_Bodrud_Doza_Academic_CV.pdf

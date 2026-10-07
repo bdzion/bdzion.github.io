@@ -7,7 +7,7 @@ root=Path(__file__).resolve().parents[1]
 output=root/'_site'
 class Page(HTMLParser):
     def __init__(self):
-        super().__init__(); self.links=[]; self.ids=set(); self.headings=[]; self.bad_images=[]; self.lang=None; self.description=False
+        super().__init__(); self.links=[]; self.ids=set(); self.headings=[]; self.bad_images=[]; self.bad_rel=[]; self.lang=None; self.description=False
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
         if 'id' in a:self.ids.add(a['id'])
@@ -16,6 +16,7 @@ class Page(HTMLParser):
         if tag in ['a','link'] and 'href' in a:self.links.append(a['href'])
         if tag in ['img','script'] and 'src' in a:self.links.append(a['src'])
         if tag=='img' and not a.get('alt'):self.bad_images.append(a.get('src'))
+        if tag=='a' and a.get('target')=='_blank' and not {'noopener','noreferrer'}.issubset(set(a.get('rel','').split())):self.bad_rel.append(a.get('href'))
         if tag in ['h1','h2','h3','h4','h5','h6']:self.headings.append(int(tag[1]))
 errors=[]; pages={}
 for f in output.glob('*.html'):
@@ -26,6 +27,7 @@ for f in output.glob('*.html'):
     for x,y in zip(p.headings,p.headings[1:]):
         if y>x+1:errors.append(f'{f.name}: heading jump {x} -> {y}')
     if p.bad_images:errors.append(f'{f.name}: missing image alt {p.bad_images}')
+    if p.bad_rel:errors.append(f'{f.name}: unsafe new-tab links {p.bad_rel}')
     text=f.read_text(encoding='utf-8')
     for forbidden in ['7,000+','60+','h-index','2026 – Present','{{< include']:
         if forbidden in text:errors.append(f'{f.name}: stale or unrendered content {forbidden}')

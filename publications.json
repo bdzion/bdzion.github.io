@@ -12,7 +12,13 @@
       "Agricultural Landscapes & Precision Conservation",
       "Water Quality & Watershed Science"
     ],
-    "title": "Operationalizing precision conservation: Aligning best management practice prioritization with local needs in agricultural watersheds"
+    "title": "Operationalizing precision conservation: Aligning best management practice prioritization with local needs in agricultural watersheds",
+    "journal": "International Soil and Water Conservation Research",
+    "contribution": "Connects best management practice prioritization with local needs in agricultural watersheds.",
+    "display_tags": [
+      "Precision conservation",
+      "Local priorities"
+    ]
   },
   {
     "id": "pub-002",
@@ -27,7 +33,13 @@
       "Agricultural Landscapes & Precision Conservation",
       "Geospatial & Machine Learning"
     ],
-    "title": "Advancing precision conservation through machine learning for field-level prioritization of agricultural best management practices"
+    "title": "Advancing precision conservation through machine learning for field-level prioritization of agricultural best management practices",
+    "journal": "International Soil and Water Conservation Research",
+    "contribution": "Examines machine learning for field-level prioritization of agricultural best management practices.",
+    "display_tags": [
+      "Precision conservation",
+      "Machine learning"
+    ]
   },
   {
     "id": "pub-003",
@@ -42,7 +54,13 @@
       "Agricultural Landscapes & Precision Conservation",
       "Water Quality & Watershed Science"
     ],
-    "title": "Evaluating best management practices for nutrient load reductions in tile-drained watersheds of the Laurentian Great Lakes Basin: A literature review"
+    "title": "Evaluating best management practices for nutrient load reductions in tile-drained watersheds of the Laurentian Great Lakes Basin: A literature review",
+    "journal": "Science of The Total Environment",
+    "contribution": "Synthesizes evidence on nutrient-load reductions in tile-drained Great Lakes watersheds.",
+    "display_tags": [
+      "Precision conservation",
+      "Evidence synthesis"
+    ]
   },
   {
     "id": "pub-004",
@@ -58,7 +76,13 @@
       "Water Quality & Watershed Science",
       "Geospatial & Machine Learning"
     ],
-    "title": "Towards implementing precision conservation practices in agricultural watersheds: A review of the use and prospects of Spatial Decision Support Tools and Systems"
+    "title": "Towards implementing precision conservation practices in agricultural watersheds: A review of the use and prospects of Spatial Decision Support Tools and Systems",
+    "journal": "Science of The Total Environment",
+    "contribution": "Reviews the use and prospects of spatial decision-support tools for precision conservation.",
+    "display_tags": [
+      "Precision conservation",
+      "Decision support"
+    ]
   },
   {
     "id": "pub-005",

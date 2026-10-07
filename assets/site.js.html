@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!search) return;
   const topic = document.getElementById('pub-topic');
   const author = document.getElementById('pub-author');
+  const year = document.getElementById('pub-year');
+  const category = document.getElementById('pub-category');
+  const view = document.getElementById('pub-view');
   const status = document.getElementById('pub-status');
   const entries = [...document.querySelectorAll('.publication-entry')];
   document.querySelector('.publication-controls').hidden = false;
@@ -15,18 +18,21 @@ document.addEventListener('DOMContentLoaded', () => {
     for (const entry of entries) {
       const matches = entry.textContent.toLocaleLowerCase().includes(term)
         && (!topic.value || entry.dataset.topics.split('|').includes(topic.value))
-        && (!author.value || entry.dataset.first === 'true');
+        && (!author.value || entry.dataset.first === 'true')
+        && (!year.value || entry.dataset.year === year.value)
+        && (!category.value || entry.dataset.category === category.value)
+        && (!view.value || entry.dataset.view === view.value);
       entry.hidden = !matches;
       if (matches) shown++;
     }
-    document.querySelectorAll('.publication-group').forEach(group => {
+    document.querySelectorAll('.publication-group, .publication-view').forEach(group => {
       group.hidden = ![...group.querySelectorAll('.publication-entry')].some(entry => !entry.hidden);
     });
     status.textContent = shown ? `Showing ${shown} matching entries.` : 'No matching entries. Try another search or reset the filters.';
   }
-  [search, topic, author].forEach(control => control.addEventListener('input', filter));
+  [search, topic, author, year, category, view].forEach(control => control.addEventListener('input', filter));
   document.getElementById('pub-reset').addEventListener('click', () => {
-    search.value = ''; topic.value = ''; author.value = ''; filter(); search.focus();
+    search.value = ''; [topic, author, year, category, view].forEach(control => control.value = ''); filter(); search.focus();
   });
   filter();
 });
