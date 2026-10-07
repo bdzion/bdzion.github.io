@@ -1,6 +1,7 @@
 ---
 title: "Research"
-description: "The developing REAL Decision Lab research program on resilient agricultural landscapes and sustainable food production."
+description: "The developing REAL Decision Lab research program, from monitoring to adaptive landscape decisions."
+page-layout: full
 ---
 
 <p class="eyebrow">Developing research program</p>
@@ -9,41 +10,28 @@ description: "The developing REAL Decision Lab research program on resilient agr
 
 **Resilient Agricultural Landscapes Decision Lab**
 
-Building evidence and decision tools for resilient agricultural landscapes and sustainable food production.
+Building evidence and decision tools for resilient agricultural landscapes and sustainable food production. The REAL Decision Lab is a developing research program.
 
-The REAL Decision Lab is a developing research program focused on understanding how agricultural landscapes can be managed to sustain food production while protecting water, soil, ecosystems, and other environmental resources.
+<div class="framework"><ol class="framework-stages"><li><span class="step-number" aria-hidden="true">01</span><h3>Observe</h3><p>Environmental monitoring<br>Earth observation<br>Geospatial data</p></li><li><span class="step-number" aria-hidden="true">02</span><h3>Understand</h3><p>GeoAI & machine learning<br>Process-based models<br>Spatial and temporal risk pathways</p></li><li><span class="step-number" aria-hidden="true">03</span><h3>Design</h3><p>Precision conservation<br>Spatial optimization<br>Multi-benefit conservation portfolios</p></li><li><span class="step-number" aria-hidden="true">04</span><h3>Decide & learn</h3><p>Decision-support tools<br>WebGIS and applied products<br>Monitor → learn → update priorities</p></li></ol><p class="feedback-loop"><span aria-hidden="true">↶</span> Adaptive learning: monitor outcomes, learn, and return to observation.</p><p class="outcomes"><strong>Shared outcomes</strong> Water quality · Soil/ecosystem health · Sustainable production · Climate resilience</p></div>
 
-Agricultural landscapes face pressures from nutrient loss, climate variability, extreme weather, changing land management, and competing demands for food production and environmental protection. Addressing these challenges requires understanding where environmental risks occur, why they occur, which interventions are most appropriate, and how limited resources can be directed toward actions that provide the greatest benefits.
+## Four connected agenda areas
 
-The program brings together Earth observation, geospatial science, environmental monitoring, GeoAI, machine learning, process-based modelling, and decision-support methods. The long-term goal is to move from describing environmental problems toward adaptive, spatially explicit decision systems that support better landscape-management decisions.
+<div class="cards two"><article class="research-card"><p class="eyebrow">Observe</p><h3>Landscape intelligence & environmental monitoring</h3><p>Combine monitoring, Earth observation, and geospatial information to understand response to weather, management, and environmental stress.</p></article><article class="research-card"><p class="eyebrow">Understand</p><h3>GeoAI for agricultural & environmental systems</h3><p>Develop interpretable methods that connect spatial information and Earth-observation data with landscape conditions and environmental risk.</p></article><article class="research-card"><p class="eyebrow">Design</p><h3>Precision & multifunctional conservation</h3><p>Evaluate water quality, soil protection, climate resilience, biodiversity, sustainable production, cost, and implementation constraints together.</p></article><article class="research-card"><p class="eyebrow">Decide & learn</p><h3>Adaptive environmental decision systems</h3><p>Connect monitoring, prediction, intervention, and evaluation so that priorities can change as new evidence becomes available.</p></article></div>
 
-## Research questions
+## Methods toolkit
 
-<div class="cards three">
-<article class="research-card"><h3>Where, when, and why do environmental risks emerge across agricultural landscapes?</h3><p>Examine spatial and temporal controls on nutrient loss, runoff, soil and vegetation conditions, hydrologic connectivity, and other indicators of landscape vulnerability.</p></article>
-<article class="research-card"><h3>How can agricultural landscapes be managed to achieve multiple environmental and production benefits?</h3><p>Evaluate conservation and land-management strategies across fields, farms, and watersheds, including effects on water quality, production, climate resilience, and ecosystem services.</p></article>
-<article class="research-card"><h3>How can environmental data be transformed into better decisions?</h3><p>Integrate monitoring, Earth observation, geospatial information, environmental models, and AI into practical and adaptive decision-support systems.</p></article>
-</div>
+Earth observation and GeoAI are growing directions, building on my established work in geospatial analysis, water quality, precision conservation, machine learning, and watershed modelling.
 
-## Methods
+<div class="method-strip"><span>GIS & geostatistics</span><span>Environmental monitoring</span><span>Machine learning</span><span>Process-based modelling</span><span>Earth observation · growing direction</span><span>GeoAI · growing direction</span><span>Spatial optimization</span><span>Multi-criteria decision analysis</span></div>
 
-Earth observation and GeoAI are growing directions within this program, building on my established work in geospatial analysis, water quality, precision conservation, machine learning, and watershed modelling.
+## Current work and foundations
 
-<div class="method-strip"><span>Earth observation and remote sensing</span><span>GIS and geospatial analysis</span><span>GeoAI and machine learning</span><span>Environmental monitoring and data analytics</span><span>Process-based modelling</span><span>Precision conservation and spatial optimization</span><span>Multi-criteria and multi-objective decision analysis</span><span>Decision-support tools and interactive geospatial platforms</span></div>
+<div class="cards three"><article class="research-card"><p class="eyebrow">Published research</p><h3>Field-level conservation priorities</h3><p>Recent first-authored papers examine machine-learning prioritization and alignment of conservation practices with local needs. <a href="publications.qmd">Read the research →</a></p></article><article class="research-card"><p class="eyebrow">Research foundation</p><h3>Monitoring & watershed modelling</h3><p>Doctoral research and conservation-authority work connect water-quality observations, geospatial analysis, and process-based watershed models.</p></article><article class="research-card"><p class="eyebrow">Submitted proposal · developing</p><h3>Food-system decision support</h3><p>A developing direction explores stress signals, weakening buffers, and options for anticipatory response. <a href="collaboration.qmd">Explore the proposal framework →</a></p></article></div>
 
-## Developing research agenda
-
-<div class="cards two">
-<article class="research-card"><h3>Landscape Intelligence and Environmental Monitoring</h3><p>Combine long-term monitoring, Earth observation, and geospatial information to understand landscape response to weather, management, and environmental stress, with emphasis on dynamic environmental risk.</p></article>
-<article class="research-card"><h3>GeoAI for Agricultural and Environmental Systems</h3><p>Use multimodal Earth-observation data, spatial information, and interpretable GeoAI to study landscape resilience, crop and vegetation dynamics, environmental stress, and conservation needs.</p></article>
-<article class="research-card"><h3>Precision and Multifunctional Conservation</h3><p>Extend conservation planning beyond nutrient reduction to consider soil protection, climate resilience, carbon, biodiversity, hydrologic regulation, sustainable production, cost, and implementation constraints.</p></article>
-<article class="research-card"><h3>Adaptive Environmental Decision Systems</h3><p>Connect monitoring, prediction, intervention, and evaluation so that management priorities can be updated as new observations become available.</p></article>
-</div>
+<div class="photo-pair"><figure class="evidence-photo"><img src="assets/images/research/monitoring-landscape.webp" width="1800" height="1350" loading="lazy" alt="An agricultural stream and road crossing beside a monitoring station, viewed from above"><figcaption>Monitoring landscapes: linking field conditions with spatial environmental questions.</figcaption></figure><figure class="evidence-photo"><img src="assets/images/research/stream-monitoring.webp" width="1350" height="1800" loading="lazy" alt="Md Bodrud-Doza wearing a safety vest beside a stream during field monitoring"><figcaption>Field monitoring provides a foundation for interpreting environmental change.</figcaption></figure></div>
 
 ## Long-term vision
 
-The long-term vision is to support a transition from uniform and reactive environmental management toward spatially targeted, data-driven, and adaptive management of agricultural landscapes.
-
-Guiding question: How can environmental data and spatial intelligence determine what should be done, where it should be done, and how management should change as agricultural landscapes and environmental conditions evolve?
+Move toward spatially targeted, data-informed, adaptive landscape management: what should be done, where should it be done, and how should priorities change as conditions evolve?
 
 [Discuss a research collaboration →](collaboration.qmd)
