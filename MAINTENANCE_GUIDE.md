@@ -85,7 +85,7 @@ Edit `publications.json`. Copy a complete record and give it a unique ID. Add a 
 
 Replace all example values with verified metadata. Use `null` for an unavailable year, DOI, or URL. Reuse existing categories: First-Authored Articles, Co-Authored Articles, Book Chapters, Working Papers, Conference Abstracts, Technical Reports and Policy Contributions, Policy Brief, or Selected Public and Policy Writing. Keep non-peer-reviewed work in the proper category. Topics should describe the paper accurately.
 
-Do not edit `_includes/*.html`; rendering regenerates them. The PDF source is separate, so also add new citations to `assets/cv-content.json` when updating your CV.
+Do not edit `_includes/*.html`; rendering regenerates them. The PDF builder also reads `publications.json`. Add or correct a publication here once, then rebuild the PDF so the website and CV stay aligned. Keep links in the `url` field; do not append placeholder text such as `(Link:` to a citation. Home Updates are separate: add an article to both `updates.json` and `publications.json` if it should appear in both places.
 
 ## H. Mark or unmark featured papers
 
@@ -107,7 +107,7 @@ Use two or three short display tags; `topics` still drives filtering. Retain the
 
 ## J. Update the public CV PDF safely
 
-Use **Add file → Upload files** inside `assets` to replace `Md_Bodrud_Doza_Academic_CV.pdf` with a reviewed public PDF using the same filename. Alternatively edit `assets/cv-content.json`, install ReportLab locally, and run `python scripts/build_cv.py`.
+Use **Add file → Upload files** inside `assets` to replace `Md_Bodrud_Doza_Academic_CV.pdf` with a reviewed public PDF using the same filename. Alternatively edit `assets/cv-content.json` for your profile, appointments, teaching, experience, awards, skills, and training. Publication entries come from `publications.json`. Install ReportLab locally (`python -m pip install reportlab`), then run `python scripts/build_cv.py` from the website folder. The builder produces white pages, clickable profile/publication links, and page numbers. It places research and teaching before the complete publication record. Rebuild whenever either source changes; Quarto does not rebuild the PDF automatically.
 
 Review every page and link after rebuilding. Remove private phone numbers, home addresses, immigration details, referee contacts, hidden comments, and private metadata. Use institutional contact details only. Never upload the original private Word CV. Test the live download. Editing `cv.qmd` alone does not update the PDF.
 
@@ -188,3 +188,9 @@ For one file, click **History**, open the previous good version, and copy its co
 
 - Updates dates, research areas, and the learning loop remain current.
 
+
+### Homepage navigation and Healthy Lake Huron partnership
+
+Your name in the navigation links to Home, so there is no second Home menu item. Edit the website title and the remaining page links in `_quarto.yml`. Keep the name visible on mobile.
+
+Use `https://healthylakehuron.ca/` for Healthy Lake Huron. The main applied partnership is Healthy Lake Huron partners; ABCA remains the formal Mitacs partner. Keep this distinction consistent in `research.qmd`, `collaboration.qmd`, and `assets/cv-content.json`. Write “and” in partnership headings. Label unfinished maps, indicators, and recommendations as intended outputs.

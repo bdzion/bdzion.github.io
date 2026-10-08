@@ -26,8 +26,6 @@ website:
     background: light
     collapse-below: xl
     left:
-      - href: index.qmd
-        text: Home
       - href: research.qmd
         text: Research Lab
       - href: research-journey.qmd

@@ -14,7 +14,7 @@ An interdisciplinary academic profile connecting environmental science, geograph
 
 ## Academic appointments
 
-<ol class="appointment-list"><li><strong>September 2026–present · Postdoctoral Scholar</strong><span>Developing a program on resilient agricultural landscapes and sustainable food production.</span></li><li><strong>May 2024–August 2026 · Graduate Research Assistant</strong><span>Geospatial analysis, machine learning, and distributed watershed modelling.</span></li><li><strong>September 2022–April 2024 · Graduate Teaching Assistant</strong><span>Laboratory, seminar, assessment, and GIS instruction.</span></li></ol>
+<ol class="appointment-list"><li><strong>September 2026–present · Postdoctoral Scholar</strong><span>Active Mitacs Accelerate research with Healthy Lake Huron partners; developing REAL Decision Lab.</span></li><li><strong>May 2024–August 2026 · Graduate Research Assistant</strong><span>Geospatial analysis, machine learning, and distributed watershed modelling.</span></li><li><strong>September 2022–April 2024 · Graduate Teaching Assistant</strong><span>Laboratory, seminar, assessment, and GIS instruction.</span></li></ol>
 
 All appointments above are at [GEG, University of Guelph](https://geg.uoguelph.ca/). [Explore the full professional timeline →](experience.qmd)
 

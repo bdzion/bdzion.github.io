@@ -12,7 +12,7 @@ I welcome collaboration that connects environmental evidence with decisions acro
 
 ## Current applied collaboration
 
-<div class="current-project"><p class="eyebrow">Active Mitacs Accelerate research</p><h3>University of Guelph × Ausable Bayfield Conservation Authority</h3><p><a href="https://www.abca.ca/">ABCA</a> is the formal Mitacs partner for my current postdoctoral project in the <a href="https://www.healthylakehuron.com/">Healthy Lake Huron</a> context.</p><p>ABCA, Maitland Valley Conservation Authority, and wider Healthy Lake Huron partner data and expertise inform the work. Planned maps, indicators, and monitoring recommendations will support conservation planning and stewardship decisions.</p><a href="research.qmd#current-project-healthy-lake-huron">Research methods and intended outputs →</a></div>
+<div class="current-project"><p class="eyebrow">Active Mitacs Accelerate research</p><h3>University of Guelph and Healthy Lake Huron partners</h3><p>My current postdoctoral project connects University of Guelph research with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>, the main applied partnership for this work. <a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority (ABCA)</a> is the formal Mitacs partner.</p><p>ABCA, Maitland Valley Conservation Authority, and the wider Healthy Lake Huron partnership contribute watershed data and expertise. Planned maps, indicators, and monitoring recommendations will support conservation planning and stewardship decisions.</p><a href="research.qmd#current-project-healthy-lake-huron">Research methods and intended outputs →</a></div>
 
 ## Food-System Resilience and Anticipatory Decision-Making
 

@@ -21,7 +21,7 @@ Categories follow the supplied CV: First-Authored Articles, Co-Authored Articles
 
 ## Replace or update the CV
 
-Replace `assets/Md_Bodrud_Doza_Academic_CV.pdf` with a reviewed public-safe PDF using the same filename. The links then keep working. Alternatively edit `assets/cv-content.json`, install ReportLab (`python -m pip install reportlab`), and run `python scripts/build_cv.py`. Review every PDF page after rebuilding. The CV JSON is a separate editable CV source; also update its publication section when adding publications to the website.
+Replace `assets/Md_Bodrud_Doza_Academic_CV.pdf` with a reviewed public-safe PDF using the same filename. The links then keep working. Alternatively edit `assets/cv-content.json`, install ReportLab (`python -m pip install reportlab`), and run `python scripts/build_cv.py`. Review every PDF page after rebuilding. The CV JSON holds profile, appointment, teaching, experience, awards, skills, and training content. The builder reads the full publication record from `publications.json`, so add publications there once and rebuild the PDF. Pages have an explicit white background.
 
 Never upload a private CV, home address, phone number, immigration or family details, or referee contacts. The current photo policy permits the homepage portrait, research-only journey image, and one professional consultation photograph on Experience. Audit text, links, metadata, and embedded content before publishing. Only institutional contact details belong on this site. Original Word documents are deliberately excluded from this repository.
 
