@@ -20,13 +20,13 @@ title-block-style: none
 
 <div class="theme-band"><p class="eyebrow">Research theme</p><h2>Resilient Agricultural Landscapes<br>and Sustainable Food Production</h2><p>From understanding spatial risk to evaluating interventions and building practical decision tools.</p></div>
 
-<dl class="summary-strip"><div><dt>What I study</dt><dd>Agricultural landscapes · Water quality · Food-system resilience</dd></div><div><dt>How I work</dt><dd>Monitoring · Geospatial analysis · Machine learning · Modelling</dd></div><div><dt>Why it matters</dt><dd>Better targeting · Resilient landscapes · Informed decisions</dd></div></dl>
+<dl class="summary-strip"><div><dt>What I study</dt><dd>Agricultural landscapes · Water quality · Food-system resilience</dd></div><div><dt>How I work</dt><dd>Monitoring · Geospatial analysis · Machine learning · Modelling</dd></div><div><dt>Why it matters</dt><dd>Better conservation planning · Resilient landscapes · Informed decisions</dd></div></dl>
 
-## Current research directions
+## Research through REAL Decision Lab
 
-<p class="program-intro"><a href="research.qmd"><strong>REAL Decision Lab</strong></a> · Developing research program</p>
+<p class="program-intro"><a href="research.qmd"><strong>REAL Decision Lab</strong></a> · Developing research program · <a href="research.qmd#current-and-developing-projects">View current projects →</a></p>
 
-<div class="cards three"><article class="research-card"><p class="eyebrow">Established foundation</p><h3>Precision & multifunctional conservation</h3><p>Target conservation where it can deliver water-quality and wider landscape benefits.</p></article><article class="research-card"><p class="eyebrow">Emerging methods</p><h3>Earth observation & GeoAI</h3><p>Use Earth observation and GeoAI (AI for geographic data) to understand agricultural and environmental change.</p></article><article class="research-card"><p class="eyebrow">Developing direction</p><h3>Food-system resilience</h3><p>Explore how early stress signals and capacities to absorb shocks can inform timely adaptation.</p></article></div>
+<div class="cards three"><article class="research-card"><p class="eyebrow">Established foundation</p><h3>Precision Conservation</h3><p>Plan conservation practices for water quality and wider landscape benefits.</p></article><article class="research-card"><p class="eyebrow">Emerging methods</p><h3>Earth Observation &amp; GeoAI</h3><p>Use Earth observation and GeoAI (AI for geographic data) to understand agricultural and environmental change.</p></article><article class="research-card"><p class="eyebrow">Developing direction</p><h3>Food-System Resilience</h3><p>Explore how early stress signals and capacities to absorb shocks can inform timely adaptation.</p></article></div>
 
 
 

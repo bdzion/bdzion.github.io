@@ -21,26 +21,34 @@ Edit the appointment and affiliation in `index.qmd`, then the corresponding entr
 1. Edit `updates.json`. Copy one complete object, keeping commas between objects.
 2. Supply `date` as `YYYY-MM-DD`, plus `type`, `publisher`, `title`, a brief original `summary`, and the public HTTPS `url`.
 3. Verify the title and publication date at the publisher. Do not confuse the article date with the date you add it.
-4. Keep the list concise (usually two or three recent entries). Move older items out as you add new ones.
+4. The homepage automatically shows only the two newest entries, sorted by their verified publication dates. Older entries can remain in `updates.json`; they are preserved but not shown in the homepage list.
 5. Render and check the links. Do not edit `_includes/updates.html`; `scripts/render_updates.py` regenerates it.
 
 ## C. Update the four Research Lab areas
 
 
 1. Open `research.qmd` on GitHub and click Edit.
-2. Find `<div class="framework research-framework">`. Each `<li id="area-...">` contains an area title, plain-language question, and methods.
+2. Find `<div class="framework research-framework">`. Each `<li id="area-...">` contains an action label (OBSERVE, UNDERSTAND, PLAN, DECIDE & LEARN), an area title, a plain-language question, and a short explanation.
 3. Edit those words while preserving the four IDs (`area-observe`, `area-understand`, `area-design`, `area-learn`). The return link relies on the first ID.
 4. Keep GeoAI and Earth observation described as growing directions below the framework. Commit, check Actions, then inspect desktop and phone layouts.
 
 ## D. Maintain the learning loop
 
 
-Find `<div class="learning-loop">` in `research.qmd`. Change its visible paragraph and the SVG `<title id="loop-title">` together so the accessible description agrees with the diagram. Keep the arrow path and return-link destination unchanged unless you are redesigning the framework.
+Find `<div class="learning-loop">` in `research.qmd`. Edit the five `<li>` steps in `<ol class="loop-steps">` and the SVG `<title id="loop-title">` together so the accessible description agrees with the diagram. Keep the order: Monitor outcomes → Compare results with expectations → Learn → Update models and priorities → Observe again. Keep the arrow path and return-link destination unchanged unless you are redesigning the framework.
 
 ## E. Update the current Mitacs project
 
 
 The owner confirmed on 7 October 2026 that Mitacs is the current postdoctoral project. In `research.qmd`, find “Current project: Healthy Lake Huron”. Keep intended outputs distinct from completed findings. ABCA is the formal Mitacs partner; MVCA and other Healthy Lake Huron participants are the wider data/collaboration context. Update the related short entry in `experience.qmd` and “Current applied collaboration” in `collaboration.qmd` together. Do not upload the source proposal or private partner data. Confirm any change to partner roles, dates, or project status before editing.
+
+### Edit project cards and status
+
+1. Open `research.qmd` and find “Current and developing projects” and `<div class="project-grid">`.
+2. Each `<article class="project-card">` contains a status label, title, one short explanation, and sometimes a link.
+3. Edit these words and check the linked section. Keep statuses precise: Active, PhD foundation, Developing, or Submitted proposal / Developing.
+4. A submitted proposal becomes awarded or active only after confirmation. Update Research Lab, Experience, Collaboration, and the web CV together where relevant.
+5. Keep methods described as emerging when they are still being developed. Render and inspect the cards on a phone.
 
 ## F. Replace the journey photo
 
@@ -49,9 +57,9 @@ The owner confirmed on 7 October 2026 that Mitacs is the current postdoctoral pr
 2. Export a compressed WebP with EXIF/GPS metadata removed; use the existing derivative filename.
 3. Replace `assets/images/journey/research-journey.webp` on GitHub.
 4. Update its width/height, alt text, and caption in `research-journey.qmd` and the inventory in `assets/images/manifest.json`.
-5. Confirm the three phase panels remain visible without clicking. Run the site check: it enforces the portrait/journey-only photo policy.
+5. Confirm the three phase panels remain visible without clicking. Run the site check: it enforces the portrait/journey/one-leadership-image policy.
 
-The only site photos are the homepage portrait and this journey image. Keep originals outside the repository. Do not add galleries or personal/family photographs.
+The site photos are the homepage portrait, this journey image, and one professional consultation image on Experience. Keep originals outside the repository. Do not add galleries or personal/family photographs.
 
 ## G. Add a publication
 
@@ -86,12 +94,12 @@ Set `"featured": true` or `false`. Cards follow JSON order; Home displays the fi
 "display_tags": ["Precision conservation", "Machine learning"]
 ```
 
-Use two or three short display tags; `topics` still drives filtering. Retain the full `citation`. Update the separate research-arc text in `publications.qmd` when needed.
+Use two or three short display tags; `topics` still drives filtering. Retain the full `citation`. Featured cards show title, journal/year, one contribution sentence, tags, and paper link. The full citation appears only in the complete record. Update the separate research-arc text in `publications.qmd` when needed.
 
 ## I. Update the publication research arc
 
 
-The four-step arc is editorial text in `publications.qmd`, separate from the full JSON record. Edit the years and short step descriptions together. Preserve published titles in `publications.json`; do not silently rename a paper to fit the arc.
+“How the research program developed” is a four-step overview in `publications.qmd`, separate from the full JSON record. Edit the years and short step descriptions together. Preserve published titles in `publications.json`; do not silently rename a paper to fit the arc.
 
 ## J. Update the public CV PDF safely
 
@@ -99,16 +107,32 @@ Use **Add file → Upload files** inside `assets` to replace `Md_Bodrud_Doza_Aca
 
 Review every page and link after rebuilding. Remove private phone numbers, home addresses, immigration details, referee contacts, hidden comments, and private metadata. Use institutional contact details only. Never upload the original private Word CV. Test the live download. Editing `cv.qmd` alone does not update the PDF.
 
+### Edit professional experience
+
+1. In `experience.qmd`, find “Academic & Applied Research” or “Climate, Development & Leadership”.
+2. Each timeline `<article>` contains dates, role title, institutional link, and a short contribution description.
+3. Update those fields together using your verified records. Keep institutional links official; Ispahani Agro uses `https://ispahaniagro.com/`.
+4. Retain short paragraphs; the full CV holds the detailed record. Check that a role remains in the appropriate group.
+
+### Maintain the single leadership photograph
+
+1. The current source is `E:\Z_website\Pictures\Leadership and science–policy practice1.jpg`. Only one photograph is used in this section.
+2. Export a compressed WebP with metadata removed, preserving the full frame and original aspect ratio.
+3. Replace `assets/images/experience/leadership-consultation.webp` using **Add file → Upload files** inside that repository folder.
+4. Update its width, height, alt text, and caption in the Experience `leadership-panel`, plus `assets/images/manifest.json`.
+5. Use a caption supported by your records. Do not infer names, dates, organisations, or event details from an image alone. Keep the photograph relevant to leadership, engagement, or science–policy practice.
+6. Run the checks and view Experience on desktop and phone. Adding a gallery violates the current image policy and will fail the check.
+
 ## K. Maintain teaching and selected feedback
 
 
 The main teaching account lives in `experience.qmd#teaching-and-mentoring`; the web CV links there. Keep documented GTA responsibilities distinct from future teaching interests and goals. Replace quotes only with accurately attributed feedback from your own evaluations. The sample teaching dossier is a structural reference; its courses, certifications, syllabi, and student comments do not belong in your record.
 
-Keep exactly two short anonymous quotes from your own evaluations, with course/term attribution. Do not publish evaluation screenshots. Keep the course lists in Experience and CV consistent.
+Keep exactly two short anonymous quotes from your own evaluations, with course/term attribution. Do not publish evaluation screenshots. Keep the full supported-course list in Experience. The concise web CV links to it; the downloadable PDF remains a separate record.
 
 ## L. Update collaboration and project status
 
-Edit `collaboration.qmd` and related cards in Research/CV. Change submitted/prospective wording to awarded/funded/active only after official confirmation. CPRA currently describes a submitted proposal. REAL Decision Lab remains a developing research program. FAO, Oxford Martin School, Cornell, and RAAPID are prospective network connections for the proposal, not claims of your established personal partnerships.
+Edit `collaboration.qmd` and related cards in Research/CV. Keep four collaboration themes: Earth Observation & GeoAI; Agricultural Water & Conservation; Climate & Food-System Resilience; Decision Science, Economics & Implementation. Change submitted/prospective wording to awarded/funded/active only after official confirmation. CPRA currently describes a submitted proposal. REAL Decision Lab remains a developing research program. FAO, Oxford Martin School, Cornell, and RAAPID are prospective network connections for the proposal, not claims of your established personal partnerships.
 
 ## M. Update collaboration and profile links
 

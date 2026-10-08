@@ -29,8 +29,8 @@ for f in output.glob('*.html'):
         if y>x+1:errors.append(f'{f.name}: heading jump {x} -> {y}')
     if p.bad_images:errors.append(f'{f.name}: missing image alt {p.bad_images}')
     if p.bad_rel:errors.append(f'{f.name}: unsafe new-tab links {p.bad_rel}')
-    allowed={'index.html':['assets/portrait.webp'],'research-journey.html':['assets/images/journey/research-journey.webp']}.get(f.name,[])
-    if p.images!=allowed:errors.append(f'{f.name}: unexpected image under the portrait/journey-only policy: {p.images}')
+    allowed={'index.html':['assets/portrait.webp'],'research-journey.html':['assets/images/journey/research-journey.webp'],'experience.html':['assets/images/experience/leadership-consultation.webp']}.get(f.name,[])
+    if p.images!=allowed:errors.append(f'{f.name}: unexpected image under the portrait/journey/one-leadership-image policy: {p.images}')
     text=f.read_text(encoding='utf-8')
     for forbidden in ['7,000+','60+','h-index','2026 – Present','{{< include']:
         if forbidden in text:errors.append(f'{f.name}: stale or unrendered content {forbidden}')
