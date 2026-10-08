@@ -1,6 +1,6 @@
 ---
 title: "Academic CV"
-description: "A visual academic summary with education, appointments, teaching, awards, service, and a public CV."
+description: "Education, research appointments, teaching, and professional experience of Md Bodrud-Doza, with a downloadable full academic CV."
 page-layout: full
 ---
 

@@ -1,5 +1,10 @@
-# bdzion.github.io
-Academic website of Md Bodrud-Doza.
+# Md Bodrud-Doza, PhD
+
+Academic website of a Postdoctoral Scholar at the University of Guelph. REAL Decision Lab is a developing research program connecting agricultural landscapes, water quality, and environmental decisions.
+
+[Visit the website](https://bdzion.github.io/) · [Research Lab](https://bdzion.github.io/research.html) · [Publications](https://bdzion.github.io/publications.html) · [Academic CV](https://bdzion.github.io/cv.html)
+
+The active Mitacs Accelerate project works with Healthy Lake Huron partners; Ausable Bayfield Conservation Authority (ABCA) is the formal Mitacs partner. Earth observation, GeoAI, and food-system resilience are developing research directions.
 
 Start with [MAINTENANCE_GUIDE.md](MAINTENANCE_GUIDE.md) for beginner-friendly editing, publication cards, photos, status wording, checks, deployment, and rollback instructions.
 
@@ -17,7 +22,7 @@ Edit `publications.json`, the single source for the publication page and homepag
 
 Categories follow the supplied CV: First-Authored Articles, Co-Authored Articles, Book Chapters, Working Papers, Conference Abstracts, Technical Reports and Policy Contributions, Policy Brief, and Selected Public and Policy Writing. Topic tags are editorial browsing aids based on the supplied titles, not claims that every tagged paper uses each method. Earth observation and GeoAI remain developing directions.
 
-`python scripts/render_publications.py` regenerates the HTML includes. Quarto runs this automatically before every render, so do not edit `_includes/*.html` directly. Entries remain readable when JavaScript is disabled; JavaScript adds search and topic/authorship/year/category/view filters. Exact totals are not used as profile metrics.
+`python scripts/render_publications.py` regenerates the HTML includes. Quarto runs this automatically before every render, so do not edit the generated publication includes directly. Entries remain readable when JavaScript is disabled; JavaScript adds search and topic/authorship/year/category/view filters. Exact totals are not used as profile metrics.
 
 ## Replace or update the CV
 
@@ -27,7 +32,7 @@ Never upload a private CV, home address, phone number, immigration or family det
 
 ## Replace photos or add research projects
 
-The portrait is `assets/portrait.webp`; the social-sharing image is `assets/social.jpg`. Use compressed derivatives with EXIF metadata removed. Update image alt text and size attributes when replacing them. Add research project text to `research.qmd`, with a clear distinction between completed work and developing ideas. Do not imply the REAL Decision Lab is a staffed established lab. Keep the portrait, journey, and single leadership photograph policy; replace the existing derivative when a photo needs updating. Do not upload sensitive datasets.
+The portrait is `assets/portrait.webp`; the social-sharing image is `assets/social-preview.png`. Use compressed derivatives with EXIF metadata removed. Update image alt text and size attributes when replacing them. Add research project text to `research.qmd`, with a clear distinction between completed work and developing ideas. Do not imply the REAL Decision Lab is a staffed established lab. Keep the portrait, journey, and single leadership photograph policy; replace the existing derivative when a photo needs updating. Do not upload sensitive datasets.
 
 ## Preview locally
 
@@ -58,10 +63,10 @@ First obtain a domain and configure its DNS using GitHub's current custom-domain
 
 The supplied Website Content document controlled the public wording and research framing. The public academic CV supplied the historical record. The postdoctoral appointment begins September 2026, as confirmed by the owner. Publication and citation totals are omitted as headline metrics; Google Scholar provides current citation information. The site uses Canadian prose conventions while preserving published titles. There is no analytics or tracking code and no third-party font dependency. This is a personal research website and does not use official university branding.
 
-## Round 2 content
+## Research and teaching content
 
 The Research Lab tab leads to the prominent REAL Decision Lab page. `updates.json` supplies the dated homepage Updates list through `scripts/render_updates.py`. The current Mitacs project was confirmed active by the owner; the CPRA direction remains submitted. Teaching approach, supported courses, future interests, and two selected evaluation quotes are in Experience. The journey derivative is `assets/images/journey/research-journey.webp`, from `ResearchJourney - only.jpg`. One professional consultation photograph appears in Experience as `assets/images/experience/leadership-consultation.webp`. See the maintenance guide for updating areas, the return loop, project status, Updates, teaching, and the journey photo.
 
 ## Academic website refinement
 
-Research Lab uses OBSERVE → UNDERSTAND → PLAN → DECIDE & LEARN, with a five-step adaptive return loop. Four project cards in `research.qmd` separate active Mitacs research, the PhD foundation, emerging Earth observation/GeoAI, and the submitted CPRA direction. `updates.json` retains news records; the renderer displays only the two newest. Experience groups academic/applied research and climate/development/leadership, with teaching kept on the same page. Featured publication cards retain exact titles and show journal/year before the contribution. The web CV is a concise overview with one main download button. The GitHub Actions workflow and publication metadata remain unchanged.
+Research Lab uses OBSERVE → UNDERSTAND → PLAN → DECIDE & LEARN, with a five-step adaptive return loop. Four project cards in `research.qmd` separate active Mitacs research, the PhD foundation, emerging Earth observation/GeoAI, and the submitted CPRA direction. `updates.json` retains news records; the renderer displays only the two newest. Experience groups academic/applied research and climate/development/leadership, with teaching kept on the same page. Featured publication cards retain exact titles and show journal/year before the contribution. The web CV is a concise overview with one main download button. The publication system and Quarto/GitHub Pages architecture are preserved. Shared links use a landscape preview and page-specific search metadata; deployment is restricted to the main branch.

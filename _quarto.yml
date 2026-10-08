@@ -10,7 +10,8 @@ project:
   resources:
     - assets/images/**
     - assets/portrait.webp
-    - assets/social.jpg
+    - assets/social-preview.png
+    - robots.txt
     - assets/Md_Bodrud_Doza_Academic_CV.pdf
     - publications.json
     - updates.json
@@ -19,7 +20,7 @@ website:
   site-url: https://bdzion.github.io
   description: "Resilient agricultural landscapes, water quality, and spatial environmental decision-making."
   favicon: assets/favicon.svg
-  image: assets/social.jpg
+  image: assets/social-preview.png
   open-graph: true
   twitter-card: true
   navbar:

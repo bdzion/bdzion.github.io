@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Selected precision-conservation papers and the complete supplied publication record with DOI links."
+description: "Precision-conservation research, journal articles, policy contributions, and public writing by Md Bodrud-Doza, with links to the original work."
 page-layout: full
 ---
 
@@ -8,7 +8,7 @@ My research spans agricultural landscapes and precision conservation, water qual
 
 ## How the research program developed
 
-<ol class="research-arc"><li><strong>2023</strong><span>Decision-support & precision-conservation review</span></li><li><strong>2025</strong><span>Evidence synthesis of best management practice effectiveness</span></li><li><strong>2026</strong><span>Machine-learning based field prioritisation and aligning BMPs with local needs</span></li><li><strong>2026</strong><span>Precision conservation scenario development</span></li></ol>
+<ol class="research-arc"><li><strong>2023</strong><span>Decision support and precision-conservation review</span></li><li><strong>2025</strong><span>Evidence synthesis of best management practice effectiveness</span></li><li><strong>2026</strong><span>Machine learning for field prioritisation and aligning beneficial management practices (BMPs) with local needs</span></li><li><strong>2026</strong><span>Precision conservation scenario development</span></li></ol>
 
 ## Featured research
 
