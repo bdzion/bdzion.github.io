@@ -22,7 +22,7 @@ I welcome collaboration that connects environmental evidence with decisions acro
 
 I contributed to developing this proposal with [Dr. Prasad Daggupati](https://www.uoguelph.ca/engineering/faculty/pdaggupa), the lead applicant in Water Resources Engineering, School of Engineering, University of Guelph. It was submitted to the Ontario Ministry of Agriculture, Food and Agribusiness (OMAFA).
 
-**This is a proposed extension of my PhD research.** It would use the Agricultural Conservation Planning Framework (ACPF)—a tool that uses landscape data to identify suitable locations for conservation practices—and build on my work in field-level conservation planning. The proposed approach would compare expected nutrient and sediment reductions, costs, and wider ecosystem benefits to support field-specific decisions in Ontario’s Lake Erie Basin.
+**This is a proposed extension of my PhD research.** It would use the Agricultural Conservation Planning Framework (ACPF), a tool that uses landscape data to identify suitable locations for conservation practices, and build on my work in field-level conservation planning. The proposed approach would compare expected nutrient and sediment reductions, costs, and wider ecosystem benefits to support field-specific decisions in Ontario’s Lake Erie Basin.
 
 The proposal is under review. If accepted, I would work with the project team on the research; funding and project outputs are not yet confirmed.
 
