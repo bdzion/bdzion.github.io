@@ -14,11 +14,23 @@ I welcome collaboration that connects environmental evidence with decisions acro
 
 <div class="current-project"><p class="eyebrow">Active Mitacs Accelerate research</p><h3>University of Guelph and Healthy Lake Huron partners</h3><p>My current postdoctoral project connects University of Guelph research with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>, the main applied partnership for this work. <a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority (ABCA)</a> is the formal Mitacs partner.</p><p>ABCA, Maitland Valley Conservation Authority, and the wider Healthy Lake Huron partnership contribute watershed data and expertise. Planned maps, indicators, and monitoring recommendations will support conservation planning and stewardship decisions.</p><a href="research.qmd#current-project-healthy-lake-huron">Research methods and intended outputs →</a></div>
 
+## Proposed extension of PhD research {#omafa-precision-conservation-proposal}
+
+<p class="eyebrow">Submitted · Under review · OMAFA proposal</p>
+
+### Field-Specific Precision Conservation for Cost-Effective Water Quality and Ecosystem Benefits in Ontario’s Lake Erie Basin
+
+I contributed to developing this proposal with [Dr. Prasad Daggupati](https://www.uoguelph.ca/engineering/faculty/pdaggupa), the lead applicant in Water Resources Engineering, School of Engineering, University of Guelph. It was submitted to the Ontario Ministry of Agriculture, Food and Agribusiness (OMAFA).
+
+**This is a proposed extension of my PhD research.** It would use the Agricultural Conservation Planning Framework (ACPF)—a tool that uses landscape data to identify suitable locations for conservation practices—and build on my work in field-level conservation planning. The proposed approach would compare expected nutrient and sediment reductions, costs, and wider ecosystem benefits to support field-specific decisions in Ontario’s Lake Erie Basin.
+
+The proposal is under review. If accepted, I would work with the project team on the research; funding and project outputs are not yet confirmed.
+
 ## Food-System Resilience and Anticipatory Decision-Making
 
-<p class="eyebrow">Developing research direction · Submitted CPRA proposal</p>
+<p class="eyebrow">Developing research direction · Submitted award application</p>
 
-Food-system buffers are capacities that help food systems absorb stress. This developing work asks how stress signals and weakening buffers can be identified early enough to inform adaptation and policy. The CPRA proposal has been submitted; it is not an awarded or funded fellowship.
+Food-system buffers are capacities that help food systems absorb stress. This developing work asks how stress signals and weakening buffers can be identified early enough to inform adaptation and policy. My application to the [Canada Postdoctoral Research Award (CPRA) program](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program) has been submitted. This remains a proposed research direction; no fellowship award or funding is confirmed.
 
 <ol class="proposal-sequence"><li>Identify stress signals</li><li>Assess capacities to absorb stress</li><li>Compare adaptation options</li><li>Inform timely decisions</li></ol>
 
