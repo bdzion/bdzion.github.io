@@ -15,6 +15,10 @@ Page map: `index.qmd` = Home; `research.qmd` = Research Lab; `research-journey.q
 
 Edit the appointment and affiliation in `index.qmd`, then the corresponding entries in `experience.qmd`, `cv.qmd`, and `assets/cv-content.json`. The confirmed Postdoctoral Scholar start is **September 2026**. Follow J to update the PDF separately. Keep the homepage's direction cards brief and label emerging work clearly. Link to Scholar for current metrics rather than adding fixed publication/citation totals.
 
+### Adjust the homepage headshot
+
+The full original portrait remains in `assets/portrait.webp`. The homepage displays it inside a square `headshot-frame` and uses CSS to focus on the head and shoulders. In `styles.css`, find `.headshot-frame img`: `object-position` controls the crop position and `scale(1.7)` controls the zoom. Make small adjustments, preview desktop and phone, then commit. Keep the wrapper in `index.qmd`; do not change the original image's width/height attributes unless replacing the image itself.
+
 ### Homepage Updates
 
 

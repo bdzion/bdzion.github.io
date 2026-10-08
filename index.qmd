@@ -15,7 +15,7 @@ title-block-style: none
 <p>I bring together geospatial analysis, environmental monitoring, machine learning, and process-based modelling to understand environmental risks and support better landscape-management decisions.</p>
 <div class="actions"><a class="button primary" href="research.qmd">Explore Research Lab</a><a class="button secondary" href="publications.qmd">Publications</a><a class="text-link" href="assets/Md_Bodrud_Doza_Academic_CV.pdf">Download CV ↗</a></div>
 </div>
-<figure class="hero-photo"><img src="assets/portrait.webp" width="629" height="1200" alt="Md Bodrud-Doza outdoors on a university campus"><figcaption>University of Guelph · Ontario, Canada</figcaption></figure>
+<figure class="hero-photo"><div class="headshot-frame"><img src="assets/portrait.webp" width="629" height="1200" alt="Head-and-shoulders portrait of Md Bodrud-Doza outdoors on a university campus"></div><figcaption>University of Guelph · Ontario, Canada</figcaption></figure>
 </div>
 
 <div class="theme-band"><p class="eyebrow">Research theme</p><h2>Resilient Agricultural Landscapes<br>and Sustainable Food Production</h2><p>From understanding spatial risk to evaluating interventions and building practical decision tools.</p></div>
