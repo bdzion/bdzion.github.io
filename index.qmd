@@ -3,6 +3,7 @@ pagetitle: "Md Bodrud-Doza, PhD"
 description: "Postdoctoral Scholar at the University of Guelph studying resilient agricultural landscapes, water quality, and environmental decision-making."
 page-layout: full
 title-block-style: none
+include-in-header: _includes/profile-metadata.html
 ---
 
 <div class="hero">

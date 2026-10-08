@@ -85,7 +85,7 @@ Edit `publications.json`. Copy a complete record and give it a unique ID. Add a 
 
 Replace all example values with verified metadata. Use `null` for an unavailable year, DOI, or URL. Reuse existing categories: First-Authored Articles, Co-Authored Articles, Book Chapters, Working Papers, Conference Abstracts, Technical Reports and Policy Contributions, Policy Brief, or Selected Public and Policy Writing. Keep non-peer-reviewed work in the proper category. Topics should describe the paper accurately.
 
-Do not edit `_includes/*.html`; rendering regenerates them. The PDF builder also reads `publications.json`. Add or correct a publication here once, then rebuild the PDF so the website and CV stay aligned. Keep links in the `url` field; do not append placeholder text such as `(Link:` to a citation. Home Updates are separate: add an article to both `updates.json` and `publications.json` if it should appear in both places.
+Do not edit the generated publication includes (`_includes/featured.html` and `_includes/publication-list.html`); rendering regenerates them. The PDF builder also reads `publications.json`. Add or correct a publication here once, then rebuild the PDF so the website and CV stay aligned. Keep links in the `url` field; do not append placeholder text such as `(Link:` to a citation. Home Updates are separate: add an article to both `updates.json` and `publications.json` if it should appear in both places.
 
 ## H. Mark or unmark featured papers
 
@@ -194,3 +194,18 @@ For one file, click **History**, open the previous good version, and copy its co
 Your name in the navigation links to Home, so there is no second Home menu item. Edit the website title and the remaining page links in `_quarto.yml`. Keep the name visible on mobile.
 
 Use `https://healthylakehuron.ca/` for Healthy Lake Huron. The main applied partnership is Healthy Lake Huron partners; ABCA remains the formal Mitacs partner. Keep this distinction consistent in `research.qmd`, `collaboration.qmd`, and `assets/cv-content.json`. Write “and” in partnership headings. Label unfinished maps, indicators, and recommendations as intended outputs.
+
+
+## Social sharing and search visibility
+
+Share the homepage address `https://bdzion.github.io/`. Each page has its own title and description in its QMD header. Keep these concise and factual; they are used in search results and shared links. The build adds a canonical address, large-image social metadata, and safe external-link attributes automatically.
+
+The shared-link image is `assets/social-preview.png`, a 1200 × 630 landscape PNG. Its editable layout is `scripts/social-preview.html`, using the existing portrait. To update it, edit the name, role, affiliation, research theme, or photo in that template; preview it locally and capture the exact 1200 × 630 card area as a PNG. Replace the asset using the same filename. Check the image at small sizes before publishing. This image is metadata, not an additional photograph on a page.
+
+Homepage academic-profile metadata is in `_includes/profile-metadata.html`. When changing your title, affiliation, or profile links, update that file too. Do not put private information, unsupported claims, publication counts, or citation counts into metadata.
+
+`robots.txt` points search engines to the sitemap. The build uses the root homepage address in the sitemap and excludes the error page. `404.qmd` helps visitors return to Home or Research Lab from an outdated link. Search engines and social networks may cache previews; a successful deployment does not immediately replace every cached result. Check a fresh shared link after deployment.
+
+In GitHub, keep the repository About description, website URL, and topics current. The separate repository social-preview image is optional and can use the same PNG via **Settings → General → Social preview**. It controls shared repository links; website social metadata controls shared website links.
+
+Deployment is restricted to `main`, including manually started workflows. Pull requests and manual feature-branch runs build and check without publishing. The build checks canonical URLs, social-preview dimensions and metadata, the sitemap, and the error page as well as links and content. Keep **Pages → Source → GitHub Actions** and enforced HTTPS.
