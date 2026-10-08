@@ -4,13 +4,13 @@ description: "Three connected research emphases, from water quality and climate 
 page-layout: full
 ---
 
-My research has developed through three overlapping emphases. Environmental measurement, adaptation practice, and computational methods connect my earlier work with the research program I am building today.
+My research has developed through three overlapping emphases. Each adds methods and perspective to the work that came before.
 
 <figure class="evidence-photo journey-image"><img src="assets/images/journey/research-journey.webp" width="1565" height="388" loading="lazy" alt="Research photographs dated 2013, 2015, 2021, 2022, and 2026: water sampling, laboratory analysis, field engagement, the Guelph transition, and computational research"><figcaption>2013–2026 · From water sampling and laboratory analysis to applied fieldwork and computational research.</figcaption></figure>
 
 ## A connected research trajectory
 
-<div class="trajectory-ribbon"><article><p class="eyebrow">01 · Measure & map</p><h3>Environmental quality, water resources & spatial risk</h3><p>Groundwater and water quality → GIS and geostatistics → understanding spatial environmental risk.</p></article><article><p class="eyebrow">02 · Adapt & connect</p><h3>Climate adaptation, resilience & science–policy</h3><p>Climate adaptation → community and institutional practice → connecting evidence with implementation.</p></article><article><p class="eyebrow">03 · Predict & decide</p><h3>Precision conservation & resilient agricultural landscapes</h3><p>Watershed monitoring and modelling → machine learning → targeted conservation → adaptive decision support.</p></article></div>
+<div class="trajectory-ribbon"><article><p class="eyebrow">01 · Measure & map</p><h3>Environmental quality, water resources & spatial risk</h3><p>Groundwater and water quality → GIS and geostatistics → understanding spatial environmental risk.</p><p class="phase-foundation"><span>Accumulating expertise</span>Measurement &amp; mapping</p></article><article><p class="eyebrow">02 · Adapt & connect</p><h3>Climate adaptation, resilience & science–policy</h3><p>Climate adaptation → community and institutional practice → connecting evidence with implementation.</p><p class="phase-foundation"><span>Accumulating expertise</span>Measurement &amp; mapping + adaptation practice</p></article><article><p class="eyebrow">03 · Predict & decide</p><h3>Precision conservation & resilient agricultural landscapes</h3><p>Watershed monitoring and modelling → machine learning → conservation planning → adaptive decision support.</p><p class="phase-foundation"><span>Accumulating expertise</span>Measurement &amp; mapping + adaptation practice + modelling</p></article></div>
 
 <p class="common-thread"><strong>Common thread:</strong> environmental evidence → spatial understanding → better decisions.</p>
 

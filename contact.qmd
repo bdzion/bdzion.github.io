@@ -4,7 +4,7 @@ description: "Contact Md Bodrud-Doza at the University of Guelph for research an
 page-layout: full
 ---
 
-I welcome inquiries related to research collaboration, grant development, graduate student research, environmental data analysis, remote sensing and GeoAI, watershed management, precision conservation, and resilient agricultural landscapes.
+I welcome inquiries about research collaboration, grant development, graduate student research, and applied environmental projects. My interests span agricultural landscapes, water quality, conservation planning, and GeoAI (AI for geographic data).
 
 <div class="contact-panel"><p class="eyebrow">Institutional email</p><a class="email-link" href="mailto:mbodrudd@uoguelph.ca">mbodrudd@uoguelph.ca</a><p><a href="https://geg.uoguelph.ca/">Department of Geography, Environment and Geomatics</a><br><a href="https://www.uoguelph.ca/">University of Guelph</a><br>Guelph, Ontario, Canada</p></div>
 

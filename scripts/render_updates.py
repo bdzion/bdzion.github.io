@@ -6,7 +6,7 @@ root=Path(__file__).resolve().parents[1]
 updates=json.loads((root/'updates.json').read_text(encoding='utf-8'))
 def e(value):return html.escape(str(value),quote=True)
 items=[]
-for update in sorted(updates,key=lambda x:x['date'],reverse=True):
+for update in sorted(updates,key=lambda x:x['date'],reverse=True)[:2]:
     when=date.fromisoformat(update['date'])
     if not update['url'].startswith('https://'):raise ValueError('Update links must use HTTPS')
     label=f'{when.day} {when.strftime("%B %Y")}'

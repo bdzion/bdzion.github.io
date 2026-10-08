@@ -6,9 +6,9 @@ page-layout: full
 
 My research spans agricultural landscapes and precision conservation, water quality, groundwater and environmental risk, and climate resilience. Recent first-authored work brings these strands together around spatial environmental decision-making.
 
-## Research arc
+## How the research program developed
 
-<ol class="research-arc"><li><strong>2023</strong><span>Decision-support & precision-conservation review</span></li><li><strong>2025</strong><span>Evidence synthesis of best management practice effectiveness</span></li><li><strong>2026</strong><span>Machine-learning field prioritization</span></li><li><strong>2026</strong><span>Conservation priorities aligned with local needs</span></li></ol>
+<ol class="research-arc"><li><strong>2023</strong><span>Decision-support & precision-conservation review</span></li><li><strong>2025</strong><span>Evidence synthesis of best management practice effectiveness</span></li><li><strong>2026</strong><span>Machine-learning field prioritisation</span></li><li><strong>2026</strong><span>Conservation priorities aligned with local needs</span></li></ol>
 
 ## Featured research
 

@@ -23,11 +23,11 @@ Categories follow the supplied CV: First-Authored Articles, Co-Authored Articles
 
 Replace `assets/Md_Bodrud_Doza_Academic_CV.pdf` with a reviewed public-safe PDF using the same filename. The links then keep working. Alternatively edit `assets/cv-content.json`, install ReportLab (`python -m pip install reportlab`), and run `python scripts/build_cv.py`. Review every PDF page after rebuilding. The CV JSON is a separate editable CV source; also update its publication section when adding publications to the website.
 
-Never upload a private CV, home address, phone number, immigration or family details, or referee contacts. The current photo policy permits only the homepage portrait and research-only journey image. Audit text, links, metadata, and embedded content before publishing. Only institutional contact details belong on this site. Original Word documents are deliberately excluded from this repository.
+Never upload a private CV, home address, phone number, immigration or family details, or referee contacts. The current photo policy permits the homepage portrait, research-only journey image, and one professional consultation photograph on Experience. Audit text, links, metadata, and embedded content before publishing. Only institutional contact details belong on this site. Original Word documents are deliberately excluded from this repository.
 
 ## Replace photos or add research projects
 
-The portrait is `assets/portrait.webp`; the social-sharing image is `assets/social.jpg`. Use compressed derivatives with EXIF metadata removed. Update image alt text and size attributes when replacing them. Add research project text to `research.qmd`, with a clear distinction between completed work and developing ideas. Do not imply the REAL Decision Lab is a staffed established lab. Keep the portrait and journey-only photo policy; replace the existing derivative when a photo needs updating. Do not upload sensitive datasets.
+The portrait is `assets/portrait.webp`; the social-sharing image is `assets/social.jpg`. Use compressed derivatives with EXIF metadata removed. Update image alt text and size attributes when replacing them. Add research project text to `research.qmd`, with a clear distinction between completed work and developing ideas. Do not imply the REAL Decision Lab is a staffed established lab. Keep the portrait, journey, and single leadership photograph policy; replace the existing derivative when a photo needs updating. Do not upload sensitive datasets.
 
 ## Preview locally
 
@@ -60,4 +60,8 @@ The supplied Website Content document controlled the public wording and research
 
 ## Round 2 content
 
-The Research Lab tab leads to the prominent REAL Decision Lab page. `updates.json` supplies the dated homepage Updates list through `scripts/render_updates.py`. The current Mitacs project was confirmed active by the owner; the CPRA direction remains submitted. Teaching approach, supported courses, future interests, and two selected evaluation quotes are in Experience. The only documentary derivative is `assets/images/journey/research-journey.webp`, from `ResearchJourney - only.jpg`. See the maintenance guide for updating areas, the return loop, project status, Updates, teaching, and the journey photo.
+The Research Lab tab leads to the prominent REAL Decision Lab page. `updates.json` supplies the dated homepage Updates list through `scripts/render_updates.py`. The current Mitacs project was confirmed active by the owner; the CPRA direction remains submitted. Teaching approach, supported courses, future interests, and two selected evaluation quotes are in Experience. The journey derivative is `assets/images/journey/research-journey.webp`, from `ResearchJourney - only.jpg`. One professional consultation photograph appears in Experience as `assets/images/experience/leadership-consultation.webp`. See the maintenance guide for updating areas, the return loop, project status, Updates, teaching, and the journey photo.
+
+## Academic website refinement
+
+Research Lab uses OBSERVE → UNDERSTAND → PLAN → DECIDE & LEARN, with a five-step adaptive return loop. Four project cards in `research.qmd` separate active Mitacs research, the PhD foundation, emerging Earth observation/GeoAI, and the submitted CPRA direction. `updates.json` retains news records; the renderer displays only the two newest. Experience groups academic/applied research and climate/development/leadership, with teaching kept on the same page. Featured publication cards retain exact titles and show journal/year before the contribution. The web CV is a concise overview with one main download button. The GitHub Actions workflow and publication metadata remain unchanged.
