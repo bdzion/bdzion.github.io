@@ -1,7 +1,9 @@
 project:
   type: website
   output-dir: _site
-  pre-render: python scripts/render_publications.py
+  pre-render:
+    - python scripts/render_publications.py
+    - python scripts/render_updates.py
   post-render: python scripts/finalize_html.py
   render:
     - "*.qmd"
@@ -11,6 +13,7 @@ project:
     - assets/social.jpg
     - assets/Md_Bodrud_Doza_Academic_CV.pdf
     - publications.json
+    - updates.json
 website:
   title: "Md Bodrud-Doza"
   site-url: https://bdzion.github.io
@@ -26,7 +29,7 @@ website:
       - href: index.qmd
         text: Home
       - href: research.qmd
-        text: Research
+        text: Research Lab
       - href: research-journey.qmd
         text: Research Journey
       - href: experience.qmd

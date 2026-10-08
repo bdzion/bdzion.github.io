@@ -1,37 +1,29 @@
 ---
-title: "Research"
-description: "The developing REAL Decision Lab research program, from monitoring to adaptive landscape decisions."
+title: "REAL Decision Lab"
+description: "The developing REAL Decision Lab research program and current Mitacs Accelerate watershed research."
 page-layout: full
 ---
 
-<p class="eyebrow">Developing research program</p>
+<p class="eyebrow">Research Lab · Developing research program</p>
 
-## REAL Decision Lab
+<p class="lab-full-name">Resilient Agricultural Landscapes Decision Lab</p>
 
-**Resilient Agricultural Landscapes Decision Lab**
+How can agricultural landscapes remain productive while protecting water, soil, and ecosystems? REAL Decision Lab connects monitoring landscape change, explaining environmental risk, designing targeted conservation, and learning from outcomes to improve future decisions.
 
-Building evidence and decision tools for resilient agricultural landscapes and sustainable food production. The REAL Decision Lab is a developing research program.
+## Four connected research areas
 
-<div class="framework"><ol class="framework-stages"><li><span class="step-number" aria-hidden="true">01</span><h3>Observe</h3><p>Environmental monitoring<br>Earth observation<br>Geospatial data</p></li><li><span class="step-number" aria-hidden="true">02</span><h3>Understand</h3><p>GeoAI & machine learning<br>Process-based models<br>Spatial and temporal risk pathways</p></li><li><span class="step-number" aria-hidden="true">03</span><h3>Design</h3><p>Precision conservation<br>Spatial optimization<br>Multi-benefit conservation portfolios</p></li><li><span class="step-number" aria-hidden="true">04</span><h3>Decide & learn</h3><p>Decision-support tools<br>WebGIS and applied products<br>Monitor → learn → update priorities</p></li></ol><p class="feedback-loop"><span aria-hidden="true">↶</span> Adaptive learning: monitor outcomes, learn, and return to observation.</p><p class="outcomes"><strong>Shared outcomes</strong> Water quality · Soil/ecosystem health · Sustainable production · Climate resilience</p></div>
+<div class="framework research-framework"><ol class="framework-stages"><li id="area-observe"><span class="step-number">Area 1</span><h3>Landscape Monitoring &amp; Earth Observation</h3><p class="area-question">What is changing, where, and when?</p><p>Long-term monitoring · Field observations · Earth observation · Geospatial data</p></li><li id="area-understand"><span class="step-number">Area 2</span><h3>GeoAI &amp; Environmental Process Understanding</h3><p class="area-question">Why is it changing?</p><p>GeoAI (AI for geographic data) and machine learning · Process-based modelling · Spatial and temporal risk · Hydrologic and nutrient pathways</p></li><li id="area-design"><span class="step-number">Area 3</span><h3>Precision &amp; Multifunctional Conservation</h3><p class="area-question">What should be done, and where?</p><p>Conservation targeting · Scenario analysis · Spatial optimisation · Water-quality, ecosystem, production, cost, and resilience trade-offs</p></li><li id="area-learn"><span class="step-number">Area 4</span><h3>Adaptive Decision Support &amp; Learning</h3><p class="area-question">What worked, what changed, and what should be updated?</p><p>Indicators · Decision-support tools · WebGIS · Monitoring design · Evaluation · Updated priorities</p></li></ol><div class="learning-loop"><svg viewBox="0 0 1000 80" role="img" aria-labelledby="loop-title"><title id="loop-title">Return from Area 4 to Area 1: monitor outcomes, learn from new evidence, and update questions, models, and priorities.</title><defs><marker id="loop-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/></marker></defs><path d="M 870 5 V 20 Q 870 62 828 62 H 172 Q 130 62 130 20 V 5" fill="none" stroke="currentColor" stroke-width="3" marker-end="url(#loop-arrow)"/></svg><p>Monitor outcomes → learn from new evidence → update questions, models, and priorities</p><a class="return-link" href="#area-observe">↑ Return to Area 1: Landscape Monitoring</a></div><p class="outcomes"><strong>Shared outcomes</strong>Water quality · Healthy soils and ecosystems · Resilient production · Climate resilience</p></div>
 
-## Four connected agenda areas
+## Current project: Healthy Lake Huron
 
-<div class="cards two"><article class="research-card"><p class="eyebrow">Observe</p><h3>Landscape intelligence & environmental monitoring</h3><p>Combine monitoring, Earth observation, and geospatial information to understand response to weather, management, and environmental stress.</p></article><article class="research-card"><p class="eyebrow">Understand</p><h3>GeoAI for agricultural & environmental systems</h3><p>Develop interpretable methods that connect spatial information and Earth-observation data with landscape conditions and environmental risk.</p></article><article class="research-card"><p class="eyebrow">Design</p><h3>Precision & multifunctional conservation</h3><p>Evaluate water quality, soil protection, climate resilience, biodiversity, sustainable production, cost, and implementation constraints together.</p></article><article class="research-card"><p class="eyebrow">Decide & learn</p><h3>Adaptive environmental decision systems</h3><p>Connect monitoring, prediction, intervention, and evaluation so that priorities can change as new evidence becomes available.</p></article></div>
+<div class="current-project"><p class="eyebrow">Active Mitacs Accelerate research · Postdoctoral Scholar</p><h3>Monitoring → Modelling → Indicators → Decisions</h3><p>My current postdoctoral project at the University of Guelph works with the Ausable Bayfield Conservation Authority (ABCA) in the Healthy Lake Huron context. It combines long-term tributary monitoring and high-resolution watershed modelling to explain nutrient and sediment loss, test conservation and climate scenarios, and develop indicators for stewardship and monitoring decisions.</p><ol class="project-sequence"><li>Monitoring records</li><li>Data harmonisation</li><li>Watershed modelling</li><li>Conservation & climate scenarios</li><li>Practical indicators</li><li>Decision support</li></ol><p>The project uses IMWEBs (Integrated Modelling for Watershed Evaluation of BMPs), a process-based watershed model. Here, BMPs are beneficial management practices such as cover crops, buffers, and drainage-water management. Intended outputs include conservation-priority maps, indicator scorecards, and monitoring recommendations.</p><a href="collaboration.qmd#current-applied-collaboration">Read about the applied collaboration →</a></div>
 
-## Methods toolkit
+## Methods and research foundations
 
-Earth observation and GeoAI are growing directions, building on my established work in geospatial analysis, water quality, precision conservation, machine learning, and watershed modelling.
+My established work combines GIS, environmental monitoring, machine learning, and watershed modelling. Earth observation and GeoAI are growing directions. They extend this foundation rather than replace it.
 
-<div class="method-strip"><span>GIS & geostatistics</span><span>Environmental monitoring</span><span>Machine learning</span><span>Process-based modelling</span><span>Earth observation · growing direction</span><span>GeoAI · growing direction</span><span>Spatial optimization</span><span>Multi-criteria decision analysis</span></div>
+<div class="method-strip"><span>GIS & geostatistics</span><span>Environmental monitoring</span><span>Machine learning</span><span>Process-based modelling</span><span>Earth observation · emerging</span><span>GeoAI · emerging</span><span>Spatial optimisation</span><span>Multi-criteria decision analysis</span></div>
 
-## Current work and foundations
+Recent first-authored papers examine field-level conservation prioritisation and alignment with local needs. A separate developing food-system direction explores how early signs of stress can inform timely adaptation.
 
-<div class="cards three"><article class="research-card"><p class="eyebrow">Published research</p><h3>Field-level conservation priorities</h3><p>Recent first-authored papers examine machine-learning prioritization and alignment of conservation practices with local needs. <a href="publications.qmd">Read the research →</a></p></article><article class="research-card"><p class="eyebrow">Research foundation</p><h3>Monitoring & watershed modelling</h3><p>Doctoral research and conservation-authority work connect water-quality observations, geospatial analysis, and process-based watershed models.</p></article><article class="research-card"><p class="eyebrow">Submitted proposal · developing</p><h3>Food-system decision support</h3><p>A developing direction explores stress signals, weakening buffers, and options for anticipatory response. <a href="collaboration.qmd">Explore the proposal framework →</a></p></article></div>
-
-<div class="photo-pair"><figure class="evidence-photo"><img src="assets/images/research/monitoring-landscape.webp" width="1800" height="1350" loading="lazy" alt="An agricultural stream and road crossing beside a monitoring station, viewed from above"><figcaption>Monitoring landscapes: linking field conditions with spatial environmental questions.</figcaption></figure><figure class="evidence-photo"><img src="assets/images/research/stream-monitoring.webp" width="1350" height="1800" loading="lazy" alt="Md Bodrud-Doza wearing a safety vest beside a stream during field monitoring"><figcaption>Field monitoring provides a foundation for interpreting environmental change.</figcaption></figure></div>
-
-## Long-term vision
-
-Move toward spatially targeted, data-informed, adaptive landscape management: what should be done, where should it be done, and how should priorities change as conditions evolve?
-
-[Discuss a research collaboration →](collaboration.qmd)
+[Read the published research →](publications.qmd) · [Discuss a collaboration →](collaboration.qmd)

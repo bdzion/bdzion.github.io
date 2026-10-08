@@ -13,7 +13,7 @@ My professional experience spans academia, watershed management, international d
 ## Roles and contributions
 
 <div class="timeline">
-<article class="timeline-card"><p class="eyebrow">September 2026–present</p><h2>Postdoctoral Scholar</h2><p class="organisation"><a href="https://geg.uoguelph.ca/">University of Guelph</a></p><p>Developing a research program on resilient agricultural landscapes and sustainable food production, with growing directions in Earth observation, GeoAI, and environmental decision support.</p></article>
+<article class="timeline-card"><p class="eyebrow">September 2026–present</p><h2>Postdoctoral Scholar</h2><p class="organisation"><a href="https://geg.uoguelph.ca/">University of Guelph</a></p><p>Developing a research program on resilient agricultural landscapes and sustainable food production, with growing directions in Earth observation, GeoAI (AI for geographic data), and environmental decision support.</p><p>Current Mitacs Accelerate research with the <a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority</a> links long-term watershed monitoring, modelling, indicators, and conservation decisions. <a href="research.qmd#current-project-healthy-lake-huron">See the current project →</a></p></article>
 <article class="timeline-card"><p class="eyebrow">September 2022–August 2026</p><h2>Doctoral research and teaching</h2><p class="organisation"><a href="https://geg.uoguelph.ca/">University of Guelph</a></p><p>PhD research in precision conservation, agricultural water quality, geospatial analysis, machine learning, and process-based modelling. Graduate Research Assistant, May 2024–August 2026; Graduate Teaching Assistant, September 2022–April 2024.</p></article>
 <article class="timeline-card"><p class="eyebrow">June–August 2024</p><h2>Data Analyst</h2><p class="organisation"><a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority</a></p><p>Analysed long-term water-quality data using statistical and machine-learning approaches, supporting watershed interpretation and monitoring and quality-assurance planning.</p></article>
 <article class="timeline-card"><p class="eyebrow">August–November 2022</p><h2>Consultant · Project Proposal Writer</h2><p class="organisation"><a href="https://www.carebangladesh.org/">CARE Bangladesh</a></p><p>Co-developed climate-resilience and ecosystem-based adaptation proposals with multidisciplinary teams.</p></article>
@@ -26,21 +26,41 @@ My professional experience spans academia, watershed management, international d
 
 ## Teaching and mentoring
 
-At the University of Guelph, I supported laboratories, seminars, student consultations, assessment, and hands-on GIS instruction across five undergraduate courses.
+As a Graduate Teaching Assistant at the University of Guelph (September 2022–April 2024), I supported five undergraduate geography courses through laboratories, seminars, student consultations, assessment, and hands-on GIS instruction.
+
+### Teaching approach
+
+My teaching focus is practical: helping students connect environmental questions with data, maps, and clear reasoning. My experience includes explaining GIS workflows, helping students resolve technical problems, and providing detailed feedback on laboratory work.
+
+- **Applied learning:** connect geographic concepts with hands-on analysis and environmental questions.
+- **Useful feedback:** explain how work can improve, alongside assessment and grading.
+- **Student support:** make room for questions and help students work through technical difficulties.
+
+### Courses supported
 
 <ul class="course-grid"><li><strong>GEOG*1350</strong><span>Earth: Hazards and Global Change</span></li><li><strong>GEOG*2000</strong><span>Geomorphology</span></li><li><strong>GEOG*3000</strong><span>Fluvial Processes</span></li><li><strong>GEOG*2480</strong><span>Mapping and GIS</span></li><li><strong>GEOG*3480</strong><span>GIS and Spatial Analysis</span></li></ul>
 
+### Evidence of teaching effectiveness
+
+Selected anonymous feedback from GEOG*3480 highlights technical support and detailed laboratory feedback. 
+
 <div class="quote-grid">
 <figure class="feedback-card"><blockquote>“Excellent TA who was able to handle all technical issues and problems thrown his way”</blockquote><figcaption>Selected anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
-<figure class="feedback-card"><blockquote>“Zion gave very helpful and detailed feedback on the labs. More so than a TA has ever given me for work. Helps you improve.”</blockquote><figcaption>Selected anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
+<figure class="feedback-card"><blockquote>“Zion gave very helpful and detailed feedback on the labs. … Helps you improve.”</blockquote><figcaption>Selected anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
 </div>
+
+### Teaching interests and future development
+
+My teaching interests include GIS and geospatial analysis, environmental modelling, watershed science, agricultural sustainability, and environmental decision support. Remote sensing and GeoAI are developing areas for future teaching.
+
+As I develop my teaching, I aim to use clear instructions, step-by-step practical tasks, constructive feedback, and opportunities for students with different levels of technical experience to ask questions. I welcome opportunities to strengthen this approach through teaching development and mentoring.
 
 ## Leadership and science–policy practice
 
 My work at BRAC and ICCCAD included team coordination, proposal development, resource mobilisation, partnerships, and knowledge translation. These experiences inform how I connect research with implementation.
 
-<div class="photo-pair"><figure class="evidence-photo"><img src="assets/images/experience/adaptation-consultation.webp" width="1800" height="1350" loading="lazy" alt="Md Bodrud-Doza speaking during a consultation on locally led adaptation in Bangladesh"><figcaption>Science–policy dialogue: consultation on locally led adaptation in Bangladesh.</figcaption></figure><figure class="evidence-photo"><img src="assets/images/experience/community-learning.webp" width="1800" height="1350" loading="lazy" alt="Md Bodrud-Doza engaging with a community group in a village setting"><figcaption>Learning from community experience and local adaptation priorities.</figcaption></figure></div>
 
-<figure class="evidence-photo"><img src="assets/images/experience/field-team.webp" width="1350" height="1800" loading="lazy" alt="A research group gathered beside an agricultural field"><figcaption>Collaborative fieldwork: grounding environmental questions in agricultural landscapes.</figcaption></figure>
+
+
 
 [View the full academic CV →](cv.qmd)

@@ -1,29 +1,17 @@
 ---
 title: "Research Journey"
-description: "A personal research journey from environmental measurement to resilient landscapes and decision support."
+description: "Three connected research emphases, from water quality and climate adaptation to precision conservation."
 page-layout: full
 ---
 
-Environmental data and spatial analysis connect three overlapping phases of my career. Fieldwork, institutional practice, and computational research each inform the program I am developing today.
+My research has developed through three overlapping emphases. Environmental measurement, adaptation practice, and computational methods connect my earlier work with the research program I am building today.
 
-<figure class="evidence-photo"><img src="assets/images/journey/research-and-family.webp" width="1800" height="1013" loading="lazy" alt="Personal collage of field sampling, laboratory work, climate fieldwork, the Guelph transition, computational research, and family life"><figcaption>Research and family, 2013–2026: a personal collage shared to show the wider journey. Research milestones are described in accessible text below.</figcaption></figure>
+<figure class="evidence-photo journey-image"><img src="assets/images/journey/research-journey.webp" width="1565" height="388" loading="lazy" alt="Research photographs dated 2013, 2015, 2021, 2022, and 2026: water sampling, laboratory analysis, field engagement, the Guelph transition, and computational research"><figcaption>2013–2026 · From water sampling and laboratory analysis to applied fieldwork and computational research.</figcaption></figure>
 
-## Milestones at a glance
+## A connected research trajectory
 
-<ol class="milestone-grid">
-<li><strong>2013</strong><span>Water sampling and early spatial environmental research</span><small>Water quality · GIS</small></li>
-<li><strong>2015</strong><span>Laboratory analysis and environmental quality</span><small>Hydrogeochemistry · Risk assessment</small></li>
-<li><strong>2021</strong><span>Climate adaptation and applied field engagement</span><small>Resilience · Science–policy</small></li>
-<li><strong>2022</strong><span>Beginning doctoral research at Guelph</span><small>Precision conservation · Watersheds</small></li>
-<li><strong>2026</strong><span>Modelling, validation, and the postdoctoral transition</span><small>Machine learning · Decision support</small></li>
-</ol>
+<div class="trajectory-ribbon"><article><p class="eyebrow">01 · Measure & map</p><h3>Environmental quality, water resources & spatial risk</h3><p>Groundwater and water quality → GIS and geostatistics → understanding spatial environmental risk.</p></article><article><p class="eyebrow">02 · Adapt & connect</p><h3>Climate adaptation, resilience & science–policy</h3><p>Climate adaptation → community and institutional practice → connecting evidence with implementation.</p></article><article><p class="eyebrow">03 · Predict & decide</p><h3>Precision conservation & resilient agricultural landscapes</h3><p>Watershed monitoring and modelling → machine learning → targeted conservation → adaptive decision support.</p></article></div>
 
-## Three overlapping phases
+<p class="common-thread"><strong>Common thread:</strong> environmental evidence → spatial understanding → better decisions.</p>
 
-<div class="phase-bands">
-<details open><summary><span>01 · Measure & map</span> Environmental quality, water resources, and spatial analysis</summary><p>Early work focused on groundwater quality, hydrogeochemistry, contamination, human-health risk, GIS, geostatistics, and spatial patterns of environmental vulnerability.</p><p class="themes">Water quality · Groundwater · GIS · Environmental risk</p></details>
-<details><summary><span>02 · Adapt & implement</span> Climate adaptation, resilience, and science–policy practice</summary><p>Research and professional practice expanded toward climate adaptation, climate-smart agriculture, ecosystem-based adaptation, climate finance, and the institutional conditions that help evidence lead to action.</p><p class="themes">Climate resilience · Implementation · Institutions · Science–policy</p></details>
-<details><summary><span>03 · Predict & decide</span> Precision conservation and resilient agricultural landscapes</summary><p>Doctoral and postdoctoral work brings these experiences together around agricultural water quality, conservation prioritization, modelling, monitoring, and adaptive decision support. Earth observation and GeoAI are growing directions.</p><p class="themes">Precision conservation · Modelling · Machine learning · Adaptive decisions</p></details>
-</div>
-
-<div class="forward-band"><p class="eyebrow">2026 onward → Developing research program</p><h2>REAL Decision Lab</h2><p>Resilient agricultural landscapes and sustainable food production.</p><a href="research.qmd">See how the research strands connect →</a></div>
+<div class="forward-band"><p class="eyebrow">2026 onward → Developing research program</p><h2>REAL Decision Lab</h2><p>Resilient agricultural landscapes and sustainable food production.</p><a href="research.qmd">Explore Research Lab →</a></div>
