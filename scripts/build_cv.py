@@ -17,12 +17,15 @@ def safe(t):
 def link(u,l):
  return '<link href="'+html.escape(u,quote=True)+'" color="#234b3a"><u>'+safe(l)+'</u></link>'
 styles['compact']=ParagraphStyle('compact',parent=styles['body'],fontSize=9.5,leading=13,spaceAfter=4)
+styles['body'].spaceAfter=4
 styles['training']=ParagraphStyle('training',parent=styles['body'],fontSize=9,leading=11.5,spaceAfter=2)
 def body(t,style='body'):
  if t.startswith('Journal peer review:'):t='Journal peer review across environmental science and water-resource journals, including Journal of Environmental Management, Environmental Research, Journal of Cleaner Production, Journal of Hydrology, Water Research, Agricultural Water Management, and Journal of Hazardous Materials.'
  t=safe(t)
  if ':' in t and len(t.split(':',1)[0])<85:
   a,b=t.split(':',1);t='<b>'+a+':</b>'+b
+ for label,url in {'Canada Postdoctoral Research Award (CPRA) program':'https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program','Dr. Prasad Daggupati':'https://www.uoguelph.ca/engineering/faculty/pdaggupa'}.items():
+  t=t.replace(safe(label),link(url,label))
  return Paragraph(t,styles[style])
 def heading(t):
  return [Paragraph(safe(t),styles['section']),HRFlowable(width='100%',thickness=.5,color=HexColor('#c4cec7'),spaceAfter=7)]
@@ -80,3 +83,4 @@ def page_layout(c,d):
 target=root/'assets/Md_Bodrud_Doza_Academic_CV.pdf'
 SimpleDocTemplate(str(target),pagesize=(612,792),rightMargin=46,leftMargin=46,topMargin=44,bottomMargin=54,title='Md Bodrud-Doza | Academic CV | October 2026',author='Md Bodrud-Doza',subject='Research, teaching, professional experience and complete publication record').build(story,onFirstPage=page_layout,onLaterPages=page_layout)
 print('Built public CV with',len(pubs),'publication records')
+

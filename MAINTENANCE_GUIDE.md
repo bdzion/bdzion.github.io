@@ -209,3 +209,10 @@ Homepage academic-profile metadata is in `_includes/profile-metadata.html`. When
 In GitHub, keep the repository About description, website URL, and topics current. The separate repository social-preview image is optional and can use the same PNG via **Settings → General → Social preview**. It controls shared repository links; website social metadata controls shared website links.
 
 Deployment is restricted to `main`, including manually started workflows. Pull requests and manual feature-branch runs build and check without publishing. The build checks canonical URLs, social-preview dimensions and metadata, the sitemap, and the error page as well as links and content. Keep **Pages → Source → GitHub Actions** and enforced HTTPS.
+
+
+### OMAFA proposal and Canada Postdoctoral Research Award
+
+The OMAFA proposal is listed as **submitted / under review**, with Dr. Prasad Daggupati as lead applicant and Md Bodrud-Doza as a contributor to proposal development and proposed project collaborator. Its ACPF approach extends the PhD foundation; participation in the future project depends on acceptance. Update the project card in `research.qmd`, the proposal section in `collaboration.qmd`, the web CV in `cv.qmd`, and the project/funding entries in `assets/cv-content.json` together. Rebuild and visually check the PDF after changing those entries. Do not change the status to active or awarded without confirmation. The full application, budget, and team attachments are not published.
+
+Write **Canada Postdoctoral Research Award (CPRA) program** on first use and link to the official NSERC program page. The food-system application remains submitted, with no confirmed award. The PDF builder adds a clickable program link; update its link mapping if the official address changes.
