@@ -15,10 +15,10 @@ def item(p,featured=False):
  link=f'<a class="doi-link" href="{e(p["url"])}" target="_blank" rel="noopener noreferrer">{"Read paper / DOI" if p["doi"] else "Read publication"} ↗</a>' if p['url'] else ''
  badge='<span class="authorship">First-authored</span>' if p['first_authored'] else ''
  if featured:
-  journal=f'<p class="journal">{e(p["journal"])}</p>' if p.get('journal') else ''
+  journal=f'<p class="journal">{e(p.get("journal", ""))} · {e(p["year"] if p["year"] is not None else "Undated")}</p>'
   contribution=f'<p class="contribution">{e(p["contribution"])}</p>' if p.get('contribution') else ''
   tags='<div class="topic-tags">'+''.join(f'<span>{e(t)}</span>' for t in p.get('display_tags',p['topics'])[:3])+'</div>'
-  return f'<article class="publication-feature"><p class="eyebrow">{e(p["year"])} {"· First-authored" if p["first_authored"] else ""}</p><h3>{e(p.get("title",p["citation"]))}</h3>{journal}{contribution}{tags}{link}</article>'
+  return f'<article class="publication-feature"><p class="eyebrow">{"First-authored" if p["first_authored"] else "Featured research"}</p><h3>{e(p.get("title",p["citation"]))}</h3>{contribution}{journal}{tags}{link}</article>'
  attrs=f'data-category="{e(p["category"])}" data-view="{e(view(p))}" data-year="{e(p["year"])}" data-topics="{e("|".join(p["topics"]))}" data-first="{str(p["first_authored"]).lower()}"'
  citation=re.sub(r'Bodrud-Doza(?:,?\s*M\.?)?',lambda m:'<strong>'+m[0]+'</strong>',e(p['citation']))
  return f'<article class="publication-entry" {attrs}><p class="citation">{citation}</p><div class="publication-meta">{badge}{link}</div></article>'

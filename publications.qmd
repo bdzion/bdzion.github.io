@@ -8,9 +8,11 @@ My research spans agricultural landscapes and precision conservation, water qual
 
 ## Research arc
 
-<ol class="research-arc"><li><strong>2023</strong><span>Decision-support & precision-conservation review</span></li><li><strong>2025</strong><span>Evidence synthesis of BMP effectiveness</span></li><li><strong>2026</strong><span>Machine-learning field prioritization</span></li><li><strong>2026</strong><span>Conservation priorities aligned with local needs</span></li></ol>
+<ol class="research-arc"><li><strong>2023</strong><span>Decision-support & precision-conservation review</span></li><li><strong>2025</strong><span>Evidence synthesis of best management practice effectiveness</span></li><li><strong>2026</strong><span>Machine-learning field prioritization</span></li><li><strong>2026</strong><span>Conservation priorities aligned with local needs</span></li></ol>
 
 ## Featured research
+
+<p class="eyebrow">Peer-reviewed research</p>
 
 {{< include _includes/featured.html >}}
 

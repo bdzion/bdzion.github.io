@@ -22,15 +22,15 @@ All appointments above are at [GEG, University of Guelph](https://geg.uoguelph.c
 
 <ul class="course-grid"><li><strong>GEOG*1350</strong><span>Earth: Hazards and Global Change</span></li><li><strong>GEOG*2000</strong><span>Geomorphology</span></li><li><strong>GEOG*3000</strong><span>Fluvial Processes</span></li><li><strong>GEOG*2480</strong><span>Mapping and GIS</span></li><li><strong>GEOG*3480</strong><span>GIS and Spatial Analysis</span></li></ul>
 
-Teaching interests include GIS, remote sensing, GeoAI, environmental modelling, watershed science, and environmental decision support. [Read selected teaching feedback →](experience.qmd#teaching-and-mentoring)
+Teaching interests include GIS, remote sensing, GeoAI (AI for geographic data), environmental modelling, watershed science, and environmental decision support. [Teaching approach, experience, and selected feedback →](experience.qmd#teaching-and-mentoring)
 
 ## Selected awards
 
-<div class="cards two"><article class="research-card"><p class="eyebrow">2025–2026</p><h3>Ontario Graduate Scholarship</h3><p>Research support during the doctoral program.</p></article><article class="research-card"><p class="eyebrow">2025</p><h3>Soil & water conservation</h3><p>Cecil H. Franklin Graduate Scholarship; Ted Symons Scholarship.</p></article><article class="research-card"><p class="eyebrow">2024 & 2025</p><h3>Publication recognition</h3><p>GEG Graduate Publication Awards.</p></article><article class="research-card"><p class="eyebrow">2023</p><h3>Environmental leadership</h3><p>Arthur D. Latornell Graduate Scholarship; 3MT College Heat recognition.</p></article><article class="research-card"><p class="eyebrow">Fall 2022</p><h3>Doctoral scholarships</h3><p>International Doctoral Tuition Scholarship, Special Dean’s Award, and Kiyoko Miyanishi Graduate Geography Scholarship.</p></article></div>
+<div class="cards two"><article class="research-card"><p class="eyebrow">2025–2026</p><h3>Ontario Graduate Scholarship</h3><p>Ontario Graduate Scholarship, University of Guelph.</p></article><article class="research-card"><p class="eyebrow">2025</p><h3>Soil & water conservation</h3><p>Cecil H. Franklin Graduate Scholarship; Ted Symons Scholarship.</p></article><article class="research-card"><p class="eyebrow">2024 & 2025</p><h3>Publication recognition</h3><p>GEG Graduate Publication Awards.</p></article><article class="research-card"><p class="eyebrow">2023</p><h3>Environmental leadership</h3><p>Arthur D. Latornell Graduate Scholarship; 3MT College Heat recognition.</p></article><article class="research-card"><p class="eyebrow">September 2022</p><h3>Doctoral scholarships</h3><p>International Doctoral Tuition Scholarship, Special Dean’s Award, and Kiyoko Miyanishi Graduate Geography Scholarship.</p></article></div>
 
 ## Funding and proposal development
 
-<div class="cards three"><article class="research-card"><p class="eyebrow">Research support · 2024–2026</p><h3>Environment and Climate Change Canada</h3><p>PhD project funding for agricultural watershed and conservation research.</p></article><article class="research-card"><p class="eyebrow">Professional experience</p><h3>Adaptation & resilience proposals</h3><p>Proposal development and resource mobilisation across BRAC, CARE Bangladesh, university, and international-development settings.</p></article><article class="research-card"><p class="eyebrow">Submitted proposal · developing</p><h3>Food-system buffers & anticipation</h3><p>A developing research direction based on a submitted CPRA proposal. This is not an awarded fellowship. <a href="collaboration.qmd">View the framework →</a></p></article></div>
+<div class="cards three"><article class="research-card"><p class="eyebrow">Research support · 2024–2026</p><h3>Environment and Climate Change Canada</h3><p>PhD project funding for agricultural watershed and conservation research.</p></article><article class="research-card"><p class="eyebrow">Professional experience</p><h3>Adaptation & resilience proposals</h3><p>Proposal development and resource mobilisation across BRAC, CARE Bangladesh, university, and international-development settings.</p></article><article class="research-card"><p class="eyebrow">Submitted proposal · developing</p><h3>Food-system resilience & timely adaptation</h3><p>A developing research direction based on a submitted CPRA proposal. This is not an awarded fellowship. <a href="collaboration.qmd">View the framework →</a></p></article></div>
 
 ## Academic service
 
@@ -39,3 +39,6 @@ Teaching interests include GIS, remote sensing, GeoAI, environmental modelling, 
 [Browse the complete publication record →](publications.qmd)
 
 The downloadable public CV retains the detailed record of publications, professional roles, support, skills, and training.
+
+
+[Download the full academic CV (PDF)](assets/Md_Bodrud_Doza_Academic_CV.pdf){.button .primary}
