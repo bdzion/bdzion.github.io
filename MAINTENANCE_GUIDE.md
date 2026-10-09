@@ -134,13 +134,14 @@ The former `#how-the-research-program-developed` anchor still points to the new 
 
 ## J. Update the public CV PDF safely
 
-The **manually reviewed PDF is the canonical downloadable CV**. On 9 October 2026, the owner supplied `Md_Bodrud_Doza_Final_Academic_CV.pdf`; it is published unchanged as `assets/Md_Bodrud_Doza_Academic_CV.pdf`. The filename stays fixed so existing links keep working. Your editable master document remains outside the repository.
+The **manually reviewed PDF is the canonical downloadable CV**. On 9 October 2026, the owner supplied `Md_Bodrud_Doza_Final_Academic_CV.pdf`; its text and layout are preserved in `assets/Md_Bodrud_Doza_Academic_CV.pdf`. The filename stays fixed so existing links keep working. Your editable master document remains outside the repository. On the same day, PDF link rectangles were tightened to the visible link text so they do not extend into surrounding citation text. DOI, publication, profile and institutional destinations were preserved. Author names in the supplied PDF and Word source have no embedded hyperlinks.
 
 1. Update the master CV and export a new PDF with white pages and working links.
 2. Review every page, appointment date, publication, project status and contact link. Keep public information only.
 3. In the repository's `assets` folder, use **Add file → Upload files** and replace `Md_Bodrud_Doza_Academic_CV.pdf` using exactly that filename.
 4. Use a new branch and pull request, wait for the site checks, review the download, then merge. Confirm the live PDF is the new version after deployment.
-5. If factual details changed, update the concise summaries in `index.qmd`, `cv.qmd` and other relevant pages. Update `publications.json` separately for new or corrected publications; it does not rebuild the PDF.
+5. Update the `?v=` version on the download links in `index.qmd` and `cv.qmd` when replacing the PDF, so browsers request the new version. The asset filename stays unchanged.
+6. If factual details changed, update the concise summaries in `index.qmd`, `cv.qmd` and other relevant pages. Update `publications.json` separately for new or corrected publications; it does not rebuild the PDF.
 
 The old `assets/cv-content.json` was removed because it is no longer the CV master. `scripts/build_cv.py` is now a safe retired entry point: running it stops with an explanation and never writes the PDF. Earlier versions remain recoverable through GitHub history. Do not restore or run an older generator against the canonical filename. Quarto and Actions only copy the reviewed PDF; they never regenerate it. No ReportLab installation is needed.
 
