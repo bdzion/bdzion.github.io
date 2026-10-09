@@ -4,11 +4,13 @@ description: "Precision-conservation research, journal articles, policy contribu
 page-layout: full
 ---
 
-My research spans agricultural landscapes and precision conservation, water quality, groundwater and environmental risk, and climate resilience. Recent first-authored work brings these strands together around spatial environmental decision-making.
+<span id="how-the-research-program-developed" aria-hidden="true"></span>
 
-## How the research program developed
+## Research & Publication Timeline {#research-publication-timeline}
 
-<ol class="research-arc"><li><strong>2023</strong><span>Decision support and precision-conservation review</span></li><li><strong>2025</strong><span>Evidence synthesis of best management practice effectiveness</span></li><li><strong>2026</strong><span>Machine learning for field prioritisation and aligning beneficial management practices (BMPs) with local needs</span></li><li><strong>2026</strong><span>Precision conservation scenario development</span></li></ol>
+My publication record has developed through overlapping research domains, from environmental quality and spatial analysis to climate resilience, agricultural water quality, and precision conservation.
+
+{{< include _includes/publication-timeline.html >}}
 
 ## Featured research
 
@@ -16,7 +18,7 @@ My research spans agricultural landscapes and precision conservation, water qual
 
 {{< include _includes/featured.html >}}
 
-## Publication record
+## Complete Publication Record {#publication-record}
 
 Browse journal articles, book chapters, working papers, conference abstracts, technical reports, and public and policy writing. For current citation information, visit [Google Scholar](https://scholar.google.com/citations?user=1VymNoIAAAAJ&hl=en).
 

@@ -3,6 +3,7 @@ project:
   output-dir: _site
   pre-render:
     - python scripts/render_publications.py
+    - python scripts/render_publication_timeline.py
     - python scripts/render_updates.py
   post-render: python scripts/finalize_html.py
   render:

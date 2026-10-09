@@ -71,7 +71,7 @@ Edit `publications.json`. Copy a complete record and give it a unique ID. Add a 
 
 ```json
 {
-  "id": "pub-089",
+  "id": "pub-091",
   "category": "First-Authored Articles",
   "citation": "Exact complete published citation.",
   "year": 2027,
@@ -98,12 +98,39 @@ Set `"featured": true` or `false`. Cards follow JSON order; Home displays the fi
 "display_tags": ["Precision conservation", "Machine learning"]
 ```
 
-Use two or three short display tags; `topics` still drives filtering. Retain the full `citation`. Featured cards show title, journal/year, one contribution sentence, tags, and paper link. The full citation appears only in the complete record. Update the separate research-arc text in `publications.qmd` when needed.
+Use two or three short display tags; `topics` still drives filtering. Retain the full `citation`. Featured cards show title, journal/year, one contribution sentence, tags, and paper link. The full citation appears only in the complete record. Timeline milestones are selected separately; featuring a paper does not automatically add it to the timeline.
 
-## I. Update the publication research arc
+## I. Maintain the Research & Publication Timeline
 
+The Publications page shows six selected milestone groups above overlapping publication domains. `publications.json` remains the factual source for years, topics and paper links. `publication-timeline.json` selects domain labels and milestone papers. Do not edit `_includes/publication-timeline.html`; `scripts/render_publication_timeline.py` regenerates it whenever Quarto renders.
 
-“How the research program developed” is a four-step overview in `publications.qmd`, separate from the full JSON record. Edit the years and short step descriptions together. Preserve published titles in `publications.json`; do not silently rename a paper to fit the arc.
+### Add publications and update date ranges
+
+1. Add the verified publication to `publications.json` as described in G. Use a new, unused ID (the current record already includes `pub-089` and `pub-090`).
+2. Use the appropriate existing `topics` labels. Each domain's first and latest years are calculated automatically from matching dated records. You do not need to type a new date range into the page.
+3. Correct a year only when supported by publication metadata. An unknown year should be `null`; it is excluded from the timeline until verified.
+4. Render, check the resulting spans and filters, and rebuild the PDF if the publication record changed. A newly added paper need not become a milestone.
+
+The bands include dated records across publication categories, including conference contributions and public writing. For example, the 2015 water-quality start is a conference contribution; the 2026 climate record is public writing. Marks show years with records, not continuous journal output. Domain spans describe published work, not appointment dates or future projects.
+
+### Add or edit a research domain
+
+1. Open `publication-timeline.json`. In `domains`, copy one object, keeping commas between objects.
+2. Set `label` to a concise research-domain name and `topics` to one or more exact topic labels already present in `publications.json`. The visible Geospatial Analysis & Machine Learning label currently uses the existing `Geospatial & Machine Learning` filter topic.
+3. Add a domain only when dated publication records support it. Emerging directions such as Earth Observation & GeoAI should not be added solely because they appear in your research plans.
+4. The timeline axis expands automatically; the mobile layout stacks the rows. Rendering stops with a clear error if a domain has no matching dated records. Check desktop and phone after adding a row.
+
+To change a domain's scope, edit its matching `topics`, then review the automatically calculated range. Never change verified publication years merely to fit a preferred span.
+
+### Add, remove or replace a milestone paper
+
+1. In `publication-timeline.json`, find `milestones`. Each object has a short `label`, one-sentence `summary`, and a `papers` list.
+2. Copy a milestone object to add one; delete the complete object to remove one. Keep the selection small. Remove a paper by deleting its object from `papers`; if no papers remain, remove the milestone too.
+3. Each paper uses an existing publication `id` and a short link `label`. Verify the ID against `publications.json`. Its year and DOI link are taken from that record automatically; do not duplicate dates or URLs in the configuration.
+4. Papers grouped into one milestone must share a verified year. Milestones sort chronologically. Missing IDs, unknown years or unavailable public links fail the render rather than silently linking to the wrong work.
+5. Edit the short summary only to reflect the actual linked work. Render and run `python scripts/check_site.py`, then inspect the timeline, DOI links and publication filters before merging.
+
+The former `#how-the-research-program-developed` anchor still points to the new timeline; the complete record retains `#publication-record`. Keep these anchors so previously shared links work.
 
 ## J. Update the public CV PDF safely
 
@@ -179,7 +206,7 @@ For one file, click **History**, open the previous good version, and copy its co
 ## R. Quarterly checklist
 
 - Current title, affiliation, and dates agree across Home, Experience, web CV, and PDF.
-- New publications, featured papers, DOI links, and the research arc are current.
+- New publications, featured papers, DOI links, and the publication timeline are current.
 - Public CV is readable, current, and free of private information.
 - Project/collaboration status and proposal wording remain accurate.
 - Teaching, awards, and service are current.
