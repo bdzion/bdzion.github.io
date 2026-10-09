@@ -6,7 +6,7 @@ page-layout: full
 
 An interdisciplinary academic profile connecting environmental science, geography, agricultural sustainability, and science-to-decision practice.
 
-[Download Full Academic CV (PDF)](assets/Md_Bodrud_Doza_Academic_CV.pdf){.button .primary}
+[Download Full Academic CV (PDF)](assets/Md_Bodrud_Doza_Academic_CV.pdf?v=20261009-links){.button .primary}
 
 ## Education
 

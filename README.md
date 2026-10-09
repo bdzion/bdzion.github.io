@@ -26,7 +26,7 @@ Categories follow the supplied CV: First-Authored Articles, Co-Authored Articles
 
 ## Replace or update the CV
 
-The manually reviewed `assets/Md_Bodrud_Doza_Academic_CV.pdf` is the canonical download. The owner's finalized eight-page PDF, supplied 9 October 2026, is published unchanged using this stable filename. Update the master document outside the repository, export/review every page, then replace the PDF through a pull request. Update the web summaries and `publications.json` separately when facts change; Quarto does not regenerate the CV.
+The manually reviewed `assets/Md_Bodrud_Doza_Academic_CV.pdf` is the canonical download. The owner's finalized eight-page PDF, supplied 9 October 2026, retains its original text and layout using this stable filename. Its link areas were tightened to visible link text, preserving the useful destinations. Update the master document outside the repository, export/review every page, then replace the PDF through a pull request. Update the web summaries and `publications.json` separately when facts change; Quarto does not regenerate the CV.
 
 The stale `assets/cv-content.json` was removed. `scripts/build_cv.py` is a retired entry point that stops without writing a file, preventing accidental replacement of the final PDF. See maintenance guide section J. No PDF-generation library is needed.
 
