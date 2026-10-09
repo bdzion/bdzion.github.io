@@ -6,6 +6,8 @@ page-layout: full
 
 I welcome collaboration that connects environmental evidence with decisions across agricultural landscapes, water resources, and food systems.
 
+<nav class="page-shortcuts" aria-label="Collaboration sections"><a href="#current-research-setting">Current setting</a><a href="#current-applied-collaboration">Applied collaboration</a><a href="#omafa-precision-conservation-proposal">Developing proposals</a><a href="#place-based-research-interest-bangladesh">Bangladesh</a><a href="#collaboration-themes">Collaboration themes</a></nav>
+
 ## Current research setting
 
 <div class="cards three"><article class="research-card"><p class="eyebrow">Institution</p><h3>University of Guelph</h3><p><a href="https://www.uoguelph.ca/">University of Guelph</a>, Ontario, Canada.</p></article><article class="research-card"><p class="eyebrow">Department</p><h3>Geography, Environment and Geomatics</h3><p><a href="https://geg.uoguelph.ca/">GEG</a> · Geography, environmental science, and spatial research.</p></article><article class="research-card"><p class="eyebrow">Research connection</p><h3>Arrell Food Institute</h3><p><a href="https://arrellfoodinstitute.ca/">Arrell Food Institute</a> · Food-system research and collaboration networks.</p></article></div>
@@ -18,13 +20,11 @@ I welcome collaboration that connects environmental evidence with decisions acro
 
 <p class="eyebrow">Submitted · Under review · OMAFA proposal</p>
 
-### Field-Specific Precision Conservation for Cost-Effective Water Quality and Ecosystem Benefits in Ontario’s Lake Erie Basin
+### Precision Conservation in Ontario’s Lake Erie Basin
 
-I contributed to developing this proposal with [Dr. Prasad Daggupati](https://www.uoguelph.ca/engineering/faculty/pdaggupa), the lead applicant in Water Resources Engineering, School of Engineering, University of Guelph. It was submitted to the Ontario Ministry of Agriculture, Food and Agribusiness (OMAFA).
+I contributed to this OMAFA proposal with [Dr. Prasad Daggupati](https://www.uoguelph.ca/engineering/faculty/pdaggupa), lead applicant in Water Resources Engineering, School of Engineering, University of Guelph. **A proposed extension of my PhD research**, it would use the Agricultural Conservation Planning Framework (ACPF), which maps suitable locations for conservation practices, to compare water-quality benefits, costs and wider ecosystem benefits.
 
-**This is a proposed extension of my PhD research.** It would use the Agricultural Conservation Planning Framework (ACPF), a tool that uses landscape data to identify suitable locations for conservation practices, and build on my work in field-level conservation planning. The proposed approach would compare expected nutrient and sediment reductions, costs, and wider ecosystem benefits to support field-specific decisions in Ontario’s Lake Erie Basin.
-
-The proposal is under review. If accepted, I would work with the project team on the research; funding and project outputs are not yet confirmed.
+The proposal is submitted and under review. If accepted, I would work with the project team; funding and outputs are not yet confirmed.
 
 ## Food-System Resilience and Anticipatory Decision-Making
 

@@ -23,6 +23,8 @@ jobs:
           version: '1.10.19'
       - name: Render website
         run: quarto render
+      - name: Check scholarly timeline and canonical CV safety
+        run: python -m unittest discover -s tests
       - name: Check website links and content
         run: python scripts/check_site.py
       - uses: actions/upload-pages-artifact@v3

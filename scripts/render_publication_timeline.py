@@ -3,6 +3,8 @@ import html
 import json
 from pathlib import Path
 
+PEER_REVIEWED_CATEGORIES = frozenset({'First-Authored Articles', 'Co-Authored Articles', 'Book Chapters'})
+
 
 def build_timeline(records, config):
     by_id = {p['id']: p for p in records}
@@ -11,10 +13,11 @@ def build_timeline(records, config):
     domains = []
     for domain in config['domains']:
         years = sorted({p['year'] for p in records
-                        if isinstance(p['year'], int) and not isinstance(p['year'], bool)
+                        if p['category'] in PEER_REVIEWED_CATEGORIES
+                        and isinstance(p['year'], int) and not isinstance(p['year'], bool)
                         and set(domain['topics']).intersection(p['topics'])})
         if not years:
-            raise ValueError(f"No dated publications match domain: {domain['label']}")
+            raise ValueError(f"No dated peer-reviewed publications match domain: {domain['label']}")
         domains.append(dict(label=domain['label'], years=years))
     if not domains:
         raise ValueError('At least one research domain is required')
@@ -25,6 +28,8 @@ def build_timeline(records, config):
             if paper['id'] not in by_id:
                 raise ValueError(f"Unknown milestone publication ID: {paper['id']}")
             record = by_id[paper['id']]
+            if record['category'] not in PEER_REVIEWED_CATEGORIES:
+                raise ValueError(f"Milestone needs a scholarly article or chapter: {paper['id']}")
             if not isinstance(record['year'], int) or isinstance(record['year'], bool):
                 raise ValueError(f"Milestone needs a verified year: {paper['id']}")
             url = 'https://doi.org/' + record['doi'] if record['doi'] else record['url']
@@ -68,13 +73,13 @@ def render_timeline(records, config):
                      f'<strong>{escape(milestone["label"])}</strong>'
                      f'<p>{escape(milestone["summary"])}</p><div class="milestone-links">{links}</div></li>')
     return (f'<div class="publication-timeline" style="--timeline-years:{count}">'
-            f'<h3>Selected publication milestones</h3><ol class="publication-milestones">{"".join(cards)}</ol>'
-            '<h3>Overlapping research domains</h3>'
+            '<h3>Overlapping Peer-Reviewed Research Domains</h3>'
             f'<div class="domain-axis" aria-hidden="true"><span></span><div>{axis}</div></div>'
             f'<ul class="publication-domains">{"".join(rows)}</ul>'
-            '<p class="timeline-note">Bands show the first and latest dated records in each domain; '
-            'marks indicate years with records. The spans include conference contributions and public writing, '
-            'and do not imply publication in every intervening year.</p></div>')
+            '<p class="timeline-note">Spans use journal articles and book chapters only. Marks show years with '
+            'scholarly publications, not continuous annual output; conference contributions, reports and public '
+            'or policy writing remain in the complete record below.</p>'
+            f'<h3>Selected Publication Milestones</h3><ol class="publication-milestones">{"".join(cards)}</ol></div>')
 
 
 if __name__ == '__main__':

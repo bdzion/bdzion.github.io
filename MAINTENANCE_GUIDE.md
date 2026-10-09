@@ -6,14 +6,14 @@ Your live site is https://bdzion.github.io. The source repository is `bdzion/bdz
 
 1. Open the repository **Code** tab and a page file, such as `research.qmd`.
 2. Click the pencil (**Edit this file**). Edit below the opening `---` metadata block. Keep surrounding HTML tags, quotation marks, and links intact.
-3. Click **Commit changes** with a clear description. Routine corrections can go to `main`; substantial edits should use a new branch and pull request.
+3. Click **Commit changes** with a clear description. Choose a new branch and open a pull request for every edit. Wait for the build/check to pass, review the change, then merge.
 4. Open **Actions**, wait for a green deployment, and check the live page. A pull request builds but does not publish before merging.
 
 Page map: `index.qmd` = Home; `research.qmd` = Research Lab; `research-journey.qmd` = Journey; `experience.qmd` = Experience; `publications.qmd` = Publications introduction; `cv.qmd` = web CV; `collaboration.qmd` = Collaboration; `contact.qmd` = Contact. Navigation and metadata live in `_quarto.yml`; appearance lives in `styles.css`.
 
 ## B. Update the current position and homepage
 
-Edit the appointment and affiliation in `index.qmd`, then the corresponding entries in `experience.qmd`, `cv.qmd`, and `assets/cv-content.json`. The confirmed Postdoctoral Scholar start is **September 2026**. Follow J to update the PDF separately. Keep the homepage's direction cards brief and label emerging work clearly. Link to Scholar for current metrics rather than adding fixed publication/citation totals.
+Edit the appointment and affiliation in `index.qmd`, then the corresponding entries in `experience.qmd` and `cv.qmd`. The confirmed Postdoctoral Scholar start is **September 2026**. Update your master CV and follow J to export and replace the PDF separately. Keep the homepage's direction cards brief and label emerging work clearly. Link to Scholar for current metrics rather than adding fixed publication/citation totals.
 
 ### Adjust the homepage headshot
 
@@ -85,7 +85,7 @@ Edit `publications.json`. Copy a complete record and give it a unique ID. Add a 
 
 Replace all example values with verified metadata. Use `null` for an unavailable year, DOI, or URL. Reuse existing categories: First-Authored Articles, Co-Authored Articles, Book Chapters, Working Papers, Conference Abstracts, Technical Reports and Policy Contributions, Policy Brief, or Selected Public and Policy Writing. Keep non-peer-reviewed work in the proper category. Topics should describe the paper accurately.
 
-Do not edit the generated publication includes (`_includes/featured.html` and `_includes/publication-list.html`); rendering regenerates them. The PDF builder also reads `publications.json`. Add or correct a publication here once, then rebuild the PDF so the website and CV stay aligned. Keep links in the `url` field; do not append placeholder text such as `(Link:` to a citation. Home Updates are separate: add an article to both `updates.json` and `publications.json` if it should appear in both places.
+Do not edit the generated publication includes (`_includes/featured.html` and `_includes/publication-list.html`); rendering regenerates them. The manually reviewed PDF is maintained separately. Add or correct a publication here, then update your master CV and export a reviewed PDF when its publication record changes. Keep links in the `url` field; do not append placeholder text such as `(Link:` to a citation. Home Updates are separate: add an article to both `updates.json` and `publications.json` if it should appear in both places.
 
 ## H. Mark or unmark featured papers
 
@@ -102,23 +102,23 @@ Use two or three short display tags; `topics` still drives filtering. Retain the
 
 ## I. Maintain the Research & Publication Timeline
 
-The Publications page shows six selected milestone groups above overlapping publication domains. `publications.json` remains the factual source for years, topics and paper links. `publication-timeline.json` selects domain labels and milestone papers. Do not edit `_includes/publication-timeline.html`; `scripts/render_publication_timeline.py` regenerates it whenever Quarto renders.
+The Publications page shows overlapping peer-reviewed research domains first, followed by six selected milestone groups. `publications.json` remains the factual source for years, topics and paper links. `publication-timeline.json` selects domain labels and milestone papers. Do not edit `_includes/publication-timeline.html`; `scripts/render_publication_timeline.py` regenerates it whenever Quarto renders.
 
 ### Add publications and update date ranges
 
 1. Add the verified publication to `publications.json` as described in G. Use a new, unused ID (the current record already includes `pub-089` and `pub-090`).
-2. Use the appropriate existing `topics` labels. Each domain's first and latest years are calculated automatically from matching dated records. You do not need to type a new date range into the page.
+2. Use the appropriate existing `topics` labels. Each domain's first and latest years are calculated automatically from matching dated scholarly records in First-Authored Articles, Co-Authored Articles or Book Chapters. You do not need to type a new date range into the page.
 3. Correct a year only when supported by publication metadata. An unknown year should be `null`; it is excluded from the timeline until verified.
-4. Render, check the resulting spans and filters, and rebuild the PDF if the publication record changed. A newly added paper need not become a milestone.
+4. Render, check the resulting spans and filters, and update the separately maintained master CV/PDF if the publication record changed. A newly added paper need not become a milestone.
 
-The bands include dated records across publication categories, including conference contributions and public writing. For example, the 2015 water-quality start is a conference contribution; the 2026 climate record is public writing. Marks show years with records, not continuous journal output. Domain spans describe published work, not appointment dates or future projects.
+The bands use only First-Authored Articles, Co-Authored Articles and Book Chapters. Conference abstracts, working papers, technical reports, policy contributions and public writing do not extend their dates, but remain in the complete searchable record. With the current data, Water Quality & Watershed Science spans **2016–2026** and Climate & Resilience spans **2017–2022**. Marks show years with scholarly publications, not continuous annual output. These are publication spans, not appointment dates or future plans.
 
 ### Add or edit a research domain
 
 1. Open `publication-timeline.json`. In `domains`, copy one object, keeping commas between objects.
 2. Set `label` to a concise research-domain name and `topics` to one or more exact topic labels already present in `publications.json`. The visible Geospatial Analysis & Machine Learning label currently uses the existing `Geospatial & Machine Learning` filter topic.
-3. Add a domain only when dated publication records support it. Emerging directions such as Earth Observation & GeoAI should not be added solely because they appear in your research plans.
-4. The timeline axis expands automatically; the mobile layout stacks the rows. Rendering stops with a clear error if a domain has no matching dated records. Check desktop and phone after adding a row.
+3. Add a domain only when dated articles or book chapters support it. Emerging directions such as Earth Observation & GeoAI should not be added solely because they appear in your research plans.
+4. The timeline axis expands automatically; the mobile layout stacks the rows. Rendering stops with a clear error if a domain has no matching dated scholarly records in First-Authored Articles, Co-Authored Articles or Book Chapters. Check desktop and phone after adding a row.
 
 To change a domain's scope, edit its matching `topics`, then review the automatically calculated range. Never change verified publication years merely to fit a preferred span.
 
@@ -126,7 +126,7 @@ To change a domain's scope, edit its matching `topics`, then review the automati
 
 1. In `publication-timeline.json`, find `milestones`. Each object has a short `label`, one-sentence `summary`, and a `papers` list.
 2. Copy a milestone object to add one; delete the complete object to remove one. Keep the selection small. Remove a paper by deleting its object from `papers`; if no papers remain, remove the milestone too.
-3. Each paper uses an existing publication `id` and a short link `label`. Verify the ID against `publications.json`. Its year and DOI link are taken from that record automatically; do not duplicate dates or URLs in the configuration.
+3. Each paper uses an existing scholarly article/chapter publication `id` and a short link `label`. Verify the ID against `publications.json`. Its year and DOI link are taken from that record automatically; do not duplicate dates or URLs in the configuration.
 4. Papers grouped into one milestone must share a verified year. Milestones sort chronologically. Missing IDs, unknown years or unavailable public links fail the render rather than silently linking to the wrong work.
 5. Edit the short summary only to reflect the actual linked work. Render and run `python scripts/check_site.py`, then inspect the timeline, DOI links and publication filters before merging.
 
@@ -134,9 +134,17 @@ The former `#how-the-research-program-developed` anchor still points to the new 
 
 ## J. Update the public CV PDF safely
 
-Use **Add file → Upload files** inside `assets` to replace `Md_Bodrud_Doza_Academic_CV.pdf` with a reviewed public PDF using the same filename. Alternatively edit `assets/cv-content.json` for your profile, appointments, teaching, experience, awards, skills, and training. Publication entries come from `publications.json`. Install ReportLab locally (`python -m pip install reportlab`), then run `python scripts/build_cv.py` from the website folder. The builder produces white pages, clickable profile/publication links, and page numbers. It places research and teaching before the complete publication record. Rebuild whenever either source changes; Quarto does not rebuild the PDF automatically.
+The **manually reviewed PDF is the canonical downloadable CV**. On 9 October 2026, the owner supplied `Md_Bodrud_Doza_Final_Academic_CV.pdf`; it is published unchanged as `assets/Md_Bodrud_Doza_Academic_CV.pdf`. The filename stays fixed so existing links keep working. Your editable master document remains outside the repository.
 
-Review every page and link after rebuilding. Remove private phone numbers, home addresses, immigration details, referee contacts, hidden comments, and private metadata. Use institutional contact details only. Never upload the original private Word CV. Test the live download. Editing `cv.qmd` alone does not update the PDF.
+1. Update the master CV and export a new PDF with white pages and working links.
+2. Review every page, appointment date, publication, project status and contact link. Keep public information only.
+3. In the repository's `assets` folder, use **Add file → Upload files** and replace `Md_Bodrud_Doza_Academic_CV.pdf` using exactly that filename.
+4. Use a new branch and pull request, wait for the site checks, review the download, then merge. Confirm the live PDF is the new version after deployment.
+5. If factual details changed, update the concise summaries in `index.qmd`, `cv.qmd` and other relevant pages. Update `publications.json` separately for new or corrected publications; it does not rebuild the PDF.
+
+The old `assets/cv-content.json` was removed because it is no longer the CV master. `scripts/build_cv.py` is now a safe retired entry point: running it stops with an explanation and never writes the PDF. Earlier versions remain recoverable through GitHub history. Do not restore or run an older generator against the canonical filename. Quarto and Actions only copy the reviewed PDF; they never regenerate it. No ReportLab installation is needed.
+
+Never upload the original private Word CV, home address, private phone numbers, immigration/family details or referee contacts. Editing `cv.qmd` alone does not update the downloadable PDF.
 
 ### Edit professional experience
 
@@ -180,17 +188,18 @@ python scripts/render_updates.py
 quarto preview
 ```
 
-Open the local address shown, inspect desktop/phone layouts, and stop with Ctrl+C. Python is required for publication generation. ReportLab is only required when rebuilding the PDF.
+Open the local address shown, inspect desktop/phone layouts, and stop with Ctrl+C. Python is required for publication generation. The reviewed CV is uploaded separately; no PDF-generation library is needed.
 
 ## O. Run checks
 
 ```sh
 quarto render
+python -m unittest discover -s tests
 python scripts/check_site.py
 python scripts/check_external_links.py --output external-link-report.json
 ```
 
-The site check validates internal links/anchors, headings, alt text, metadata, publication uniqueness, and safe new-tab links. The separate external audit uses bounded requests and treats blocking/rate limits as **unverified**; investigate confirmed 404/410 responses. It does not run as a deployment gate. Keep its output outside the repository or delete it after review.
+The focused tests verify peer-reviewed-only timeline ranges and that the retired generator cannot overwrite the reviewed PDF. The site check validates internal links/anchors, headings, alt text, metadata, publication uniqueness, and safe new-tab links. The separate external audit uses bounded requests and treats blocking/rate limits as **unverified**; investigate confirmed 404/410 responses. It does not run as a deployment gate. Keep its output outside the repository or delete it after review.
 
 For major edits, inspect at 390, 768, 1024, 1200, and 1440 pixels. Check no horizontal scrolling, the desktop name, readable frameworks, navigation, filters/reset, keyboard focus, images, and PDF download. Automated checks do not establish research accuracy or replace visual review.
 
@@ -205,7 +214,7 @@ For one file, click **History**, open the previous good version, and copy its co
 
 ## R. Quarterly checklist
 
-- Current title, affiliation, and dates agree across Home, Experience, web CV, and PDF.
+- Current title, affiliation, and dates agree across Home, Experience, web CV, and the manually reviewed PDF.
 - New publications, featured papers, DOI links, and the publication timeline are current.
 - Public CV is readable, current, and free of private information.
 - Project/collaboration status and proposal wording remain accurate.
@@ -220,7 +229,7 @@ For one file, click **History**, open the previous good version, and copy its co
 
 Your name in the navigation links to Home, so there is no second Home menu item. Edit the website title and the remaining page links in `_quarto.yml`. Keep the name visible on mobile.
 
-Use `https://healthylakehuron.ca/` for Healthy Lake Huron. The main applied partnership is Healthy Lake Huron partners; ABCA remains the formal Mitacs partner. Keep this distinction consistent in `research.qmd`, `collaboration.qmd`, and `assets/cv-content.json`. Write “and” in partnership headings. Label unfinished maps, indicators, and recommendations as intended outputs.
+Use `https://healthylakehuron.ca/` for Healthy Lake Huron. The main applied partnership is Healthy Lake Huron partners; ABCA remains the formal Mitacs partner. Keep this distinction consistent in `research.qmd`, `collaboration.qmd`, and the separately maintained master CV. Write “and” in partnership headings. Label unfinished maps, indicators, and recommendations as intended outputs.
 
 
 ## Social sharing and search visibility
@@ -240,6 +249,28 @@ Deployment is restricted to `main`, including manually started workflows. Pull r
 
 ### OMAFA proposal and Canada Postdoctoral Research Award
 
-The OMAFA proposal is listed as **submitted / under review**, with Dr. Prasad Daggupati as lead applicant and Md Bodrud-Doza as a contributor to proposal development and proposed project collaborator. Its ACPF approach extends the PhD foundation; participation in the future project depends on acceptance. Update the project card in `research.qmd`, the proposal section in `collaboration.qmd`, the web CV in `cv.qmd`, and the project/funding entries in `assets/cv-content.json` together. Rebuild and visually check the PDF after changing those entries. Do not change the status to active or awarded without confirmation. The full application, budget, and team attachments are not published.
+The OMAFA proposal is listed as **submitted / under review**, with Dr. Prasad Daggupati as lead applicant and Md Bodrud-Doza as a contributor to proposal development and proposed project collaborator. Its ACPF approach extends the PhD foundation; participation in the future project depends on acceptance. Update the project card in `research.qmd`, the proposal section in `collaboration.qmd`, the web CV in `cv.qmd`, and the project/funding entries in the master CV together. Export and visually review a replacement PDF after changing those entries. Do not change the status to active or awarded without confirmation. The full application, budget, and team attachments are not published.
 
-Write **Canada Postdoctoral Research Award (CPRA) program** on first use and link to the official NSERC program page. The food-system application remains submitted, with no confirmed award. The PDF builder adds a clickable program link; update its link mapping if the official address changes.
+Write **Canada Postdoctoral Research Award (CPRA) program** on first use and link to the official NSERC program page. The food-system application remains submitted, with no confirmed award. Keep the program link clickable in the master CV and verify it in each reviewed PDF export if the official address changes.
+
+## S. Maintain the lab logo and collaboration shortcuts
+
+The supplied logo is `assets/lab-logo.png`, used only beside the lab name in `research.qmd`. It is a graphic, separate from the portrait/journey/single-leadership-photo policy. Replace it with a reviewed PNG at the same path; update its width, height, alt text and `assets/images/manifest.json` if needed. `.lab-identity` and `.lab-logo` in `styles.css` control its responsive placement. Keep it proportionate and check desktop/tablet/phone. Do not add it to every page or change the social-preview image automatically.
+
+The OMAFA and food-system project cards use the neutral visible link “Explore developing direction”. Their links still lead to the relevant Collaboration sections; accessible labels distinguish the two directions. Keep proposal/award statuses accurate.
+
+The compact `page-shortcuts` navigation in `collaboration.qmd` links to Current setting, Applied collaboration, Developing proposals, Bangladesh and Collaboration themes. Keep the existing heading anchors when editing text, and test all five shortcuts after rendering. The OMAFA display title is shortened; its full formal title remains in the canonical CV. Keep the PhD extension, lead applicant, submitted/under-review status and conditional involvement clear.
+
+## T. Protect main and maintain the review workflow
+
+Checked 9 October 2026: `main` was not protected and the repository had no rulesets. The connected GitHub tools can create branches/PRs but cannot administer repository protection. No workaround was used and visibility was not changed.
+
+To enable protection manually in [repository settings](https://github.com/bdzion/bdzion.github.io/settings/branches):
+
+1. Choose **Add classic branch protection rule** and enter `main` as the branch pattern.
+2. Enable **Require a pull request before merging**. Leave mandatory approvals off for this single-maintainer workflow unless another reviewer is available.
+3. Enable **Require status checks to pass before merging** and select the GitHub Actions check `build`. It runs the full render and `scripts/check_site.py`. Require the branch to be up to date too.
+4. Apply the restrictions to administrators by disabling bypass. Leave force pushes and branch deletion disallowed. Save/create the rule.
+5. Confirm that `main` shows as protected. Continue using new branch → pull request → passing build → review → merge.
+
+Do not require the `deploy` job before merging: it runs only after changes reach main. See [GitHub's branch-protection instructions](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule) for the settings. Until the rule is enabled, follow this workflow voluntarily.

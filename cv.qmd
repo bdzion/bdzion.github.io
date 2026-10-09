@@ -26,10 +26,11 @@ Graduate Teaching Assistant, University of Guelph, September 2022–April 2024. 
 
 ## Selected awards
 
-<div class="cards two"><article class="research-card"><p class="eyebrow">2025–2026</p><h3>Ontario Graduate Scholarship</h3><p>University of Guelph.</p></article><article class="research-card"><p class="eyebrow">2025</p><h3>Soil & water conservation</h3><p>Cecil H. Franklin Graduate Scholarship; Ted Symons Scholarship.</p></article><article class="research-card"><p class="eyebrow">2024 & 2025</p><h3>Publication recognition</h3><p>GEG Graduate Publication Awards.</p></article><article class="research-card"><p class="eyebrow">2023</p><h3>Environmental leadership</h3><p>Arthur D. Latornell Graduate Scholarship; 3MT College Heat recognition.</p></article><article class="research-card"><p class="eyebrow">September 2022</p><h3>Doctoral scholarships</h3><p>International Doctoral Tuition Scholarship, Special Dean’s Award, and Kiyoko Miyanishi Graduate Geography Scholarship.</p></article></div>
+<div class="cards two"><article class="research-card"><p class="eyebrow">2025–2026</p><h3>Ontario Graduate Scholarship</h3><p>University of Guelph.</p></article><article class="research-card"><p class="eyebrow">2025</p><h3>Soil & water conservation</h3><p>Cecil H. Franklin Graduate Scholarship; Ted Symons Scholarship.</p></article><article class="research-card"><p class="eyebrow">2024 & 2025</p><h3>Publication recognition</h3><p>GEG Graduate Publication Awards.</p></article><article class="research-card"><p class="eyebrow">2023</p><h3>Environmental leadership</h3><p>Arthur D. Latornell Graduate Scholarship; 3MT College Heat Winner.</p></article><article class="research-card"><p class="eyebrow">September 2022</p><h3>Doctoral scholarships</h3><p>International Doctoral Tuition Scholarship, Special Dean’s Award, and Kiyoko Miyanishi Graduate Geography Scholarship.</p></article></div>
 
 ## Research support and proposal development
 
+- **2026–present:** Active Mitacs Accelerate postdoctoral research with Healthy Lake Huron partners; ABCA is the formal Mitacs partner.
 - **2024–2026:** Environment and Climate Change Canada funding supported PhD watershed and conservation research.
 - **Professional practice:** Proposal development and resource mobilisation across BRAC, CARE Bangladesh, university, and international-development settings.
 - **OMAFA proposal — under review:** Contributed to a precision-conservation proposal led by Dr. Prasad Daggupati. The proposed work extends my PhD using the Agricultural Conservation Planning Framework (ACPF) to compare conservation opportunities, benefits, and costs. If accepted, I would work with the project team. [Proposal details →](collaboration.qmd#omafa-precision-conservation-proposal)
@@ -41,7 +42,7 @@ Graduate Teaching Assistant, University of Guelph, September 2022–April 2024. 
 
 [Browse the complete publication record →](publications.qmd)
 
-The downloadable public CV retains the detailed record of publications, professional roles, support, skills, and training.
+The downloadable public CV, updated October 2026, retains the detailed record of publications, professional roles, support, skills, and training.
 
 
 
