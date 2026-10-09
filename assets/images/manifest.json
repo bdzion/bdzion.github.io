@@ -16,5 +16,15 @@
     "original_width": 2048,
     "original_height": 1536,
     "alt": "Md Bodrud-Doza speaking into a microphone during a professional consultation"
+  },
+  {
+    "source": "Lab_Logo.png",
+    "path": "assets/lab-logo.png",
+    "width": 1448,
+    "height": 1086,
+    "original_width": 1448,
+    "original_height": 1086,
+    "alt": "REAL Decision Lab logo showing agricultural fields and a magnifying glass over a map grid",
+    "type": "logo"
   }
 ]

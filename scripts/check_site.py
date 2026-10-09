@@ -43,8 +43,8 @@ for f in output.glob('*.html'):
     if p.bad_images:errors.append(f'{f.name}: missing image alt {p.bad_images}')
     if p.bad_rel:errors.append(f'{f.name}: unsafe new-tab links {p.bad_rel}')
     if f.name=='404.html' and not {base+'/',base+'/research.html'}.issubset(set(p.links)):errors.append('404.html: missing recovery links')
-    allowed={'index.html':['assets/portrait.webp'],'research-journey.html':['assets/images/journey/research-journey.webp'],'experience.html':['assets/images/experience/leadership-consultation.webp']}.get(f.name,[])
-    if p.images!=allowed:errors.append(f'{f.name}: unexpected image under the portrait/journey/one-leadership-image policy: {p.images}')
+    allowed={'index.html':['assets/portrait.webp'],'research.html':['assets/lab-logo.png'],'research-journey.html':['assets/images/journey/research-journey.webp'],'experience.html':['assets/images/experience/leadership-consultation.webp']}.get(f.name,[])
+    if p.images!=allowed:errors.append(f'{f.name}: unexpected image under the portrait/journey/one-leadership-photo/lab-logo policy: {p.images}')
     text=f.read_text(encoding='utf-8')
     for forbidden in ['7,000+','60+','h-index','2026 – Present','{{< include']:
         if forbidden in text:errors.append(f'{f.name}: stale or unrendered content {forbidden}')
@@ -77,5 +77,8 @@ publication_page=(output/'publications.html').read_text(encoding='utf-8')
 assert publication_page.count('class="publication-domain"')==len(timeline_config['domains']),'Missing publication domains'
 assert publication_page.count('data-publication-id=')==sum(len(m['papers']) for m in timeline_config['milestones']),'Missing milestone papers'
 assert {'research-publication-timeline','how-the-research-program-developed','featured-research','publication-record'}.issubset(pages[(output/'publications.html').resolve()].ids),'Missing publication section anchors'
+assert publication_page.index('Overlapping Peer-Reviewed Research Domains') < publication_page.index('Selected Publication Milestones') < publication_page.index('Featured Research'), 'Incorrect publication timeline hierarchy'
+cv_pdf=output/'assets/Md_Bodrud_Doza_Academic_CV.pdf'
+assert cv_pdf.exists() and cv_pdf.read_bytes().startswith(b'%PDF-'), 'Missing canonical CV download'
 if errors:raise SystemExit('\n'.join(errors))
 print(f'Passed: {len(pages)} pages, internal links and anchors, headings, alt text, metadata, and {len(records)} publication records')

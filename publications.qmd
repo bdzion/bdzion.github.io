@@ -12,7 +12,7 @@ My publication record has developed through overlapping research domains, from e
 
 {{< include _includes/publication-timeline.html >}}
 
-## Featured research
+## Featured Research {#featured-research}
 
 <p class="eyebrow">Peer-reviewed research</p>
 

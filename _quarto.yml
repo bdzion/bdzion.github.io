@@ -11,6 +11,7 @@ project:
   resources:
     - assets/images/**
     - assets/portrait.webp
+    - assets/lab-logo.png
     - assets/social-preview.png
     - robots.txt
     - assets/Md_Bodrud_Doza_Academic_CV.pdf

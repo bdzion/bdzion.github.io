@@ -244,3 +244,17 @@ main.content .program-intro { max-width:none; }
  .domain-span { margin-top:.3rem; }
 }
 @media(max-width:540px) { .publication-milestones { grid-template-columns:1fr;gap:.5rem; } }
+
+/* Lab identity: one supplied logo beside the existing name and program label. */
+.lab-identity { display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:2rem;align-items:center;margin:1.5rem 0; }
+.lab-identity h1 { margin:.2rem 0 .8rem; }
+.lab-identity .lab-full-name { margin-bottom:0; }
+.lab-logo { display:block;width:250px;max-width:100%;height:auto;mix-blend-mode:multiply; }
+@media(max-width:768px) {
+ .lab-identity { grid-template-columns:minmax(0,1fr) 170px;gap:1rem; }
+ .lab-logo { width:170px; }
+}
+@media(max-width:540px) {
+ .lab-identity { grid-template-columns:1fr;gap:.7rem; }
+ .lab-logo { width:180px; }
+}

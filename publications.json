@@ -14,7 +14,7 @@
     ],
     "title": "Operationalizing precision conservation: Aligning best management practice prioritization with local needs in agricultural watersheds",
     "journal": "International Soil and Water Conservation Research",
-    "contribution": "Connects best management practice prioritization with local needs in agricultural watersheds.",
+    "contribution": "Ranks field-specific conservation options by combining landscape suitability, feasibility and stakeholder-adjustable priorities.",
     "display_tags": [
       "Precision conservation",
       "Local priorities"
@@ -35,7 +35,7 @@
     ],
     "title": "Advancing precision conservation through machine learning for field-level prioritization of agricultural best management practices",
     "journal": "International Soil and Water Conservation Research",
-    "contribution": "Examines machine learning for field-level prioritization of agricultural best management practices.",
+    "contribution": "Predicts field-level conservation need and maps uncertainty to help planners prioritise intervention sites.",
     "display_tags": [
       "Precision conservation",
       "Machine learning"
@@ -56,7 +56,7 @@
     ],
     "title": "Evaluating best management practices for nutrient load reductions in tile-drained watersheds of the Laurentian Great Lakes Basin: A literature review",
     "journal": "Science of The Total Environment",
-    "contribution": "Synthesizes evidence on nutrient-load reductions in tile-drained Great Lakes watersheds.",
+    "contribution": "Shows why conservation practice performance varies by site and supports combining practices across field and watershed scales.",
     "display_tags": [
       "Precision conservation",
       "Evidence synthesis"
@@ -78,7 +78,7 @@
     ],
     "title": "Towards implementing precision conservation practices in agricultural watersheds: A review of the use and prospects of Spatial Decision Support Tools and Systems",
     "journal": "Science of The Total Environment",
-    "contribution": "Reviews the use and prospects of spatial decision-support tools for precision conservation.",
+    "contribution": "Proposes a decision-support framework linking environmental modelling with economic trade-offs and stakeholder knowledge.",
     "display_tags": [
       "Precision conservation",
       "Decision support"

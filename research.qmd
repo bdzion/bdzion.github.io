@@ -1,11 +1,15 @@
 ---
-title: "REAL Decision Lab"
+pagetitle: "REAL Decision Lab"
 description: "The developing REAL Decision Lab research program and current Mitacs Accelerate watershed research."
 page-layout: full
+title-block-style: none
 ---
 
+<div class="lab-identity"><div>
 <p class="eyebrow">Research Lab · Developing research program</p>
-<p class="lab-full-name">Resilient Agricultural Landscapes Decision Lab</p>
+<h1>REAL Decision Lab</h1>
+<p class="lab-full-name">Resilient Agricultural Landscapes Decision Lab</p></div>
+<img class="lab-logo" src="assets/lab-logo.png" width="1448" height="1086" alt="REAL Decision Lab logo showing agricultural fields and a magnifying glass over a map grid"></div>
 
 How can agricultural landscapes remain productive while protecting water, soil, and ecosystems? REAL Decision Lab connects observation, understanding environmental processes, conservation planning, and learning from outcomes.
 
@@ -25,9 +29,9 @@ How can agricultural landscapes remain productive while protecting water, soil, 
 <div class="project-grid">
 <article class="project-card active-project"><p class="status-label">Active · Mitacs Accelerate</p><h3><a href="#current-project-healthy-lake-huron">Healthy Lake Huron — Monitoring, Modelling and Conservation Decision Support</a></h3><p>Connect long-term watershed evidence with conservation scenarios, practical indicators, and stewardship decisions.</p></article>
 <article class="project-card"><p class="status-label">PhD foundation</p><h3>Precision Conservation in Tile-Drained Agricultural Watersheds</h3><p>Integrate geospatial analysis, machine learning, and watershed modelling to prioritise conservation practices.</p><a class="project-link" href="publications.qmd">Published foundations →</a></article>
-<article class="project-card"><p class="status-label">Under review · OMAFA proposal</p><h3>Field-Specific Precision Conservation in Ontario’s Lake Erie Basin</h3><p>Extend my PhD research using the Agricultural Conservation Planning Framework (ACPF) to compare conservation opportunities, expected benefits, and costs.</p><a class="project-link" href="collaboration.qmd#omafa-precision-conservation-proposal">Proposal and project-team context →</a></article>
+<article class="project-card"><p class="status-label">Under review · OMAFA proposal</p><h3>Field-Specific Precision Conservation in Ontario’s Lake Erie Basin</h3><p>Extend my PhD research using the Agricultural Conservation Planning Framework (ACPF) to compare conservation opportunities, expected benefits, and costs.</p><a class="project-link" href="collaboration.qmd#omafa-precision-conservation-proposal" aria-label="Explore the proposed precision-conservation direction">Explore developing direction →</a></article>
 <article class="project-card"><p class="status-label">Developing · Emerging methods</p><h3>Earth Observation &amp; GeoAI for Agricultural Landscapes</h3><p>Extend established geospatial and modelling expertise to understand landscape change and environmental risk.</p></article>
-<article class="project-card"><p class="status-label">Submitted proposal · Developing</p><h3>Food-System Resilience and Anticipatory Decision-Making</h3><p>Explore how early stress signals and capacities to absorb shocks can inform timely adaptation.</p><a class="project-link" href="collaboration.qmd#food-system-resilience-and-anticipatory-decision-making">Canada Postdoctoral Research Award proposal →</a></article>
+<article class="project-card"><p class="status-label">Submitted proposal · Developing</p><h3>Food-System Resilience and Anticipatory Decision-Making</h3><p>Explore how early stress signals and capacities to absorb shocks can inform timely adaptation.</p><a class="project-link" href="collaboration.qmd#food-system-resilience-and-anticipatory-decision-making" aria-label="Explore the developing food-system resilience direction">Explore developing direction →</a></article>
 </div>
 
 ## Current project: Healthy Lake Huron

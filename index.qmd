@@ -21,7 +21,7 @@ include-in-header: _includes/profile-metadata.html
 
 <div class="theme-band"><p class="eyebrow">Research theme</p><h2>Resilient Agricultural Landscapes<br>and Sustainable Food Production</h2><p>From understanding spatial risk to evaluating interventions and building practical decision tools.</p></div>
 
-<dl class="summary-strip"><div><dt>What I study</dt><dd>Agricultural landscapes · Water quality · Food-system resilience</dd></div><div><dt>How I work</dt><dd>Monitoring · Geospatial analysis · Machine learning · Modelling</dd></div><div><dt>Why it matters</dt><dd>Better conservation planning · Resilient landscapes · Informed decisions</dd></div></dl>
+<dl class="summary-strip"><div><dt>What I study</dt><dd>Agricultural landscapes · Water quality · Environmental decision-making</dd></div><div><dt>How I work</dt><dd>Monitoring · Geospatial analysis · Machine learning · Modelling</dd></div><div><dt>Why it matters</dt><dd>Better conservation planning · Resilient landscapes · Informed decisions</dd></div></dl>
 
 ## Research through REAL Decision Lab
 

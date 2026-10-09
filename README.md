@@ -14,7 +14,7 @@ Live site: https://bdzion.github.io
 
 Each page is a separate Quarto Markdown file. Edit text in `index.qmd`, `research.qmd`, `research-journey.qmd`, `experience.qmd`, `publications.qmd`, `cv.qmd`, `collaboration.qmd`, or `contact.qmd`. Navigation, site metadata, and footer links are in `_quarto.yml`; colours, spacing, and responsive layout are in `styles.css`.
 
-You can edit these files directly on GitHub. Commit to `main` to publish automatically. Pull requests build and check the website without deploying it.
+You can edit these files directly on GitHub. Use a new branch and pull request for every edit. Review the passing build before merging; merging to `main` publishes automatically. Pull requests build and check without deploying.
 
 ## Add a publication
 
@@ -26,7 +26,9 @@ Categories follow the supplied CV: First-Authored Articles, Co-Authored Articles
 
 ## Replace or update the CV
 
-Replace `assets/Md_Bodrud_Doza_Academic_CV.pdf` with a reviewed public-safe PDF using the same filename. The links then keep working. Alternatively edit `assets/cv-content.json`, install ReportLab (`python -m pip install reportlab`), and run `python scripts/build_cv.py`. Review every PDF page after rebuilding. The CV JSON holds profile, appointment, teaching, experience, awards, skills, and training content. The builder reads the full publication record from `publications.json`, so add publications there once and rebuild the PDF. Pages have an explicit white background.
+The manually reviewed `assets/Md_Bodrud_Doza_Academic_CV.pdf` is the canonical download. The owner's finalized eight-page PDF, supplied 9 October 2026, is published unchanged using this stable filename. Update the master document outside the repository, export/review every page, then replace the PDF through a pull request. Update the web summaries and `publications.json` separately when facts change; Quarto does not regenerate the CV.
+
+The stale `assets/cv-content.json` was removed. `scripts/build_cv.py` is a retired entry point that stops without writing a file, preventing accidental replacement of the final PDF. See maintenance guide section J. No PDF-generation library is needed.
 
 Never upload a private CV, home address, phone number, immigration or family details, or referee contacts. The current photo policy permits the homepage portrait, research-only journey image, and one professional consultation photograph on Experience. Audit text, links, metadata, and embedded content before publishing. Only institutional contact details belong on this site. Original Word documents are deliberately excluded from this repository.
 
@@ -46,10 +48,11 @@ To build and check:
 
 ```sh
 quarto render
+python -m unittest discover -s tests
 python scripts/check_site.py
 ```
 
-The publication renderer and site checker use only the Python standard library. ReportLab is needed only when rebuilding the CV PDF. The rendered `_site/` directory and Quarto cache are ignored by Git.
+The publication renderer and site checker use only the Python standard library. The canonical CV is a separately reviewed upload. The rendered `_site/` directory and Quarto cache are ignored by Git.
 
 ## Deployment
 
@@ -69,4 +72,8 @@ The Research Lab tab leads to the prominent REAL Decision Lab page. `updates.jso
 
 ## Academic website refinement
 
-Research Lab uses OBSERVE → UNDERSTAND → PLAN → DECIDE & LEARN, with a five-step adaptive return loop. Four project cards in `research.qmd` separate active Mitacs research, the PhD foundation, emerging Earth observation/GeoAI, and the submitted CPRA direction. `updates.json` retains news records; the renderer displays only the two newest. Experience groups academic/applied research and climate/development/leadership, with teaching kept on the same page. Featured publication cards retain exact titles and show journal/year before the contribution. The web CV is a concise overview with one main download button. The publication system and Quarto/GitHub Pages architecture are preserved. Shared links use a landscape preview and page-specific search metadata; deployment is restricted to the main branch.
+Research Lab uses OBSERVE → UNDERSTAND → PLAN → DECIDE & LEARN, with a five-step adaptive return loop. Five project cards in `research.qmd` separate active Mitacs research, the PhD foundation, the submitted OMAFA proposal, emerging Earth observation/GeoAI, and the submitted CPRA direction. `updates.json` retains news records; the renderer displays only the two newest. Experience groups academic/applied research and climate/development/leadership, with teaching kept on the same page. Featured publication cards retain exact titles and show journal/year before the contribution. The web CV is a concise overview with one main download button. The publication system and Quarto/GitHub Pages architecture are preserved. Shared links use a landscape preview and page-specific search metadata; deployment is restricted to the main branch.
+
+The publication timeline uses journal articles and book chapters for its overlapping domain bands, followed by selected DOI-linked milestones. The complete record and filters still include all output categories. Featured contributions explain the studies' findings or methods without changing formal titles/citations. The supplied lab logo appears only beside the Research Lab name. Collaboration has compact section shortcuts and concise proposal wording.
+
+Main protection was absent when checked on 9 October 2026. The GitHub connection cannot administer rules. Follow maintenance guide section T to require PRs and the `build` check and disable force pushes/deletion; repository visibility is unchanged.
