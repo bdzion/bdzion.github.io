@@ -8,10 +8,12 @@ root=Path(__file__).resolve().parents[1]
 output=root/'_site'
 class Page(HTMLParser):
     def __init__(self):
-        super().__init__(); self.links=[]; self.images=[]; self.ids=set(); self.headings=[]; self.bad_images=[]; self.bad_rel=[]; self.lang=None; self.description=False; self.meta={}; self.canonicals=[]
+        super().__init__(); self.links=[]; self.images=[]; self.ids=set(); self.duplicate_ids=[]; self.headings=[]; self.bad_images=[]; self.bad_rel=[]; self.lang=None; self.description=False; self.meta={}; self.canonicals=[]
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
-        if 'id' in a:self.ids.add(a['id'])
+        if 'id' in a:
+            if a['id'] in self.ids:self.duplicate_ids.append(a['id'])
+            self.ids.add(a['id'])
         if tag=='html':self.lang=a.get('lang')
         if tag=='meta' and a.get('name')=='description':self.description=True
         if tag=='meta':self.meta.setdefault(a.get('property',a.get('name','')),[]).append(a.get('content',''))
@@ -26,6 +28,7 @@ errors=[]; pages={}
 base=re.search(r'^\s*site-url:\s*(\S+)',(root/'_quarto.yml').read_text(encoding='utf-8'),re.M)[1].rstrip('/')
 for f in output.glob('*.html'):
     p=Page(); p.feed(f.read_text(encoding='utf-8')); pages[f.resolve()]=p
+    if p.duplicate_ids:errors.append(f'{f.name}: duplicate IDs {p.duplicate_ids}')
     if not p.lang or not p.lang.startswith('en'):errors.append(f'{f.name}: missing English language')
     if not p.description:errors.append(f'{f.name}: missing description')
     canonical=base+'/' if f.name=='index.html' else base+'/'+f.name
@@ -66,5 +69,13 @@ if not profile or json.loads(profile[1])['@graph'][0]['jobTitle']!='Postdoctoral
 records=json.loads((root/'publications.json').read_text(encoding='utf-8'))
 assert len({p['id'] for p in records})==len(records),'Duplicate publication IDs'
 assert len({p['doi'] for p in records if p['doi']})==sum(bool(p['doi']) for p in records),'Duplicate DOI records'
+from render_publication_timeline import render_timeline
+timeline_config=json.loads((root/'publication-timeline.json').read_text(encoding='utf-8'))
+timeline=render_timeline(records,timeline_config)
+assert (root/'_includes/publication-timeline.html').read_text(encoding='utf-8')==timeline,'Stale generated publication timeline'
+publication_page=(output/'publications.html').read_text(encoding='utf-8')
+assert publication_page.count('class="publication-domain"')==len(timeline_config['domains']),'Missing publication domains'
+assert publication_page.count('data-publication-id=')==sum(len(m['papers']) for m in timeline_config['milestones']),'Missing milestone papers'
+assert {'research-publication-timeline','how-the-research-program-developed','featured-research','publication-record'}.issubset(pages[(output/'publications.html').resolve()].ids),'Missing publication section anchors'
 if errors:raise SystemExit('\n'.join(errors))
 print(f'Passed: {len(pages)} pages, internal links and anchors, headings, alt text, metadata, and {len(records)} publication records')

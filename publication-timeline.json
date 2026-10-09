@@ -1,0 +1,17 @@
+{
+  "domains": [
+    {"label": "Environmental Quality & Groundwater", "topics": ["Environmental Quality & Groundwater"]},
+    {"label": "Water Quality & Watershed Science", "topics": ["Water Quality & Watershed Science", "Water Quality"]},
+    {"label": "Geospatial Analysis & Machine Learning", "topics": ["Geospatial & Machine Learning"]},
+    {"label": "Climate & Resilience", "topics": ["Climate & Resilience"]},
+    {"label": "Agricultural Landscapes & Precision Conservation", "topics": ["Agricultural Landscapes & Precision Conservation", "Precision Conservation"]}
+  ],
+  "milestones": [
+    {"label": "Groundwater characterisation", "summary": "Water-quality indices, multivariate statistics and geostatistics.", "papers": [{"id": "pub-010", "label": "Groundwater study"}]},
+    {"label": "Groundwater chemistry & spatial risk", "summary": "Hydrogeochemistry, GIS and trace-metal assessment.", "papers": [{"id": "pub-008", "label": "Hydrogeochemistry study"}, {"id": "pub-007", "label": "Trace-metal study"}]},
+    {"label": "Water quality & human health", "summary": "Groundwater quality and health-risk assessment for sustainable water supply.", "papers": [{"id": "pub-006", "label": "Health-risk study"}]},
+    {"label": "Precision conservation decision support", "summary": "A review of spatial decision-support tools and systems for agricultural watersheds.", "papers": [{"id": "pub-004", "label": "Decision-support review"}]},
+    {"label": "Conservation practice effectiveness", "summary": "Evidence on best management practices (BMPs) in tile-drained Great Lakes watersheds.", "papers": [{"id": "pub-003", "label": "BMP effectiveness review"}]},
+    {"label": "Field priorities & local needs", "summary": "Machine-learning prioritisation and alignment of precision conservation with local needs.", "papers": [{"id": "pub-002", "label": "Machine-learning study"}, {"id": "pub-001", "label": "Local-needs study"}]}
+  ]
+}

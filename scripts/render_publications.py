@@ -41,5 +41,5 @@ for group in views:
  for category in dict.fromkeys(p['category'] for p in records if view(p)==group):
   body+='<section class="publication-group"><h4>'+e(category)+'</h4>'+''.join(item(p) for p in records if p['category']==category)+'</section>'
  sections.append('<section class="publication-view"><h3 class="publication-view-heading">'+e(group)+'</h3>'+body+'</section>')
-(root/'_includes/publication-list.html').write_text(controls+'<div id="publication-record">'+''.join(sections)+'</div>',encoding='utf-8')
+(root/'_includes/publication-list.html').write_text(controls+'<div id="publication-entries">'+''.join(sections)+'</div>',encoding='utf-8')
 print(f'Generated publication views from {len(records)} records')
