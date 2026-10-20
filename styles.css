@@ -93,7 +93,8 @@ main.content p,.timeline-card p,.service-panel p { max-width:72ch; }
 .program-intro { margin-bottom:1rem;font-size:.95rem; }
 .program-intro strong { font-family:Georgia,serif;font-size:1.35rem; }
 .updates-list { list-style:none;padding:0;margin:1.2rem 0 2rem; }
-.updates-list>li { display:grid;grid-template-columns:10rem minmax(0,1fr);gap:1.3rem;padding:1.1rem 0;border-top:1px solid var(--line); }
+.updates-list>li { display:grid;grid-template-columns:10rem minmax(0,1fr);gap:1.3rem;padding:1.1rem 0; }
+.updates-list>li+li { border-top:1px solid var(--line); }
 .updates-list time { color:var(--muted);font-size:.86rem;padding-top:.25rem; }
 .updates-list h3 { font-size:1.25rem;margin:.2rem 0 .5rem; }
 .updates-list p { font-size:.94rem;margin-bottom:0; }
