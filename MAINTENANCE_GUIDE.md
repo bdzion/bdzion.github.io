@@ -25,7 +25,7 @@ The full original portrait remains in `assets/portrait.webp`. The homepage displ
 1. Edit `updates.json`. Copy one complete object, keeping commas between objects.
 2. Supply `date` as `YYYY-MM-DD`, plus `type`, `publisher`, `title`, a brief original `summary`, and the public HTTPS `url`.
 3. Verify the title and publication date at the publisher. Do not confuse the article date with the date you add it.
-4. The homepage automatically shows only the two newest entries, sorted by their verified publication dates. Older entries can remain in `updates.json`; they are preserved but not shown in the homepage list.
+4. The homepage automatically shows only the three newest entries, sorted by their verified publication dates. Older entries can remain in `updates.json`; they are preserved but not shown in the homepage list.
 5. Render and check the links. Do not edit `_includes/updates.html`; `scripts/render_updates.py` regenerates it.
 
 ## C. Update the four Research Lab areas
