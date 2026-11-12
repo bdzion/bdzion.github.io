@@ -4,13 +4,13 @@ description: "Academic, watershed, NGO, consulting, and leadership experience co
 page-layout: full
 ---
 
-My professional experience spans academia, watershed management, international development, consulting, and organisational leadership. Across these settings, I connect environmental evidence with practical decisions.
+My professional experience spans academia, watershed management, international development, consulting, and organisational leadership. Across these settings, I connect environmental evidence with practical decisions. The years I spent developing and running climate-adaptation programs are why my research treats feasibility and local priorities as part of the science, and they inform how I approach partnerships, proposal development and teaching.
 
 <nav class="page-shortcuts" aria-label="Experience sections"><a href="#academic-applied-research">Academic &amp; Applied Research</a><a href="#climate-development-leadership">Climate, Development &amp; Leadership</a><a href="#teaching-and-mentoring">Teaching &amp; Mentoring</a></nav>
 
 ## Academic & Applied Research {#academic-applied-research}
 
-<div class="timeline compact-timeline"><article class="timeline-card"><p class="eyebrow">September 2026–present</p><h3>Postdoctoral Scholar</h3><p class="organisation"><a href="https://geg.uoguelph.ca/">University of Guelph</a></p><p>Developing REAL Decision Lab and undertaking active Mitacs Accelerate research with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>; <a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority (ABCA)</a> is the formal Mitacs partner. <a href="research.qmd#current-project-healthy-lake-huron">Current watershed project →</a></p></article><article class="timeline-card"><p class="eyebrow">September 2022–August 2026</p><h3>Doctoral research and teaching</h3><p class="organisation"><a href="https://geg.uoguelph.ca/">University of Guelph</a></p><p>PhD research in precision conservation, agricultural water quality, geospatial analysis, machine learning, and process-based modelling. Graduate Research Assistant, May 2024–August 2026; Graduate Teaching Assistant, September 2022–April 2024.</p></article><article class="timeline-card"><p class="eyebrow">June–August 2024</p><h3>Data Analyst</h3><p class="organisation"><a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority</a></p><p>Analysed long-term water-quality data using statistical and machine-learning approaches, supporting watershed interpretation and monitoring and quality-assurance planning.</p></article></div>
+<div class="timeline compact-timeline"><article class="timeline-card"><p class="eyebrow">September 2026–present</p><h3>Postdoctoral Scholar</h3><p class="organisation"><a href="https://geg.uoguelph.ca/">University of Guelph</a></p><p>Developing REAL Decision Lab and undertaking active Mitacs Accelerate research with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>; <a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority (ABCA)</a> is the formal Mitacs partner. <a href="projects.qmd#healthy-lake-huron">Current watershed project →</a></p></article><article class="timeline-card"><p class="eyebrow">September 2022–August 2026</p><h3>Doctoral research and teaching</h3><p class="organisation"><a href="https://geg.uoguelph.ca/">University of Guelph</a></p><p>PhD research in precision conservation, agricultural water quality, geospatial analysis, machine learning, and process-based modelling. Graduate Research Assistant, May 2024–August 2026; Graduate Teaching Assistant, September 2022–April 2024.</p></article><article class="timeline-card"><p class="eyebrow">June–August 2024</p><h3>Data Analyst</h3><p class="organisation"><a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority</a></p><p>Analysed long-term water-quality data using statistical and machine-learning approaches, supporting watershed interpretation and monitoring and quality-assurance planning.</p></article></div>
 
 ## Climate, Development & Leadership {#climate-development-leadership}
 
@@ -18,34 +18,11 @@ My professional experience spans academia, watershed management, international d
 
 ## Teaching and mentoring
 
-As a Graduate Teaching Assistant at the University of Guelph (September 2022–April 2024), I supported five undergraduate geography courses through laboratories, seminars, student consultations, assessment, and hands-on GIS instruction.
+As a Graduate Teaching Assistant at the University of Guelph (September 2022–April 2024), I led laboratories and supported seminars, student consultation and assessment in undergraduate physical geography and GIS courses, including GEOG\*3480 GIS and Spatial Analysis and GEOG\*2480 Mapping and GIS.
 
-### Teaching approach
+The full account now has its own page, with my teaching philosophy, the courses I supported, student feedback and the courses I could teach.
 
-My teaching focus is practical: helping students connect environmental questions with data, maps, and clear reasoning. My experience includes explaining GIS workflows, helping students resolve technical problems, and providing detailed feedback on laboratory work.
-
-- **Applied learning:** connect geographic concepts with hands-on analysis and environmental questions.
-- **Useful feedback:** explain how work can improve, alongside assessment and grading.
-- **Student support:** make room for questions and help students work through technical difficulties.
-
-### Courses supported
-
-<ul class="course-grid"><li><strong>GEOG*1350</strong><span>Earth: Hazards and Global Change</span></li><li><strong>GEOG*2000</strong><span>Geomorphology</span></li><li><strong>GEOG*3000</strong><span>Fluvial Processes</span></li><li><strong>GEOG*2480</strong><span>Mapping and GIS</span></li><li><strong>GEOG*3480</strong><span>GIS and Spatial Analysis</span></li></ul>
-
-### Evidence of teaching effectiveness
-
-Selected anonymous feedback from GEOG*3480 highlights technical support and detailed laboratory feedback. 
-
-<div class="quote-grid">
-<figure class="feedback-card"><blockquote>“Excellent TA who was able to handle all technical issues and problems thrown his way”</blockquote><figcaption>Selected anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
-<figure class="feedback-card"><blockquote>“Zion gave very helpful and detailed feedback on the labs. … Helps you improve.”</blockquote><figcaption>Selected anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
-</div>
-
-### Teaching interests and future development
-
-My teaching interests include GIS and geospatial analysis, environmental modelling, watershed science, agricultural sustainability, and environmental decision support. Remote sensing and GeoAI (AI for geographic data) are developing areas for future teaching.
-
-My future teaching development will focus on clear instructions, practical tasks, constructive feedback, and support for students with different levels of technical experience.
+[Teaching and mentoring →](teaching.qmd){.button .primary}
 
 ## Leadership and science–policy practice
 

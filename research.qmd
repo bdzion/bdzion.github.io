@@ -1,21 +1,32 @@
 ---
-pagetitle: "REAL Decision Lab"
-description: "The developing REAL Decision Lab research program and current Mitacs Accelerate watershed research."
+pagetitle: "Research — REAL Decision Lab"
+description: "Research program of Md Bodrud-Doza: precision conservation and watershed science, GIS and GeoAI, and adaptive decision support for resilient agricultural landscapes."
 page-layout: full
 title-block-style: none
 ---
 
 <div class="lab-identity"><div>
-<p class="eyebrow">Research Lab · Developing research program</p>
-<h1>REAL Decision Lab</h1>
-<p class="lab-full-name">Resilient Agricultural Landscapes Decision Lab</p></div>
+<p class="eyebrow">Research program</p>
+<h1>Research</h1>
+<p class="lab-full-name">REAL Decision Lab · Resilient Agricultural Landscapes Decision Lab</p>
+<p class="lab-status">A developing research program. It is the framework for my current and planned work, not yet a staffed laboratory.</p></div>
 <img class="lab-logo" src="assets/lab-logo.png" width="1448" height="1086" alt="REAL Decision Lab logo showing agricultural fields and a magnifying glass over a map grid"></div>
 
-How can agricultural landscapes remain productive while protecting water, soil, and ecosystems? REAL Decision Lab connects observation, understanding environmental processes, conservation planning, and learning from outcomes.
+How can agricultural landscapes remain productive while protecting water, soil and ecosystems? Conservation practices such as cover crops, buffers and drainage-water management can reduce nutrient losses, but how well they work depends on where they are placed and whether they suit the farm. My research identifies where conservation actions are likely to matter most, tests those choices with models and monitoring data, and turns the results into tools that conservation staff and producers can use.
 
-<nav class="page-shortcuts" aria-label="Research Lab sections"><a href="#four-connected-research-areas">Research areas</a><a href="#current-and-developing-projects">Projects</a><a href="#current-project-healthy-lake-huron">Active Mitacs work</a></nav>
+<nav class="page-shortcuts" aria-label="Research sections"><a href="#research-pillars">Three pillars</a><a href="#four-connected-research-areas">How they connect</a><a href="#current-and-developing-projects">Status of the work</a><a href="#five-year-program">Five-year plan</a><a href="#case-studies">Case studies</a></nav>
 
-## Four connected research areas
+## Three connected pillars {#research-pillars}
+
+<div class="pillar-list">
+<article class="pillar"><p class="status-label">Pillar 1 · Established foundation</p><h3>Precision conservation and agricultural watershed science</h3><p>My doctoral research asked where conservation practices should go in tile-drained agricultural watersheds, and which practices suit which fields. It covers nutrient transport and tile drainage, evaluation of beneficial management practices (BMPs), field-scale targeting, and ways to adjust priorities to local needs.</p><p class="pillar-evidence"><strong>Evidence:</strong> four first-authored papers (2023–2026) and a completed PhD thesis. <a href="projects.qmd#precision-conservation">Case study →</a></p></article>
+<article class="pillar"><p class="status-label">Pillar 2 · Established methods, emerging applications</p><h3>Environmental intelligence through GIS, Earth observation and GeoAI</h3><p>GIS, geostatistics and machine learning are established parts of my published work, from groundwater-quality mapping to field-level conservation prioritisation. I am now extending these methods to satellite observation and GeoAI (AI for geographic data), so that monitoring and prediction can cover larger areas and update more often.</p><p class="pillar-evidence"><strong>Evidence:</strong> published spatial-analysis and machine-learning studies. Earth observation and GeoAI are emerging areas in which I have training but no publications yet.</p></article>
+<article class="pillar"><p class="status-label">Pillar 3 · Developing direction</p><h3>Resilient agricultural landscapes and adaptive decision support</h3><p>The first two pillars answer where and what. This pillar asks what to do next as conditions change: how to weigh water quality against production, cost and climate risk, and how to revise plans as monitoring shows what worked. Food-system stress testing and anticipatory decision-making are developing ideas within it.</p><p class="pillar-evidence"><strong>Evidence:</strong> the active Healthy Lake Huron project, earlier professional work and publications in climate adaptation, and a submitted award application. No funded food-system project exists yet.</p></article>
+</div>
+
+## How the pillars connect {#four-connected-research-areas}
+
+The pillars are stages of one cycle. Observation and analysis (Pillar 2) explain what is changing and why. Precision conservation (Pillar 1) uses that understanding to plan what to do, and where. Adaptive decision support (Pillar 3) checks the outcome and updates the plan. The REAL Decision Lab framework sets this out as four steps with a return loop.
 
 <div class="framework research-framework"><ol class="framework-stages">
 <li id="area-observe"><span class="step-number">01 · OBSERVE</span><h3>Landscape Monitoring &amp; Earth Observation</h3><p class="area-question">What is changing, where, and when?</p><p>Connect long-term monitoring, field observations, satellite imagery, and geospatial data.</p></li>
@@ -24,19 +35,32 @@ How can agricultural landscapes remain productive while protecting water, soil, 
 <li id="area-learn"><span class="step-number">04 · DECIDE &amp; LEARN</span><h3>Adaptive Decision Support &amp; Learning</h3><p class="area-question">What worked, and what should change next?</p><p>Use indicators, practical decision-support tools, monitoring, and evaluation to update priorities.</p></li>
 </ol><div class="learning-loop"><svg viewBox="0 0 1000 80" role="img" aria-labelledby="loop-title"><title id="loop-title">Adaptive return from Area 4 to Area 1: Monitor outcomes, compare results with expectations, learn, update models and priorities, and observe again.</title><defs><marker id="loop-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/></marker></defs><path d="M 930 5 V 20 Q 930 62 888 62 H 112 Q 70 62 70 20 V 5" fill="none" stroke="currentColor" stroke-width="3" marker-end="url(#loop-arrow)"/></svg><p class="loop-label">Adaptive learning · Area 4 → Area 1</p><ol class="loop-steps"><li>Monitor outcomes</li><li>Compare results with expectations</li><li>Learn</li><li>Update models and priorities</li><li>Observe again</li></ol><a class="return-link" href="#area-observe">↑ Return to Area 1: Observe</a></div><p class="outcomes"><strong>Shared outcomes</strong>Water quality · Healthy soils and ecosystems · Resilient production · Climate resilience</p></div>
 
-## Current and developing projects
+## Status of the work {#current-and-developing-projects}
 
-<div class="project-grid">
-<article class="project-card active-project"><p class="status-label">Active · Mitacs Accelerate</p><h3><a href="#current-project-healthy-lake-huron">Healthy Lake Huron — Monitoring, Modelling and Conservation Decision Support</a></h3><p>Connect long-term watershed evidence with conservation scenarios, practical indicators, and stewardship decisions.</p></article>
-<article class="project-card"><p class="status-label">PhD foundation</p><h3>Precision Conservation in Tile-Drained Agricultural Watersheds</h3><p>Integrate geospatial analysis, machine learning, and watershed modelling to prioritise conservation practices.</p><a class="project-link" href="publications.qmd">Published foundations →</a></article>
-<article class="project-card"><p class="status-label">Under review · OMAFA proposal</p><h3>Field-Specific Precision Conservation in Ontario’s Lake Erie Basin</h3><p>Extend my PhD research using the Agricultural Conservation Planning Framework (ACPF) to compare conservation opportunities, expected benefits, and costs.</p><a class="project-link" href="collaboration.qmd#omafa-precision-conservation-proposal" aria-label="Explore the proposed precision-conservation direction">Explore developing direction →</a></article>
-<article class="project-card"><p class="status-label">Developing · Emerging methods</p><h3>Earth Observation &amp; GeoAI for Agricultural Landscapes</h3><p>Extend established geospatial and modelling expertise to understand landscape change and environmental risk.</p></article>
-<article class="project-card"><p class="status-label">Submitted proposal · Developing</p><h3>Food-System Resilience and Anticipatory Decision-Making</h3><p>Explore how early stress signals and capacities to absorb shocks can inform timely adaptation.</p><a class="project-link" href="collaboration.qmd#food-system-resilience-and-anticipatory-decision-making" aria-label="Explore the developing food-system resilience direction">Explore developing direction →</a></article>
+Each item below is labelled by what it is: finished and published, funded and under way, submitted and awaiting a decision, or an idea still in development.
+
+<div class="status-ledger">
+<section><h3><span class="status-label">Completed · published</span></h3><ul><li><strong>Precision conservation in tile-drained agricultural watersheds.</strong> PhD research, University of Guelph, 2022–2026, supported by Environment and Climate Change Canada project funding (2024–2026). Four first-authored papers. <a href="projects.qmd#precision-conservation">Case study →</a></li><li><strong>Environmental quality, groundwater and spatial risk.</strong> Earlier peer-reviewed work in Bangladesh using GIS, geostatistics and multivariate statistics. <a href="publications.qmd#publication-record">Publication record →</a></li><li><strong>Climate adaptation and resilience.</strong> Peer-reviewed articles, working papers and policy outputs from my work at ICCCAD and BRAC. <a href="research-journey.qmd">Research journey →</a></li></ul></section>
+<section id="current-project-healthy-lake-huron"><h3><span class="status-label active">Active · funded</span></h3><ul><li><strong>Healthy Lake Huron: monitoring, modelling and conservation decision support.</strong> Mitacs Accelerate postdoctoral project, September 2026–present, with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>. Ausable Bayfield Conservation Authority (ABCA) is the formal Mitacs partner. I hold the postdoctoral position; the conservation-priority maps, indicator scorecards and monitoring recommendations are planned outputs. <a href="projects.qmd#healthy-lake-huron">Case study →</a></li></ul></section>
+<section><h3><span class="status-label">Submitted · not confirmed</span></h3><ul><li><strong>Field-specific precision conservation in Ontario’s Lake Erie Basin.</strong> OMAFA proposal led by Dr. Prasad Daggupati, to which I contributed. It would extend my PhD research. Under review; funding is not confirmed. <a href="collaboration.qmd#omafa-precision-conservation-proposal" aria-label="Details of the OMAFA precision-conservation proposal">Details →</a></li><li><strong>Food-system resilience and anticipatory decision-making.</strong> My application to the Canada Postdoctoral Research Award (CPRA) program. Submitted; no award is confirmed. <a href="collaboration.qmd#food-system-resilience-and-anticipatory-decision-making" aria-label="Details of the food-system resilience direction">Details →</a></li></ul></section>
+<section><h3><span class="status-label">Developing ideas</span></h3><ul><li><strong>Earth observation and GeoAI for agricultural landscapes.</strong> Extending established geospatial and modelling methods to satellite time series. No funded project or publication yet.</li><li><strong>Adaptive, multi-benefit decision support.</strong> Linking monitoring, models and indicators so that conservation plans can be revised as evidence accumulates. <a href="projects.qmd#environmental-intelligence">Case study →</a></li></ul></section>
 </div>
 
-## Current project: Healthy Lake Huron
+## A five-year research program {#five-year-program}
 
-<div class="current-project"><p class="eyebrow">Active Mitacs Accelerate research · Postdoctoral Scholar</p><h3>From watershed evidence to conservation decisions</h3><p>My current postdoctoral project at the University of Guelph works with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>. Ausable Bayfield Conservation Authority (ABCA) is the formal Mitacs partner.</p><ol class="project-sequence"><li>Monitoring &amp; Data</li><li>Modelling &amp; Scenarios</li><li>Indicators</li><li>Decisions</li></ol><p>Long-term tributary monitoring and high-resolution watershed models help explain nutrient and sediment loss and compare conservation and climate scenarios. Intended outputs include conservation-priority maps, indicator scorecards, and monitoring recommendations.</p><p class="project-definition">IMWEBs (Integrated Modelling for Watershed Evaluation of BMPs) is the project's process-based watershed model. BMPs are beneficial management practices, such as cover crops, buffers, and drainage-water management.</p><a href="collaboration.qmd#current-applied-collaboration">Applied collaboration and partner context →</a></div>
+This is a plan, not a record. It shows how the published foundation and the current project could grow into an independent program, in steps that each produce results on their own.
+
+<ol class="plan-phases">
+<li><p class="eyebrow">Years 1–2 · Consolidate</p><h3>From watershed evidence to transferable tools</h3><p>Complete the Healthy Lake Huron project and publish its monitoring, modelling and indicator results. Test whether the field-prioritisation approach from my PhD transfers to other Great Lakes watersheds with different drainage and data conditions.</p></li>
+<li><p class="eyebrow">Years 2–4 · Extend</p><h3>Wider and more frequent observation</h3><p>Add satellite time series and GeoAI to track cover, drainage and practice adoption across whole regions, and compare what these observations show with what process-based models predict. This step would support the first graduate student projects.</p></li>
+<li><p class="eyebrow">Years 3–5 · Integrate</p><h3>Adaptive, multi-benefit decision support</h3><p>Bring monitoring, prediction and planning into decision tools that weigh water quality with production, cost and climate risk, developed with conservation agencies and producers. Begin comparative work on food-system resilience, including Canada–Bangladesh comparisons.</p></li>
+</ol>
+
+Why this is achievable: the first step is already funded and under way; the methods in the second build on tools I already use; and the third relies on partnerships with conservation authorities and on my earlier experience developing programs with agencies and communities. I plan to seek federal and provincial research funding and partner-linked funding to support it. None of that future funding has been applied for or awarded except where listed above.
+
+## Case studies {#case-studies}
+
+<ul class="case-links"><li><span class="status-label">Completed · published</span><a href="projects.qmd#precision-conservation">Precision conservation in tile-drained agricultural watersheds</a><span>The problem, methods, published findings and my role in the PhD research.</span></li><li><span class="status-label active">Active · Mitacs Accelerate</span><a href="projects.qmd#healthy-lake-huron">Healthy Lake Huron: monitoring, modelling and conservation decision support</a><span>Partner roles, methods, workplan and planned deliverables.</span></li><li><span class="status-label">Developing</span><a href="projects.qmd#environmental-intelligence">Environmental intelligence and resilient agricultural landscapes</a><span>The research questions behind the longer-term program.</span></li></ul>
 
 ## Methods and foundations
 
@@ -44,4 +68,4 @@ My established work combines GIS, environmental monitoring, machine learning, an
 
 <div class="method-strip"><span>GIS &amp; geostatistics</span><span>Environmental monitoring</span><span>Machine learning</span><span>Watershed modelling</span><span>Spatial optimisation</span><span>Multi-criteria decision analysis</span></div>
 
-[Read the published research →](publications.qmd) · [Discuss a collaboration →](collaboration.qmd)
+[Read the published research →](publications.qmd) · [How the research developed →](research-journey.qmd) · [Discuss a collaboration →](collaboration.qmd)

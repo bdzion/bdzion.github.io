@@ -1,0 +1,75 @@
+---
+title: "Teaching and Mentoring"
+description: "Teaching philosophy, University of Guelph teaching-assistant experience in geography and GIS, student feedback, and teaching interests of Md Bodrud-Doza."
+page-layout: full
+---
+
+I teach environmental questions by connecting physical processes with the decisions people make about them. My university teaching so far has been as a Graduate Teaching Assistant at the University of Guelph (September 2022–April 2024), where I led laboratories and supported assessment in undergraduate physical geography and GIS courses. I have not yet been an instructor of record.
+
+<nav class="page-shortcuts" aria-label="Teaching sections"><a href="#teaching-philosophy">Philosophy</a><a href="#teaching-experience">Experience</a><a href="#teaching-effectiveness">Student feedback</a><a href="#courses-i-can-teach">Courses I can teach</a><a href="#mentoring">Mentoring</a><a href="#teaching-materials">Materials</a></nav>
+
+## Teaching philosophy {#teaching-philosophy}
+
+Students learn environmental science best when they work on a real question with real data and have to defend what they conclude. Three commitments follow from that.
+
+<div class="cards three compact-cards"><article class="research-card"><h3>Start from a problem</h3><p>A GIS operation or a hydrological concept makes sense once it answers a question. In labs I introduce the question first (where is erosion risk highest, and why?) and then the tool that addresses it.</p></article><article class="research-card"><h3>Reason, then click</h3><p>Software changes; spatial thinking lasts. I ask students to say what they expect a result to look like before they run an analysis, and to explain any difference afterwards. Troubleshooting becomes part of the learning.</p></article><article class="research-card"><h3>Feedback students can use</h3><p>Comments on lab work should show how to improve the next submission, not only justify a grade. I write feedback that names what worked, what did not, and what to try next.</p></article></div>
+
+I also try to make it easy to ask for help. Lab groups include students with very different levels of technical confidence, and many will not raise a hand. I move around the room and go to students, and I keep instructions available in writing as well as spoken.
+
+My professional background shapes what I bring into the classroom. Before my PhD I spent six years in climate adaptation and development work in Bangladesh, at BRAC and the International Centre for Climate Change and Development (ICCCAD). Those cases let me show students how environmental evidence is used, contested and sometimes ignored when decisions are made, alongside examples from Ontario watersheds.
+
+## Teaching experience {#teaching-experience}
+
+<p class="eyebrow">Graduate Teaching Assistant · Department of Geography, Environment and Geomatics · University of Guelph · September 2022–April 2024</p>
+
+My responsibilities were leading laboratories and seminars, student consultation and office hours, grading and rubric review, and exam invigilation. Course design and lectures were the responsibility of the course instructors.
+
+<div class="table-scroll" tabindex="0" role="region" aria-label="Courses supported as a Graduate Teaching Assistant"><table class="course-table"><thead><tr><th scope="col">Course</th><th scope="col">Level</th><th scope="col">My role</th></tr></thead><tbody>
+<tr><th scope="row">GEOG*3480 GIS and Spatial Analysis</th><td>Third year</td><td>Led lab sections in Winter 2024: troubleshooting during labs, grading and written feedback on lab assignments, office hours and consultation. A 140-hour assignment.</td></tr>
+<tr><th scope="row">GEOG*2480 Mapping and GIS</th><td>Second year</td><td>Hands-on GIS instruction, grading and student support.</td></tr>
+<tr><th scope="row">GEOG*1300 Introduction to the Biophysical Environment</th><td>First year</td><td>Led lab sections in Winter 2023 and Winter 2024; grading, office hours and exam invigilation. A 70-hour assignment in 2024.</td></tr>
+<tr><th scope="row">GEOG*1350 Earth: Hazards and Global Change</th><td>First year</td><td>Seminar and assessment support.</td></tr>
+<tr><th scope="row">GEOG*2000 Geomorphology</th><td>Second year</td><td>Hands-on instruction in geomorphology, grading and student support.</td></tr>
+<tr><th scope="row">GEOG*3000 Fluvial Processes</th><td>Third year</td><td>Laboratory support, grading and student consultation.</td></tr>
+</tbody></table></div>
+
+<p class="case-note">The roles for GEOG&ast;3480 and GEOG&ast;1300 follow the assignment-of-work agreements and feedback reports for those terms. The other entries summarise the responsibilities recorded in my CV.</p>
+
+Outside the university, I designed and delivered training for staff and stakeholders in GIS, climate adaptation and environmental management during my work at BRAC and ICCCAD.
+
+## Evidence of teaching effectiveness {#teaching-effectiveness}
+
+The evidence below comes from the University of Guelph's anonymous student feedback questionnaires for teaching assistants. Response rates were between 26% and 29% of enrolled students, so the results describe those who chose to respond.
+
+<div class="evidence-panel"><p class="eyebrow">GEOG*3480 GIS and Spatial Analysis · Winter 2024 · 14 respondents to the teaching-assistant questions</p><dl class="rating-list"><div><dt>Available to answer questions during posted hours</dt><dd>14 of 14 agreed or strongly agreed</dd></div><div><dt>Presented materials clearly</dt><dd>13 of 14</dd></div><div><dt>Created an environment conducive to learning</dt><dd>13 of 14</dd></div><div><dt>Encouraged critical thinking about the subject</dt><dd>11 of 14</dd></div></dl></div>
+
+<div class="quote-grid">
+<figure class="feedback-card"><blockquote>“Excellent TA who was able to handle all technical issues and problems thrown his way”</blockquote><figcaption>Anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
+<figure class="feedback-card"><blockquote>“Zion gave very helpful and detailed feedback on the labs. … Helps you improve.”</blockquote><figcaption>Anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
+<figure class="feedback-card"><blockquote>“Was very helpful during lab time. Would help students with troubleshooting during lab periods and gave helpful feedback when marking labs.”</blockquote><figcaption>Anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>
+<figure class="feedback-card"><blockquote>“He was always willing to answer questions: he came to us, not the other way around!”</blockquote><figcaption>Anonymous student feedback · GEOG*1300 Introduction to the Biophysical Environment · Winter 2024</figcaption></figure>
+</div>
+
+Students know me as Zion, the name used in these comments.
+
+### What I changed
+
+Feedback from my first winter of lab teaching (GEOG\*1300, Winter 2023) was more mixed. Some students said I moved through lab material too quickly and did not make the requirements clear enough. I now plan pacing first: short written instructions, a worked example before students start, and deliberate pauses for questions. Comments from the following year describe the background explanations as easy to understand. The groups were different and the samples small, so I treat this as encouragement, not proof.
+
+## Courses I can teach {#courses-i-can-teach}
+
+<div class="cards three compact-cards teach-levels"><article class="research-card"><p class="status-label">Demonstrated in the classroom</p><h3>Ready to teach now</h3><ul><li>Introductory mapping and GIS</li><li>GIS and spatial analysis</li><li>Introductory physical geography and the biophysical environment</li><li>Geomorphology and fluvial processes (laboratory components)</li></ul></article><article class="research-card"><p class="status-label">Grounded in research and practice</p><h3>Prepared to develop</h3><ul><li>Watershed hydrology and water quality</li><li>Environmental and hydrological modelling</li><li>Agricultural sustainability and conservation planning</li><li>Climate change adaptation and environmental decision-making</li><li>Research methods and spatial statistics</li></ul></article><article class="research-card"><p class="status-label">Developing</p><h3>Growing areas</h3><ul><li>Remote sensing and Earth observation</li><li>GeoAI and spatial data science</li></ul><p>I have completed professional training in these areas and am building research experience before I would offer them as full courses.</p></article></div>
+
+The first group rests on courses I have supported as a teaching assistant. The second rests on my research and professional record; I have not yet taught these as courses. At graduate level I could contribute to seminars on environmental modelling, spatial decision support and research design.
+
+## Mentoring {#mentoring}
+
+I have not yet formally supervised graduate students. My mentoring experience so far comes from three settings: one-to-one support for undergraduates in labs and office hours; guiding junior colleagues' research papers, policy briefs and reports while coordinating the research portfolio at ICCCAD; and staff and stakeholder training at BRAC and ICCCAD. In 2023 I represented graduate students on a University of Guelph faculty search committee, which showed me how departments weigh teaching and mentoring.
+
+As a supervisor I would give students a defined question within the [research program](research.qmd#five-year-program), early experience with real partner data, and regular written feedback. I would expect to learn the role with guidance from experienced colleagues.
+
+## Teaching materials {#teaching-materials}
+
+A teaching dossier, the complete student feedback reports summarised above, and a sample course outline are available on request. They are not posted here because the full evaluation reports contain other people's information and comments about course design.
+
+[Request teaching materials →](contact.qmd){.button .primary} [Academic CV →](cv.qmd){.button .secondary}

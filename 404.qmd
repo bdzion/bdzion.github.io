@@ -7,6 +7,6 @@ search: false
 
 This link may have changed, or the address may contain a typo.
 
-[Return to Home](/){.button .primary} [Explore Research Lab](/research.html){.button .secondary}
+[Return to Home](/){.button .primary} [Explore research](/research.html){.button .secondary}
 
-You can also use the navigation or search to find publications, experience, and contact details.
+You can also use the navigation or search to find publications, teaching, the CV, and contact details.

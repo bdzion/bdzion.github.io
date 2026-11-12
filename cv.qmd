@@ -4,9 +4,11 @@ description: "Education, research appointments, teaching, and professional exper
 page-layout: full
 ---
 
-An interdisciplinary academic profile connecting environmental science, geography, agricultural sustainability, and science-to-decision practice.
+Environmental scientist and geographer specialising in agricultural water quality, precision conservation, watershed modelling, and geospatial decision support. This page summarises the record; the PDF is the complete academic CV.
 
 [Download Full Academic CV (PDF)](assets/Md_Bodrud_Doza_Academic_CV.pdf?v=20261009-links){.button .primary}
+
+<nav class="page-shortcuts" aria-label="CV sections"><a href="#education">Education</a><a href="#academic-appointments">Appointments</a><a href="#research-and-publications">Research</a><a href="#teaching">Teaching</a><a href="#selected-awards">Awards</a><a href="#research-support-and-proposal-development">Funding</a><a href="#academic-service">Service</a></nav>
 
 ## Education
 
@@ -18,27 +20,37 @@ An interdisciplinary academic profile connecting environmental science, geograph
 
 All appointments above are at [GEG, University of Guelph](https://geg.uoguelph.ca/). [Explore the full professional timeline →](experience.qmd)
 
+## Research and publications
+
+{{< include _includes/record-summary.html >}}
+
+The four most recent first-authored papers (2023–2026) report my doctoral research on precision conservation in tile-drained agricultural watersheds.
+
+[Research program →](research.qmd) · [Case studies →](projects.qmd) · [Selected and complete publications →](publications.qmd)
+
 ## Teaching
 
-Graduate Teaching Assistant, University of Guelph, September 2022–April 2024. Supported five undergraduate geography courses through labs, seminars, assessment, and GIS instruction.
+Graduate Teaching Assistant, University of Guelph, September 2022–April 2024. Led laboratories and supported seminars, assessment and student consultation in undergraduate physical geography and GIS courses.
 
-[Courses, teaching approach, and selected student feedback →](experience.qmd#teaching-and-mentoring)
+[Teaching philosophy, courses, student feedback and teaching interests →](teaching.qmd)
 
-## Selected awards
+## Selected awards {#selected-awards}
 
 <div class="cards two"><article class="research-card"><p class="eyebrow">2025–2026</p><h3>Ontario Graduate Scholarship</h3><p>University of Guelph.</p></article><article class="research-card"><p class="eyebrow">2025</p><h3>Soil & water conservation</h3><p>Cecil H. Franklin Graduate Scholarship; Ted Symons Scholarship.</p></article><article class="research-card"><p class="eyebrow">2024 & 2025</p><h3>Publication recognition</h3><p>GEG Graduate Publication Awards.</p></article><article class="research-card"><p class="eyebrow">2023</p><h3>Environmental leadership</h3><p>Arthur D. Latornell Graduate Scholarship; 3MT College Heat Winner.</p></article><article class="research-card"><p class="eyebrow">September 2022</p><h3>Doctoral scholarships</h3><p>International Doctoral Tuition Scholarship, Special Dean’s Award, and Kiyoko Miyanishi Graduate Geography Scholarship.</p></article></div>
 
 ## Research support and proposal development
 
-- **2026–present:** Active Mitacs Accelerate postdoctoral research with Healthy Lake Huron partners; ABCA is the formal Mitacs partner.
-- **2024–2026:** Environment and Climate Change Canada funding supported PhD watershed and conservation research.
-- **Professional practice:** Proposal development and resource mobilisation across BRAC, CARE Bangladesh, university, and international-development settings.
+The entries state my role in each case. I have not yet held a grant as principal investigator.
+
+- **Current support · 2026–present:** Mitacs Accelerate postdoctoral research with Healthy Lake Huron partners; ABCA is the formal Mitacs partner. I am the postdoctoral scholar funded by the project.
+- **Awarded support · 2024–2026:** Environment and Climate Change Canada project funding supported my PhD watershed and conservation research.
+- **Professional practice (employee and consultant roles):** Proposal development and resource mobilisation at BRAC, ICCCAD and CARE Bangladesh, as a member or lead of proposal teams. Details are in the full CV.
 - **OMAFA proposal — under review:** Contributed to a precision-conservation proposal led by Dr. Prasad Daggupati. The proposed work extends my PhD using the Agricultural Conservation Planning Framework (ACPF) to compare conservation opportunities, benefits, and costs. If accepted, I would work with the project team. [Proposal details →](collaboration.qmd#omafa-precision-conservation-proposal)
 - **[Canada Postdoctoral Research Award (CPRA) program](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program) — application submitted:** Proposed food-system resilience research; no award is confirmed. [Research direction →](collaboration.qmd#food-system-resilience-and-anticipatory-decision-making)
 
 ## Academic service
 
-<div class="service-panel"><p><strong>Review & governance</strong> · Journal peer review and faculty search-committee service.</p><p><strong>Professional communities</strong> · Canadian Water Resources Association, Canadian Geophysical Union, and Canadian Geomorphology Research Group.</p><p><strong>Knowledge mobilisation</strong> · Conferences, research partnerships, mentoring, and science–policy communication.</p></div>
+<div class="service-panel"><p><strong>Peer review</strong> · Reviewer for environmental science, water-resource and sustainability journals, including <em>Journal of Environmental Management</em>, <em>Environmental Research</em>, <em>Journal of Cleaner Production</em>, <em>Journal of Hydrology</em>, <em>Water Research</em>, <em>Agricultural Water Management</em> and <em>Journal of Hazardous Materials</em>.</p><p><strong>University service</strong> · Committee member, Arrell Food Chair in Food and Society Search Committee, University of Guelph (2023), representing graduate students in faculty hiring review and interviews.</p><p><strong>Professional communities</strong> · Canadian Water Resources Association, Canadian Geophysical Union, and Canadian Geomorphology Research Group.</p><p><strong>Knowledge mobilisation</strong> · Conferences, research partnerships, mentoring, and science–policy communication.</p></div>
 
 [Browse the complete publication record →](publications.qmd)
 
