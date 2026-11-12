@@ -444,3 +444,6 @@ main.content a.button + a.button { margin-left:.6rem; }
  .pub-bars .bar-year { font-size:.62rem; }
  .pub-chart { padding:1rem .7rem .8rem; }
 }
+
+.lead-statement.wide { max-width:46ch!important; }
+.journey-image figcaption a { white-space:nowrap; }
