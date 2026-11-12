@@ -4,6 +4,8 @@ description: "Teaching philosophy, University of Guelph teaching-assistant exper
 page-layout: full
 ---
 
+<p class="lead-statement">A map is an argument. I teach students to make one they can defend.</p>
+
 I teach environmental questions by connecting physical processes with the decisions people make about them. My university teaching so far has been as a Graduate Teaching Assistant at the University of Guelph (September 2022–April 2024), where I led laboratories and supported assessment in undergraduate physical geography and GIS courses. I have not yet been an instructor of record.
 
 <nav class="page-shortcuts" aria-label="Teaching sections"><a href="#teaching-philosophy">Philosophy</a><a href="#teaching-experience">Experience</a><a href="#teaching-effectiveness">Student feedback</a><a href="#courses-i-can-teach">Courses I can teach</a><a href="#mentoring">Mentoring</a><a href="#teaching-materials">Materials</a></nav>
@@ -41,7 +43,7 @@ Outside the university, I designed and delivered training for staff and stakehol
 
 The evidence below comes from the University of Guelph's anonymous student feedback questionnaires for teaching assistants. Response rates were between 26% and 29% of enrolled students, so the results describe those who chose to respond.
 
-<div class="evidence-panel"><p class="eyebrow">GEOG*3480 GIS and Spatial Analysis · Winter 2024 · 14 respondents to the teaching-assistant questions</p><dl class="rating-list"><div><dt>Available to answer questions during posted hours</dt><dd>14 of 14 agreed or strongly agreed</dd></div><div><dt>Presented materials clearly</dt><dd>13 of 14</dd></div><div><dt>Created an environment conducive to learning</dt><dd>13 of 14</dd></div><div><dt>Encouraged critical thinking about the subject</dt><dd>11 of 14</dd></div></dl></div>
+<div class="evidence-panel"><p class="eyebrow">GEOG*3480 GIS and Spatial Analysis · Winter 2024 · 14 respondents to the teaching-assistant questions</p><dl class="rating-list"><div><dt>Available to answer questions during posted hours</dt><dd>14 of 14 agreed or strongly agreed<span class="meter" aria-hidden="true"><span style="width:100%"></span></span></dd></div><div><dt>Presented materials clearly</dt><dd>13 of 14<span class="meter" aria-hidden="true"><span style="width:92.9%"></span></span></dd></div><div><dt>Created an environment conducive to learning</dt><dd>13 of 14<span class="meter" aria-hidden="true"><span style="width:92.9%"></span></span></dd></div><div><dt>Encouraged critical thinking about the subject</dt><dd>11 of 14<span class="meter" aria-hidden="true"><span style="width:78.6%"></span></span></dd></div></dl><p class="case-note">Bars show the share of respondents who agreed or strongly agreed with each statement.</p></div>
 
 <div class="quote-grid">
 <figure class="feedback-card"><blockquote>“Excellent TA who was able to handle all technical issues and problems thrown his way”</blockquote><figcaption>Anonymous student feedback · GEOG*3480 GIS and Spatial Analysis · Winter 2024</figcaption></figure>

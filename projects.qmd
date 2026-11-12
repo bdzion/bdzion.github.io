@@ -12,6 +12,11 @@ Three case studies show what I have done, what I am doing now, and where the wor
 
 <p class="case-status"><span class="status-label">Completed · published</span> PhD research, University of Guelph, 2022–2026</p>
 
+<figure class="field-banner compact"><img src="assets/images/research/field-monitoring-site.webp" width="1600" height="960" loading="lazy" alt="Aerial view of a stream flowing through a culvert between cropland, with a small monitoring station on the bank"><figcaption>A monitored stream between cropland, typical of the agricultural watersheds this research addresses.</figcaption></figure>
+
+<p class="eyebrow flow-title">How the research fits together</p>
+<ol class="method-flow"><li><strong>Synthesise evidence</strong><span>Two structured reviews of decision-support tools and of conservation-practice performance</span></li><li><strong>Map suitability</strong><span>GIS, terrain analysis and the Agricultural Conservation Planning Framework</span></li><li><strong>Predict need</strong><span>Machine learning at field level, with uncertainty mapped</span></li><li><strong>Evaluate practices</strong><span>Distributed, process-based watershed modelling</span></li><li><strong>Prioritise locally</strong><span>Rankings that stakeholders adjust to their own priorities</span></li></ol>
+
 <dl class="case-study">
 <div><dt>Research question</dt><dd>In a tile-drained agricultural watershed, which fields should receive which conservation practices so that nutrient losses fall, and how can that ranking reflect what local farmers and conservation staff consider feasible?</dd></div>
 <div><dt>Why it matters</dt><dd>Nutrient losses from farmland contribute to algal blooms and degraded water quality in the Great Lakes. Subsurface tile drainage changes how water and nutrients leave a field, so a practice that works on one field may do little on another. Conservation budgets are limited, and programs that treat all fields alike spend much of that budget where it achieves least.</dd></div>
