@@ -8,7 +8,7 @@ Environmental scientist and geographer specialising in agricultural water qualit
 
 [Download Full Academic CV (PDF)](assets/Md_Bodrud_Doza_Academic_CV.pdf?v=20261009-links){.button .primary}
 
-<nav class="page-shortcuts" aria-label="CV sections"><a href="#short-biography">Short bio</a><a href="#education">Education</a><a href="#academic-appointments">Appointments</a><a href="#research-and-publications">Research</a><a href="#teaching">Teaching</a><a href="#selected-awards">Awards</a><a href="#research-support-and-proposal-development">Funding</a><a href="#academic-service">Service</a></nav>
+<nav class="page-shortcuts" aria-label="CV sections"><a href="#short-biography">Short bio</a><a href="#education">Education</a><a href="#academic-appointments">Appointments</a><a href="#professional-experience">Experience</a><a href="#research-and-publications">Research</a><a href="#teaching">Teaching</a><a href="#selected-awards">Awards</a><a href="#research-support-and-proposal-development">Funding</a><a href="#academic-service">Service</a></nav>
 
 ## Short biography {#short-biography}
 
@@ -24,7 +24,15 @@ For introductions, programs and speaker notes.
 
 <ol class="appointment-list"><li><strong>September 2026–present · Postdoctoral Scholar</strong><span>Active Mitacs Accelerate research with Healthy Lake Huron partners; developing REAL Decision Lab.</span></li><li><strong>May 2024–August 2026 · Graduate Research Assistant</strong><span>Geospatial analysis, machine learning, and distributed watershed modelling.</span></li><li><strong>September 2022–April 2024 · Graduate Teaching Assistant</strong><span>Laboratory, seminar, assessment, and GIS instruction.</span></li></ol>
 
-All appointments above are at [GEG, University of Guelph](https://geg.uoguelph.ca/). [Explore the full professional timeline →](experience.qmd)
+All appointments above are at [GEG, University of Guelph](https://geg.uoguelph.ca/).
+
+## Professional experience {#professional-experience}
+
+Applied research, consulting and program leadership outside the university, most recent first.
+
+<ol class="appointment-list linked-roles"><li><strong>June–August 2024 · Data Analyst</strong><a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority</a><span>Statistical and machine-learning analysis of long-term water-quality data; support for monitoring and quality-assurance planning.</span></li><li><strong>August–November 2022 · Consultant, Project Proposal Writer</strong><a href="https://www.carebangladesh.org/">CARE Bangladesh</a><span>Co-developed climate-resilience and ecosystem-based adaptation proposals with multidisciplinary teams.</span></li><li><strong>January–August 2022 · Operation and Business Development Manager</strong><a href="https://www.icccad.net/">International Centre for Climate Change and Development (ICCCAD), Independent University, Bangladesh</a><span>Coordinated the research portfolio and the Locally Led Adaptation Program: partnerships, resource mobilisation, capacity development and research communication.</span></li><li><strong>March–August 2022 · Consultant</strong><a href="https://ispahaniagro.com/">Ispahani Agro Limited</a><span>Research and assessments on climate-resilient seeds, bio-pesticides, sustainable agricultural investment and smallholder digital services.</span></li><li><strong>April 2018–January 2022 · Manager, Climate Resilience and Development</strong><a href="https://www.brac.net/">BRAC Climate Change Program</a><span>Led project development, climate-adaptation implementation, environmental and social safeguards, and climate-smart agriculture initiatives; built partnerships and contributed to institutional climate-resilience frameworks.</span></li><li><strong>October 2016–March 2018 · Research Officer</strong><a href="https://www.icccad.net/">International Centre for Climate Change and Development (ICCCAD)</a><span>Climate-adaptation and resilience research, GIS analysis, policy research, technical writing and capacity building.</span></li><li><strong>October–December 2016 · Junior Consultant</strong><a href="https://iucn.org/our-work/region/asia/countries/bangladesh">IUCN, Bangladesh</a><span>GIS analysis and mapping for wildlife conservation planning and Vulture Safe Zone initiatives.</span></li></ol>
+
+[Full professional timeline, with leadership and science–policy practice →](experience.qmd)
 
 ## Research and publications
 
