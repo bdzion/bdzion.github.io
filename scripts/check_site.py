@@ -56,8 +56,22 @@ for f,p in pages.items():
         if not target.is_relative_to(output.resolve()):errors.append(f'{f.name}: link escapes site {link}');continue
         if not target.exists():errors.append(f'{f.name}: broken link {link}')
         elif u.fragment and target in pages and unquote(u.fragment) not in pages[target].ids:errors.append(f'{f.name}: broken anchor {link}')
-expected={'index.html','research.html','research-journey.html','experience.html','publications.html','cv.html','collaboration.html','contact.html','404.html'}
+expected={'index.html','research.html','projects.html','teaching.html','research-journey.html','experience.html','publications.html','cv.html','collaboration.html','contact.html','404.html'}
 if not expected.issubset({p.name for p in pages}):errors.append('Missing required pages')
+# Faculty-recruitment structure: primary navigation, stable anchors, and status wording.
+def page(name):return pages[(output/name).resolve()]
+def source(name):return (output/name).read_text(encoding='utf-8')
+for name in expected-{'404.html'}:
+    for target in ['research.html','publications.html','teaching.html','cv.html','contact.html']:
+        if not any(urlsplit(l).path.endswith(target) for l in page(name).links):errors.append(f'{name}: primary navigation is missing {target}')
+required_ids={'index.html':set(),'research.html':{'research-pillars','four-connected-research-areas','current-and-developing-projects','current-project-healthy-lake-huron','five-year-program','case-studies','area-observe','area-understand','area-design','area-learn'},'projects.html':{'precision-conservation','healthy-lake-huron','environmental-intelligence'},'teaching.html':{'teaching-philosophy','teaching-experience','teaching-effectiveness','courses-i-can-teach','mentoring','teaching-materials'},'experience.html':{'teaching-and-mentoring','academic-applied-research','climate-development-leadership'},'cv.html':{'selected-awards','teaching','academic-service'}}
+for name,ids in required_ids.items():
+    if not ids.issubset(page(name).ids):errors.append(f'{name}: missing section anchors {sorted(ids-page(name).ids)}')
+# Statements that keep roles and project status accurate must not be dropped silently.
+required_text={'research.html':['A developing research program','not yet a staffed laboratory','funding is not confirmed','no award is confirmed'],'projects.html':['None has been delivered yet','No results are reported in this section','no award is confirmed'],'teaching.html':['not yet been an instructor of record','Graduate Teaching Assistant','GEOG*3480','GEOG*2480','GEOG*2000','GEOG*3000','not yet formally supervised'],'cv.html':['not yet held a grant as principal investigator']}
+for name,phrases in required_text.items():
+    for phrase in phrases:
+        if phrase not in source(name):errors.append(f'{name}: missing required accuracy statement "{phrase}"')
 preview=output/'assets/social-preview.png'
 if not preview.exists() or struct.unpack('>II',preview.read_bytes()[16:24])!=(1200,630):errors.append('Social preview must be a 1200 by 630 PNG')
 if not (output/'robots.txt').exists() or f'Sitemap: {base}/sitemap.xml' not in (output/'robots.txt').read_text():errors.append('Missing robots or sitemap declaration')
@@ -77,7 +91,15 @@ publication_page=(output/'publications.html').read_text(encoding='utf-8')
 assert publication_page.count('class="publication-domain"')==len(timeline_config['domains']),'Missing publication domains'
 assert publication_page.count('data-publication-id=')==sum(len(m['papers']) for m in timeline_config['milestones']),'Missing milestone papers'
 assert {'research-publication-timeline','how-the-research-program-developed','featured-research','publication-record'}.issubset(pages[(output/'publications.html').resolve()].ids),'Missing publication section anchors'
-assert publication_page.index('Overlapping Peer-Reviewed Research Domains') < publication_page.index('Selected Publication Milestones') < publication_page.index('Featured Research'), 'Incorrect publication timeline hierarchy'
+assert publication_page.index('id="featured-research"') < publication_page.index('Overlapping Peer-Reviewed Research Domains') < publication_page.index('Selected Publication Milestones') < publication_page.index('id="publication-record"'), 'Incorrect publication page hierarchy: selected papers, timeline, complete record'
+featured_records=[p for p in records if p.get('featured')]
+assert 4<=len(featured_records)<=6,'Select four to six featured publications'
+assert all(p.get('title') and p.get('journal') and p.get('contribution') and p.get('url') for p in featured_records),'Featured publications need title, journal, contribution and link'
+assert publication_page.count('class="publication-feature"')==len(featured_records),'Featured publications are not all rendered'
+journal_records=[p for p in records if p['category'] in ('First-Authored Articles','Co-Authored Articles')]
+summary=f"{len(journal_records)} peer-reviewed journal articles, {sum(p['first_authored'] for p in journal_records)} of them first-authored"
+for name in ['index.html','publications.html','cv.html']:
+    assert summary in (output/name).read_text(encoding='utf-8'),f'{name}: publication summary does not match publications.json'
 cv_pdf=output/'assets/Md_Bodrud_Doza_Academic_CV.pdf'
 assert cv_pdf.exists() and cv_pdf.read_bytes().startswith(b'%PDF-'), 'Missing canonical CV download'
 if errors:raise SystemExit('\n'.join(errors))

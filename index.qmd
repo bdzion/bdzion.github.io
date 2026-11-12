@@ -1,6 +1,6 @@
 ---
-pagetitle: "Md Bodrud-Doza, PhD"
-description: "Postdoctoral Scholar at the University of Guelph studying resilient agricultural landscapes, water quality, and environmental decision-making."
+pagetitle: "Md Bodrud-Doza, PhD — Environmental and Geospatial Scientist"
+description: "Postdoctoral Scholar at the University of Guelph working on watershed modelling, precision conservation, geospatial analysis and decision support for agricultural landscapes."
 page-layout: full
 title-block-style: none
 include-in-header: _includes/profile-metadata.html
@@ -8,37 +8,47 @@ include-in-header: _includes/profile-metadata.html
 
 <div class="hero">
 <div class="hero-copy">
-<p class="eyebrow">Environmental science · Geography · Decision science</p>
-<h1>Md Bodrud-Doza</h1>
-<p class="appointment">PhD in Geography · Postdoctoral Scholar</p>
-<p class="affiliation"><a href="https://geg.uoguelph.ca/">Department of Geography, Environment and Geomatics</a><br><a href="https://www.uoguelph.ca/">University of Guelph</a>, Canada</p>
-<p class="hero-intro">I study how agricultural landscapes can sustain food production while protecting water, soil, and ecosystems.</p>
-<p>I bring together geospatial analysis, environmental monitoring, machine learning, and process-based modelling to understand environmental risks and support better landscape-management decisions.</p>
-<div class="actions"><a class="button primary" href="research.qmd">Explore Research Lab</a><a class="button secondary" href="publications.qmd">Publications</a><a class="text-link" href="assets/Md_Bodrud_Doza_Academic_CV.pdf?v=20261009-links">Download CV ↗</a></div>
+<p class="eyebrow">Postdoctoral Scholar · University of Guelph</p>
+<h1>Md Bodrud-Doza, PhD</h1>
+<p class="appointment">Environmental and geospatial scientist</p>
+<p class="affiliation"><a href="https://geg.uoguelph.ca/">Department of Geography, Environment and Geomatics</a> · <a href="https://www.uoguelph.ca/">University of Guelph</a>, Ontario, Canada</p>
+<p class="hero-intro">I work out where conservation actions can improve water quality while keeping agricultural land productive.</p>
+<p>My research combines watershed modelling, geospatial analysis and machine learning with the priorities of the people who manage the land. It builds on a PhD in precision conservation for tile-drained watersheds and on earlier work in climate adaptation and science–policy practice.</p>
+<div class="actions"><a class="button primary" href="research.qmd">Explore research</a><a class="button secondary" href="cv.qmd">Academic CV</a><a class="text-link" href="teaching.qmd">Teaching and mentoring →</a></div>
 </div>
 <figure class="hero-photo"><div class="headshot-frame"><img src="assets/portrait.webp" width="629" height="1200" alt="Head-and-shoulders portrait of Md Bodrud-Doza outdoors on a university campus"></div><figcaption>University of Guelph · Ontario, Canada</figcaption></figure>
 </div>
 
-<div class="theme-band"><p class="eyebrow">Research theme</p><h2>Resilient Agricultural Landscapes<br>and Sustainable Food Production</h2><p>From understanding spatial risk to evaluating interventions and building practical decision tools.</p></div>
+<dl class="summary-strip glance"><div><dt>Position</dt><dd>Postdoctoral Scholar, University of Guelph (2026–present). PhD in Geography, University of Guelph, 2026.</dd></div><div><dt>Expertise</dt><dd>Agricultural water quality · Precision conservation · Watershed modelling · GIS and machine learning</dd></div>
 
-<dl class="summary-strip"><div><dt>What I study</dt><dd>Agricultural landscapes · Water quality · Environmental decision-making</dd></div><div><dt>How I work</dt><dd>Monitoring · Geospatial analysis · Machine learning · Modelling</dd></div><div><dt>Why it matters</dt><dd>Better conservation planning · Resilient landscapes · Informed decisions</dd></div></dl>
+{{< include _includes/record-glance.html >}}
 
-## Research through REAL Decision Lab
+<div><dt>Teaching</dt><dd>Graduate Teaching Assistant in undergraduate physical geography and GIS courses, 2022–2024. <a href="teaching.qmd">Teaching →</a></dd></div></dl>
 
-<p class="program-intro"><a href="research.qmd"><strong>REAL Decision Lab</strong></a> · Developing research program · <a href="research.qmd#current-and-developing-projects">View current projects →</a></p>
+## Research program
 
-<div class="cards three"><article class="research-card"><p class="eyebrow">Established foundation</p><h3>Precision Conservation</h3><p>Plan conservation practices for water quality and wider landscape benefits.</p></article><article class="research-card"><p class="eyebrow">Emerging methods</p><h3>Earth Observation &amp; GeoAI</h3><p>Use Earth observation and GeoAI (AI for geographic data) to understand agricultural and environmental change.</p></article><article class="research-card"><p class="eyebrow">Developing direction</p><h3>Food-System Resilience</h3><p>Explore how early stress signals and capacities to absorb shocks can inform timely adaptation.</p></article></div>
+One question runs through my work: how can agricultural landscapes stay productive while protecting water, soil and ecosystems? I am developing the answer as a research program, the [REAL Decision Lab](research.qmd), built on three connected pillars.
 
+<div class="cards three pillars"><article class="research-card"><p class="status-label">Established foundation</p><h3>Precision conservation and agricultural watershed science</h3><p>Nutrient transport, tile drainage, conservation-practice evaluation and field-scale targeting, informed by local priorities.</p></article><article class="research-card"><p class="status-label">Established methods · emerging applications</p><h3>Environmental intelligence: GIS, Earth observation and GeoAI</h3><p>Spatial analysis and machine learning are established parts of my work. Satellite observation and GeoAI are directions I am building.</p></article><article class="research-card"><p class="status-label">Developing direction</p><h3>Resilient agricultural landscapes and adaptive decision support</h3><p>Multi-benefit conservation, climate adaptation and decision tools that are updated as monitoring shows what worked.</p></article></div>
 
+<p class="section-link"><a href="research.qmd#research-pillars">How the pillars connect, and the five-year plan →</a></p>
 
-## Updates
+## Research case studies
 
-{{< include _includes/updates.html >}}
+<ul class="case-links"><li><span class="status-label">Completed · published</span><a href="projects.qmd#precision-conservation">Precision conservation in tile-drained agricultural watersheds</a><span>PhD research: four first-authored papers on where, and which, conservation practices to prioritise.</span></li><li><span class="status-label active">Active · Mitacs Accelerate</span><a href="projects.qmd#healthy-lake-huron">Healthy Lake Huron: monitoring, modelling and conservation decision support</a><span>Postdoctoral project with conservation-authority partners. Outputs are planned, not yet delivered.</span></li><li><span class="status-label">Developing</span><a href="projects.qmd#environmental-intelligence">Environmental intelligence and resilient agricultural landscapes</a><span>The longer-term questions that link monitoring, prediction and adaptive management.</span></li></ul>
 
 ## Selected publications
 
 {{< include _includes/featured-home.html >}}
 
-[Explore the complete publication record →](publications.qmd)
+<p class="section-link"><a href="publications.qmd">Selected papers and the complete publication record →</a></p>
 
-<div class="closing-callout"><h2>Let’s connect research with practice.</h2><p>I welcome research collaborations, grant development, graduate student research, and applied environmental initiatives.</p><a class="button primary" href="collaboration.qmd">Collaboration interests</a><a class="text-link" href="experience.qmd#teaching-and-mentoring">Teaching and mentoring →</a><a class="text-link" href="https://scholar.google.com/citations?user=1VymNoIAAAAJ&amp;hl=en">Google Scholar ↗</a></div>
+## Teaching, recognition and service
+
+<div class="cards three compact-cards"><article class="research-card"><h3>Teaching</h3><p>I led laboratories and supported assessment in undergraduate physical geography and GIS courses at Guelph. In the Winter 2024 GIS and Spatial Analysis evaluation, 13 of 14 respondents agreed that I presented material clearly.</p><a class="project-link" href="teaching.qmd">Philosophy, courses and student feedback →</a></article><article class="research-card"><h3>Recognition</h3><p>Ontario Graduate Scholarship (2025–2026), Cecil H. Franklin Graduate Scholarship in Soil &amp; Water Conservation (2025), and GEG Graduate Publication Awards (2024, 2025).</p><a class="project-link" href="cv.qmd#selected-awards">All awards →</a></article><article class="research-card"><h3>Service and leadership</h3><p>Journal peer reviewer; graduate-student member of a University of Guelph faculty search committee (2023); earlier program leadership at BRAC and ICCCAD in Bangladesh.</p><a class="project-link" href="experience.qmd">Professional experience →</a></article></div>
+
+## Updates
+
+{{< include _includes/updates.html >}}
+
+<div class="closing-callout"><h2>Get in touch</h2><p>I welcome conversations about research collaboration, graduate research, teaching and applied environmental projects.</p><a class="button primary" href="contact.qmd">Contact</a><a class="text-link" href="collaboration.qmd">Collaboration interests →</a><a class="text-link" href="https://scholar.google.com/citations?user=1VymNoIAAAAJ&amp;hl=en">Google Scholar ↗</a></div>

@@ -9,7 +9,7 @@ Your live site is https://bdzion.github.io. The source repository is `bdzion/bdz
 3. Click **Commit changes** with a clear description. Choose a new branch and open a pull request for every edit. Wait for the build/check to pass, review the change, then merge.
 4. Open **Actions**, wait for a green deployment, and check the live page. A pull request builds but does not publish before merging.
 
-Page map: `index.qmd` = Home; `research.qmd` = Research Lab; `research-journey.qmd` = Journey; `experience.qmd` = Experience; `publications.qmd` = Publications introduction; `cv.qmd` = web CV; `collaboration.qmd` = Collaboration; `contact.qmd` = Contact. Navigation and metadata live in `_quarto.yml`; appearance lives in `styles.css`.
+Page map: `index.qmd` = Home; `research.qmd` = Research (REAL Decision Lab); `projects.qmd` = Research case studies; `teaching.qmd` = Teaching and Mentoring; `research-journey.qmd` = Journey; `experience.qmd` = Experience; `publications.qmd` = Publications introduction; `cv.qmd` = web CV; `collaboration.qmd` = Collaboration; `contact.qmd` = Contact. Navigation and metadata live in `_quarto.yml`; appearance lives in `styles.css`.
 
 ## B. Update the current position and homepage
 
@@ -166,9 +166,9 @@ Never upload the original private Word CV, home address, private phone numbers, 
 ## K. Maintain teaching and selected feedback
 
 
-The main teaching account lives in `experience.qmd#teaching-and-mentoring`; the web CV links there. Keep documented GTA responsibilities distinct from future teaching interests and goals. Replace quotes only with accurately attributed feedback from your own evaluations. The sample teaching dossier is a structural reference; its courses, certifications, syllabi, and student comments do not belong in your record.
+The main teaching account lives in `teaching.qmd`; Home, the web CV and Experience link there. Experience keeps a short summary under the `#teaching-and-mentoring` anchor so older links still work. Keep documented GTA responsibilities distinct from future teaching interests and goals. Replace quotes only with accurately attributed feedback from your own evaluations. The sample teaching dossier (by another scholar) is a structural reference; its courses, certifications, syllabi, and student comments do not belong in your record.
 
-Keep exactly two short anonymous quotes from your own evaluations, with course/term attribution. Do not publish evaluation screenshots. Keep the full supported-course list in Experience. The concise web CV links to it; the downloadable PDF remains a separate record.
+Use a small number of short anonymous quotes from your own evaluations, each with course and term. Rating counts must be copied from the official feedback report and state the number of respondents; the Winter 2024 GEOG*3480 figures are 14/14, 13/14, 13/14 and 11/14. Do not publish evaluation screenshots or the full reports: they include comments about instructors and course design. The course table lists what you supported as a Graduate Teaching Assistant; change "instructor of record" wording only after you hold such an appointment, and update `required_text` in `scripts/check_site.py` at the same time. "Courses I can teach" has three groups (demonstrated, grounded in research, developing): move an item up only when the record supports it.
 
 ## L. Update collaboration and project status
 
@@ -275,3 +275,19 @@ To enable protection manually in [repository settings](https://github.com/bdzion
 5. Confirm that `main` shows as protected. Continue using new branch → pull request → passing build → review → merge.
 
 Do not require the `deploy` job before merging: it runs only after changes reach main. See [GitHub's branch-protection instructions](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule) for the settings. Until the rule is enabled, follow this workflow voluntarily.
+
+## U. Maintain the faculty-recruitment pages
+
+**Navigation.** `_quarto.yml` holds the five primary links (Research, Publications, Teaching, CV, Contact) and the footer links (Case studies, Research journey, Experience, Collaboration). Keep the primary list short; add secondary pages to the footer.
+
+**Homepage.** `index.qmd` runs in this order: hero with two buttons, the four-item glance strip, three pillar cards, case-study links, selected publications, the teaching/recognition/service cards, Updates, contact. The "Scholarly record" item is generated from `publications.json`; do not type the counts by hand.
+
+**Research pillars and status ledger.** In `research.qmd`, each pillar ends with an "Evidence" line. Keep it literal: say what is published, what is funded, and what is not. The "Status of the work" ledger has four groups: Completed · published, Active · funded, Submitted · not confirmed, Developing ideas. When a proposal is decided, move its item to the right group (or delete it) and update `collaboration.qmd`, `cv.qmd` and `projects.qmd` together. The five-year section is a plan; keep it worded as one.
+
+**Case studies.** `projects.qmd` uses the same rows for every case study (question, why it matters, methods, my role, findings or progress, relevance, links, what comes next). For the Healthy Lake Huron project, move an item from "Planned deliverables" to a findings row only after it is delivered or published, and cite it. Do not add figures or maps from published papers unless the licence allows reuse and you credit the source; if you add an image, add it to the allowed-image list in `scripts/check_site.py` and to `assets/images/manifest.json`.
+
+**Selected publications.** `publications.json` should have four to six records with `"featured": true`, each with `title`, `journal` and a one-sentence `contribution` that the paper itself supports. Home shows the first three in file order.
+
+**Accuracy statements.** `scripts/check_site.py` fails the build if certain sentences disappear (see `required_text`). They are there so that status and role wording is changed on purpose. When the facts change, edit the page and the phrase in the same pull request.
+
+**After any of these edits** run the checks in section O and look at Home, Research, Case studies and Teaching at phone and desktop widths.

@@ -2,7 +2,19 @@
 
 Academic website of a Postdoctoral Scholar at the University of Guelph. REAL Decision Lab is a developing research program connecting agricultural landscapes, water quality, and environmental decisions.
 
-[Visit the website](https://bdzion.github.io/) · [Research Lab](https://bdzion.github.io/research.html) · [Publications](https://bdzion.github.io/publications.html) · [Academic CV](https://bdzion.github.io/cv.html)
+[Visit the website](https://bdzion.github.io/) · [Research](https://bdzion.github.io/research.html) · [Publications](https://bdzion.github.io/publications.html) · [Teaching](https://bdzion.github.io/teaching.html) · [Academic CV](https://bdzion.github.io/cv.html)
+
+## Faculty-recruitment structure (November 2026)
+
+Primary navigation is Research · Publications · Teaching · CV · Contact; the name links to Home. Case studies, Research journey, Experience and Collaboration are linked from the footer and from within pages. No public URL was removed.
+
+- `index.qmd`: position, expertise, record and teaching at a glance; three research pillars; case-study links; selected publications; teaching, recognition and service.
+- `research.qmd`: three pillars, the Observe → Understand → Plan → Decide & Learn framework, a status ledger (published / active / submitted / developing) and a five-year plan.
+- `projects.qmd`: three case studies (published PhD research, the active Healthy Lake Huron project, and a future research plan).
+- `teaching.qmd`: philosophy, courses supported as a Graduate Teaching Assistant, student-feedback evidence, courses I can teach, mentoring.
+- `_includes/record-summary.html` and `_includes/record-glance.html` are generated from `publications.json`; the article counts on Home, Publications and CV cannot drift from the list.
+
+`scripts/check_site.py` now also requires the primary navigation on every page, the section anchors other pages link to, four to six featured publications, and a set of accuracy statements (for example that REAL Decision Lab is a developing program, that planned outputs are not delivered, and that the teaching role was Graduate Teaching Assistant). If you change one of those statements because the facts changed, update the matching phrase in `required_text` in the same pull request. See maintenance guide section U.
 
 The active Mitacs Accelerate project works with Healthy Lake Huron partners; Ausable Bayfield Conservation Authority (ABCA) is the formal Mitacs partner. Earth observation, GeoAI, and food-system resilience are developing research directions.
 
@@ -12,7 +24,7 @@ Live site: https://bdzion.github.io
 
 ## Edit the website
 
-Each page is a separate Quarto Markdown file. Edit text in `index.qmd`, `research.qmd`, `research-journey.qmd`, `experience.qmd`, `publications.qmd`, `cv.qmd`, `collaboration.qmd`, or `contact.qmd`. Navigation, site metadata, and footer links are in `_quarto.yml`; colours, spacing, and responsive layout are in `styles.css`.
+Each page is a separate Quarto Markdown file. Edit text in `index.qmd`, `research.qmd`, `projects.qmd`, `teaching.qmd`, `research-journey.qmd`, `experience.qmd`, `publications.qmd`, `cv.qmd`, `collaboration.qmd`, or `contact.qmd`. Navigation, site metadata, and footer links are in `_quarto.yml`; colours, spacing, and responsive layout are in `styles.css`.
 
 You can edit these files directly on GitHub. Use a new branch and pull request for every edit. Review the passing build before merging; merging to `main` publishes automatically. Pull requests build and check without deploying.
 
@@ -68,7 +80,7 @@ The supplied Website Content document controlled the public wording and research
 
 ## Research and teaching content
 
-The Research Lab tab leads to the prominent REAL Decision Lab page. `updates.json` supplies the dated homepage Updates list through `scripts/render_updates.py`. The current Mitacs project was confirmed active by the owner; the CPRA direction remains submitted. Teaching approach, supported courses, future interests, and two selected evaluation quotes are in Experience. The journey derivative is `assets/images/journey/research-journey.webp`, from `ResearchJourney - only.jpg`. One professional consultation photograph appears in Experience as `assets/images/experience/leadership-consultation.webp`. See the maintenance guide for updating areas, the return loop, project status, Updates, teaching, and the journey photo.
+The Research Lab tab leads to the prominent REAL Decision Lab page. `updates.json` supplies the dated homepage Updates list through `scripts/render_updates.py`. The current Mitacs project was confirmed active by the owner; the CPRA direction remains submitted. Teaching philosophy, supported courses, evaluation evidence and teaching interests are on the Teaching page; Experience keeps a short summary and the `#teaching-and-mentoring` anchor. The journey derivative is `assets/images/journey/research-journey.webp`, from `ResearchJourney - only.jpg`. One professional consultation photograph appears in Experience as `assets/images/experience/leadership-consultation.webp`. See the maintenance guide for updating areas, the return loop, project status, Updates, teaching, and the journey photo.
 
 ## Academic website refinement
 
