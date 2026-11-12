@@ -1,6 +1,6 @@
 ---
 pagetitle: "Md Bodrud-Doza, PhD — Environmental and Geospatial Scientist"
-description: "Postdoctoral Scholar at the University of Guelph working on watershed modelling, precision conservation, geospatial analysis and decision support for agricultural landscapes."
+description: "Postdoctoral Scholar at the University of Guelph. Watershed modelling, precision conservation, geospatial analysis and decision support for cleaner water and productive agricultural landscapes."
 page-layout: full
 title-block-style: none
 include-in-header: _includes/profile-metadata.html
@@ -12,8 +12,8 @@ include-in-header: _includes/profile-metadata.html
 <h1>Md Bodrud-Doza, PhD</h1>
 <p class="appointment">Environmental and geospatial scientist</p>
 <p class="affiliation"><a href="https://geg.uoguelph.ca/">Department of Geography, Environment and Geomatics</a> · <a href="https://www.uoguelph.ca/">University of Guelph</a>, Ontario, Canada</p>
-<p class="hero-intro">I work out where conservation actions can improve water quality while keeping agricultural land productive.</p>
-<p>My research combines watershed modelling, geospatial analysis and machine learning with the priorities of the people who manage the land. It builds on a PhD in precision conservation for tile-drained watersheds and on earlier work in climate adaptation and science–policy practice.</p>
+<p class="hero-intro">Not every field needs the same conservation practice. My research shows which fields need which, so that cleaner water and productive farmland go together.</p>
+<p>I am a geographer who builds watershed models, maps and machine-learning tools that show conservation agencies where limited budgets will do the most good. Before my PhD I spent six years designing and managing climate-adaptation programs in Bangladesh. That is why my science starts from a practical test: will this work on a real farm, for the people who have to carry it out?</p>
 <div class="actions"><a class="button primary" href="research.qmd">Explore research</a><a class="button secondary" href="cv.qmd">Academic CV</a><a class="text-link" href="teaching.qmd">Teaching and mentoring →</a></div>
 </div>
 <figure class="hero-photo"><div class="headshot-frame"><img src="assets/portrait.webp" width="629" height="1200" alt="Head-and-shoulders portrait of Md Bodrud-Doza outdoors on a university campus"></div><figcaption>University of Guelph · Ontario, Canada</figcaption></figure>
@@ -25,9 +25,15 @@ include-in-header: _includes/profile-metadata.html
 
 <div><dt>Teaching</dt><dd>Graduate Teaching Assistant in undergraduate physical geography and GIS courses, 2022–2024. <a href="teaching.qmd">Teaching →</a></dd></div></dl>
 
+## The research in one minute {#in-one-minute}
+
+<figure class="field-banner"><img src="assets/images/research/field-monitoring-site.webp" width="1600" height="960" loading="lazy" alt="Aerial view of a stream flowing through a culvert between cropland, with a small monitoring station on the bank"><figcaption>Where the research starts: a monitored stream running between cropland. What leaves these fields in a storm ends up downstream.</figcaption></figure>
+
+<ol class="pitch"><li><p class="eyebrow">The problem</p><h3>Nutrients lost from farmland feed algal blooms</h3><p>Conservation practices such as cover crops, buffers and drainage-water management reduce those losses, but only when they are put in the right place.</p></li><li><p class="eyebrow">What I do</p><h3>Rank fields and practices with models and data</h3><p>I combine monitoring records, process-based watershed models and machine learning, then adjust the ranking with what local farmers and conservation staff know.</p></li><li><p class="eyebrow">Why it matters</p><h3>Funding goes where it achieves most</h3><p>Agencies can direct stewardship budgets to the fields that count and explain that choice to the producers they work with.</p></li></ol>
+
 ## Research program
 
-One question runs through my work: how can agricultural landscapes stay productive while protecting water, soil and ecosystems? I am developing the answer as a research program, the [REAL Decision Lab](research.qmd), built on three connected pillars.
+Three connected pillars make up the program I am developing, the [REAL Decision Lab](research.qmd). The first is established and published; the third is where the work is heading.
 
 <div class="cards three pillars"><article class="research-card"><p class="status-label">Established foundation</p><h3>Precision conservation and agricultural watershed science</h3><p>Nutrient transport, tile drainage, conservation-practice evaluation and field-scale targeting, informed by local priorities.</p></article><article class="research-card"><p class="status-label">Established methods · emerging applications</p><h3>Environmental intelligence: GIS, Earth observation and GeoAI</h3><p>Spatial analysis and machine learning are established parts of my work. Satellite observation and GeoAI are directions I am building.</p></article><article class="research-card"><p class="status-label">Developing direction</p><h3>Resilient agricultural landscapes and adaptive decision support</h3><p>Multi-benefit conservation, climate adaptation and decision tools that are updated as monitoring shows what worked.</p></article></div>
 
@@ -36,6 +42,14 @@ One question runs through my work: how can agricultural landscapes stay producti
 ## Research case studies
 
 <ul class="case-links"><li><span class="status-label">Completed · published</span><a href="projects.qmd#precision-conservation">Precision conservation in tile-drained agricultural watersheds</a><span>PhD research: four first-authored papers on where, and which, conservation practices to prioritise.</span></li><li><span class="status-label active">Active · Mitacs Accelerate</span><a href="projects.qmd#healthy-lake-huron">Healthy Lake Huron: monitoring, modelling and conservation decision support</a><span>Postdoctoral project with conservation-authority partners. Outputs are planned, not yet delivered.</span></li><li><span class="status-label">Developing</span><a href="projects.qmd#environmental-intelligence">Environmental intelligence and resilient agricultural landscapes</a><span>The longer-term questions that link monitoring, prediction and adaptive management.</span></li></ul>
+
+## From field practice to predictive science {#career-path}
+
+I did not come to watershed modelling by the usual route. I trained as an environmental scientist, worked for six years where climate decisions are made and paid for, and then returned to research to build better evidence for those decisions.
+
+<ol class="career-path"><li><span class="path-years">2010–2014</span><strong>Environmental sciences</strong><span>BSc and MSc, Jahangirnagar University. Groundwater quality, GIS and geostatistics.</span></li><li><span class="path-years">2016–2018</span><strong>Adaptation research</strong><span>Research Officer, ICCCAD. Climate-adaptation and policy research.</span></li><li><span class="path-years">2018–2022</span><strong>Program leadership</strong><span>BRAC and ICCCAD. Climate-resilience programs, partnerships and proposals.</span></li><li><span class="path-years">2022–2026</span><strong>PhD in Geography</strong><span>University of Guelph. Precision conservation in tile-drained watersheds.</span></li><li class="path-now"><span class="path-years">2026–present</span><strong>Postdoctoral Scholar</strong><span>University of Guelph. Healthy Lake Huron monitoring, modelling and decision support.</span></li></ol>
+
+<p class="section-link"><a href="research-journey.qmd">Research journey →</a> · <a href="experience.qmd">Professional experience →</a></p>
 
 ## Selected publications
 
@@ -51,4 +65,4 @@ One question runs through my work: how can agricultural landscapes stay producti
 
 {{< include _includes/updates.html >}}
 
-<div class="closing-callout"><h2>Get in touch</h2><p>I welcome conversations about research collaboration, graduate research, teaching and applied environmental projects.</p><a class="button primary" href="contact.qmd">Contact</a><a class="text-link" href="collaboration.qmd">Collaboration interests →</a><a class="text-link" href="https://scholar.google.com/citations?user=1VymNoIAAAAJ&amp;hl=en">Google Scholar ↗</a></div>
+<div class="closing-callout"><h2>Working on water, land or food systems?</h2><p>I am glad to talk about research collaboration, graduate research, teaching and applied environmental projects, and to share my teaching dossier with search committees.</p><a class="button primary" href="contact.qmd">Get in touch</a><a class="text-link" href="collaboration.qmd">Collaboration interests →</a><a class="text-link" href="https://scholar.google.com/citations?user=1VymNoIAAAAJ&amp;hl=en">Google Scholar ↗</a></div>

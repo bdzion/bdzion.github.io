@@ -1,6 +1,58 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.navbar-toggler')?.removeAttribute('role');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const scrollTo = (el) => el.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+
+  // In-page section navigation: mark the section being read.
+  const shortcuts = document.querySelector('.page-shortcuts');
+  if (shortcuts && 'IntersectionObserver' in window) {
+    const links = [...shortcuts.querySelectorAll('a')].filter(a => a.hash && a.pathname === location.pathname);
+    const targets = links.map(a => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean);
+    if (targets.length > 1) {
+      shortcuts.classList.add('is-sticky');
+      const visible = new Set();
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => e.isIntersecting ? visible.add(e.target) : visible.delete(e.target));
+        const current = targets.filter(t => visible.has(t))[0];
+        if (!current) return;
+        links.forEach(a => {
+          if (a.hash === '#' + current.id) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current');
+        });
+      }, { rootMargin: '-15% 0px -70% 0px' });
+      targets.forEach(t => observer.observe(t));
+    }
+  }
+
+  // Back to top, shown after scrolling.
+  const top = document.createElement('button');
+  top.type = 'button'; top.className = 'back-to-top'; top.hidden = true;
+  top.innerHTML = '<span aria-hidden="true">↑</span><span class="visually-hidden">Back to top</span>';
+  top.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' }); document.querySelector('.navbar-brand')?.focus(); });
+  document.body.appendChild(top);
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return; ticking = true;
+    requestAnimationFrame(() => { top.hidden = window.scrollY < 900; ticking = false; });
+  }, { passive: true });
+
+  // Copy buttons (email address, short biography).
+  if (navigator.clipboard) {
+    document.querySelectorAll('.copy-button[data-copy-target]').forEach(button => {
+      const source = document.getElementById(button.dataset.copyTarget);
+      const status = button.nextElementSibling;
+      if (!source) return;
+      button.hidden = false;
+      button.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(source.textContent.trim());
+          if (status) { status.textContent = 'Copied'; setTimeout(() => { status.textContent = ''; }, 2500); }
+        } catch { if (status) status.textContent = 'Copy failed. Select the text instead.'; }
+      });
+    });
+  }
+
+  // Publication search, filters, quick filters and the by-year chart.
   const search = document.getElementById('pub-search');
   if (!search) return;
   const topic = document.getElementById('pub-topic');
@@ -10,6 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const view = document.getElementById('pub-view');
   const status = document.getElementById('pub-status');
   const entries = [...document.querySelectorAll('.publication-entry')];
+  const quick = document.querySelector('.quick-filters');
+  const yearButtons = [];
   document.querySelector('.publication-controls').hidden = false;
   status.hidden = false;
   function filter() {
@@ -29,11 +83,36 @@ document.addEventListener('DOMContentLoaded', () => {
       group.hidden = ![...group.querySelectorAll('.publication-entry')].some(entry => !entry.hidden);
     });
     status.textContent = shown ? `Showing ${shown} matching entries.` : 'No matching entries. Try another search or reset the filters.';
+    quick?.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.topic ? topic.value === b.dataset.topic : author.value === 'first')));
+    yearButtons.forEach(b => b.setAttribute('aria-pressed', String(year.value === b.dataset.year)));
   }
   [search, topic, author, year, category, view].forEach(control => control.addEventListener('input', filter));
   document.getElementById('pub-reset').addEventListener('click', () => {
     search.value = ''; [topic, author, year, category, view].forEach(control => control.value = ''); filter(); search.focus();
   });
+  if (quick) {
+    quick.hidden = false;
+    quick.addEventListener('click', event => {
+      const button = event.target.closest('button');
+      if (!button) return;
+      if (button.dataset.topic) topic.value = topic.value === button.dataset.topic ? '' : button.dataset.topic;
+      else author.value = author.value === 'first' ? '' : 'first';
+      filter();
+    });
+  }
+  const scholarlyView = [...view.options].find(o => o.value.startsWith('Peer-reviewed'))?.value || '';
+  document.querySelectorAll('.pub-bars li[data-year]').forEach(item => {
+    const button = document.createElement('button');
+    button.type = 'button'; button.dataset.year = item.dataset.year; button.setAttribute('aria-pressed', 'false');
+    button.append(...item.childNodes); item.append(button); yearButtons.push(button);
+    button.addEventListener('click', () => {
+      const clear = year.value === button.dataset.year;
+      year.value = clear ? '' : button.dataset.year; view.value = clear ? '' : scholarlyView;
+      filter();
+      if (!clear) { scrollTo(document.getElementById('publication-record')); }
+    });
+  });
+  if (yearButtons.length) document.querySelector('.chart-hint')?.removeAttribute('hidden');
   filter();
 });
 </script>

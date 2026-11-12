@@ -8,6 +8,8 @@ page-layout: full
 
 Peer-reviewed research, other scholarly outputs and public writing are listed separately below. For current citation information, visit [Google Scholar](https://scholar.google.com/citations?user=1VymNoIAAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0003-4694-4077).
 
+{{< include _includes/publication-chart.html >}}
+
 <nav class="page-shortcuts" aria-label="Publications sections"><a href="#featured-research">Selected publications</a><a href="#research-publication-timeline">Research timeline</a><a href="#publication-record">Complete record and search</a></nav>
 
 ## Selected publications {#featured-research}
