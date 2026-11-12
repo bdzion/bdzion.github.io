@@ -4,7 +4,11 @@ description: "Selected and complete publications of Md Bodrud-Doza on precision 
 page-layout: full
 ---
 
-{{< include _includes/record-summary.html >}}
+<p class="lead-statement wide">My research has moved from measuring environmental problems, to understanding how people adapt to them, to predicting where action will do the most good.</p>
+
+I began by measuring and mapping water quality in Bangladesh, using field sampling, laboratory analysis, GIS and geostatistics to show where groundwater and surface water put people at risk. Working with ICCCAD and BRAC then turned my attention to climate adaptation and resilience, and to how evidence reaches policy and practice. My doctoral research at the University of Guelph brought the two together in precision conservation: watershed modelling and machine learning to decide where conservation practices should go in agricultural landscapes. Each stage added methods to the one before, and the publications below follow that path.
+
+<figure class="evidence-photo journey-image"><img src="assets/images/journey/research-journey.webp" width="1565" height="388" loading="lazy" alt="Research photographs dated 2013, 2015, 2021, 2022, and 2026: water sampling, laboratory analysis, field engagement, the Guelph transition, and computational research"><figcaption>2013–2026 · From water sampling and laboratory analysis to applied fieldwork and computational research. <a href="research-journey.qmd">Research journey →</a></figcaption></figure>
 
 Peer-reviewed research, other scholarly outputs and public writing are listed separately below. For current citation information, visit [Google Scholar](https://scholar.google.com/citations?user=1VymNoIAAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0003-4694-4077).
 
