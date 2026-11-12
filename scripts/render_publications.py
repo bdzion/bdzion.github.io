@@ -35,6 +35,22 @@ summary=f'{len(journal)} peer-reviewed journal articles, {first} of them first-a
 # Quarto includes must stand on their own line, so each file is a complete block.
 (root/'_includes/record-summary.html').write_text(f'<p class="record-summary">{summary}</p>',encoding='utf-8')
 (root/'_includes/record-glance.html').write_text(f'<div><dt>Scholarly record</dt><dd>{summary} <a href="publications.qmd">Publications →</a></dd></div>',encoding='utf-8')
+# Peer-reviewed output by year. Readable as text; site.js makes each year a filter button.
+scholarly=[p for p in records if p['category'] in ('First-Authored Articles','Co-Authored Articles','Book Chapters') and p['year'] is not None]
+years=range(min(p['year'] for p in scholarly),max(p['year'] for p in scholarly)+1)
+by_year={y:[p for p in scholarly if p['year']==y] for y in years}
+peak=max(len(v) for v in by_year.values())
+bars=''
+for y,items in by_year.items():
+ lead=sum(1 for p in items if p['first_authored']);total=len(items)
+ bars+=(f'<li data-year="{y}"><span class="bar-count">{total}</span><span class="bar" aria-hidden="true" style="height:{total/peak*100:.1f}%">'
+        f'<i class="bar-first" style="height:{(lead/total*100 if total else 0):.1f}%"></i></span><span class="bar-year">{y}</span>'
+        f'<span class="visually-hidden"> {total} peer-reviewed publications, {lead} first-authored</span></li>')
+(root/'_includes/publication-chart.html').write_text('<figure class="pub-chart"><figcaption>Peer-reviewed articles and chapters by year</figcaption><ol class="pub-bars">'+bars+'</ol><p class="chart-legend"><span class="key key-first"></span>First-authored <span class="key key-co"></span>Co-authored<span class="chart-hint" hidden> · Select a year to filter the record below</span></p></figure>',encoding='utf-8')
+quick=[('Precision conservation','Agricultural Landscapes & Precision Conservation'),('Water quality & watersheds','Water Quality & Watershed Science'),('Geospatial & machine learning','Geospatial & Machine Learning'),('Climate & resilience','Climate & Resilience'),('Groundwater & environmental quality','Environmental Quality & Groundwater')]
+all_topics={t for p in records for t in p['topics']}
+assert all(t in all_topics for _,t in quick),'Quick-filter topic is not used by any publication'
+quick_html='<div class="quick-filters" hidden><span class="quick-label">Quick filters</span>'+''.join(f'<button type="button" aria-pressed="false" data-topic="{e(t)}">{e(l)}</button>' for l,t in quick)+'<button type="button" aria-pressed="false" data-first="true">First-authored</button></div>'
 def select(id,label,values,first):
  return f'<div><label for="{id}">{label}</label><select id="{id}"><option value="">{first}</option>'+''.join(f'<option>{e(v)}</option>' for v in values)+'</select></div>'
 views=list(dict.fromkeys(view(p) for p in records))
@@ -50,5 +66,5 @@ for group in views:
  for category in dict.fromkeys(p['category'] for p in records if view(p)==group):
   body+='<section class="publication-group"><h4>'+e(category)+'</h4>'+''.join(item(p) for p in records if p['category']==category)+'</section>'
  sections.append('<section class="publication-view"><h3 class="publication-view-heading">'+e(group)+'</h3>'+body+'</section>')
-(root/'_includes/publication-list.html').write_text(controls+'<div id="publication-entries">'+''.join(sections)+'</div>',encoding='utf-8')
+(root/'_includes/publication-list.html').write_text(quick_html+controls+'<div id="publication-entries">'+''.join(sections)+'</div>',encoding='utf-8')
 print(f'Generated publication views from {len(records)} records')
