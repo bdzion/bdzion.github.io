@@ -256,7 +256,7 @@ Write **Canada Postdoctoral Research Award (CPRA) program** on first use and lin
 
 ## S. Maintain the lab logo and collaboration shortcuts
 
-The supplied logo is `assets/lab-logo.png`, used only beside the lab name in `research.qmd`. It is a graphic, separate from the portrait/journey/single-leadership-photo policy. Replace it with a reviewed PNG at the same path; update its width, height, alt text and `assets/images/manifest.json` if needed. `.lab-identity` and `.lab-logo` in `styles.css` control its responsive placement. Keep it proportionate and check desktop/tablet/phone. Do not add it to every page or change the social-preview image automatically.
+The supplied logo is `assets/lab-logo.png`; the page uses the compressed copy `assets/lab-logo.webp` (724 x 543) beside the lab name in `research.qmd`. Regenerate the WebP when the PNG changes. It is a graphic, separate from the portrait/journey/single-leadership-photo policy. Replace it with a reviewed PNG at the same path; update its width, height, alt text and `assets/images/manifest.json` if needed. `.lab-identity` and `.lab-logo` in `styles.css` control its responsive placement. Keep it proportionate and check desktop/tablet/phone. Do not add it to every page or change the social-preview image automatically.
 
 The OMAFA and food-system project cards use the neutral visible link “Explore developing direction”. Their links still lead to the relevant Collaboration sections; accessible labels distinguish the two directions. Keep proposal/award statuses accurate.
 

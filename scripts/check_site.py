@@ -43,7 +43,7 @@ for f in output.glob('*.html'):
     if p.bad_images:errors.append(f'{f.name}: missing image alt {p.bad_images}')
     if p.bad_rel:errors.append(f'{f.name}: unsafe new-tab links {p.bad_rel}')
     if f.name=='404.html' and not {base+'/',base+'/research.html'}.issubset(set(p.links)):errors.append('404.html: missing recovery links')
-    allowed={'index.html':['assets/portrait.webp'],'research.html':['assets/lab-logo.png'],'research-journey.html':['assets/images/journey/research-journey.webp'],'experience.html':['assets/images/experience/leadership-consultation.webp']}.get(f.name,[])
+    allowed={'index.html':['assets/portrait.webp'],'research.html':['assets/lab-logo.webp'],'research-journey.html':['assets/images/journey/research-journey.webp'],'experience.html':['assets/images/experience/leadership-consultation.webp']}.get(f.name,[])
     if p.images!=allowed:errors.append(f'{f.name}: unexpected image under the portrait/journey/one-leadership-photo/lab-logo policy: {p.images}')
     text=f.read_text(encoding='utf-8')
     for forbidden in ['7,000+','60+','h-index','2026 – Present','{{< include']:

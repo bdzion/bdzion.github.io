@@ -10,7 +10,7 @@ title-block-style: none
 <h1>Research</h1>
 <p class="lab-full-name">REAL Decision Lab · Resilient Agricultural Landscapes Decision Lab</p>
 <p class="lab-status">A developing research program. It is the framework for my current and planned work, not yet a staffed laboratory.</p></div>
-<img class="lab-logo" src="assets/lab-logo.png" width="1448" height="1086" alt="REAL Decision Lab logo showing agricultural fields and a magnifying glass over a map grid"></div>
+<img class="lab-logo" src="assets/lab-logo.webp" width="724" height="543" alt="REAL Decision Lab logo showing agricultural fields and a magnifying glass over a map grid"></div>
 
 How can agricultural landscapes remain productive while protecting water, soil and ecosystems? Conservation practices such as cover crops, buffers and drainage-water management can reduce nutrient losses, but how well they work depends on where they are placed and whether they suit the farm. My research identifies where conservation actions are likely to matter most, tests those choices with models and monitoring data, and turns the results into tools that conservation staff and producers can use.
 
