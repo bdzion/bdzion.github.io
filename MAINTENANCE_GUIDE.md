@@ -291,3 +291,21 @@ Do not require the `deploy` job before merging: it runs only after changes reach
 **Accuracy statements.** `scripts/check_site.py` fails the build if certain sentences disappear (see `required_text`). They are there so that status and role wording is changed on purpose. When the facts change, edit the page and the phrase in the same pull request.
 
 **After any of these edits** run the checks in section O and look at Home, Research, Case studies and Teaching at phone and desktop widths.
+
+## V. Maintain the homepage hooks, visuals and interactive features
+
+**Homepage introduction.** The hero in `index.qmd` has one serif lead sentence (the hook) and one paragraph that introduces you. Keep both concrete: say what the research does and why your background is unusual. "The research in one minute" has three items: the problem, what I do, why it matters. The closing panel is the invitation to make contact.
+
+**Field photograph.** `assets/images/research/field-monitoring-site.webp` (1600 x 960, no EXIF) comes from `field monitoring site.JPG` and appears on Home and at the top of case study A. It shows no identifiable people. The captions do not name a location; add one only if you can confirm it. To replace it, export a new WebP at the same path and update `assets/images/manifest.json`. The image policy in `scripts/check_site.py` lists exactly which images each page may show; add a new image there on purpose.
+
+**Career path.** The five-step path on Home (`<ol class="career-path">`) must agree with Experience and the CV. Add a step when your position changes and move the `path-now` class to it.
+
+**Method diagram.** `<ol class="method-flow">` in `projects.qmd` shows the five stages of the PhD research. Keep it to methods the thesis and papers actually used.
+
+**Teaching rating bars.** In `teaching.qmd`, each bar width is the share who agreed: respondents agreeing divided by respondents, as a percentage. Change the number and the width together.
+
+**Short biography.** `cv.qmd#short-biography` is a third-person paragraph for people introducing you. Update it with each change of position. The Copy button needs no maintenance.
+
+**Publications chart and quick filters.** `scripts/render_publications.py` generates `_includes/publication-chart.html` from `publications.json` (articles and chapters only) and the quick-filter buttons above the record. Nothing to edit by hand. If you rename a topic in `publications.json`, update the `quick` list in that script; the build stops if a quick filter names a topic no publication uses.
+
+**Behaviour without JavaScript.** All content stays readable. The chart shows as labelled bars, and the copy buttons, quick filters, section highlighting and back-to-top button simply do not appear. Motion respects the reduced-motion setting.

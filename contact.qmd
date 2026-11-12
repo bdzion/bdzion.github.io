@@ -6,7 +6,7 @@ page-layout: full
 
 I welcome inquiries about research collaboration, grant development, graduate student research, teaching, and applied environmental projects. My interests span agricultural landscapes, water quality, conservation planning, and GeoAI (AI for geographic data). Search committees are welcome to request my teaching dossier and supporting documents.
 
-<div class="contact-panel"><p class="eyebrow">Institutional email</p><a class="email-link" href="mailto:mbodrudd@uoguelph.ca">mbodrudd@uoguelph.ca</a><p><a href="https://geg.uoguelph.ca/">Department of Geography, Environment and Geomatics</a><br><a href="https://www.uoguelph.ca/">University of Guelph</a><br>Guelph, Ontario, Canada</p></div>
+<div class="contact-panel"><p class="eyebrow">Institutional email</p><a class="email-link" id="contact-email" href="mailto:mbodrudd@uoguelph.ca">mbodrudd@uoguelph.ca</a><button class="copy-button" type="button" data-copy-target="contact-email" hidden>Copy email address</button><span class="copy-status" role="status" aria-live="polite"></span><p><a href="https://geg.uoguelph.ca/">Department of Geography, Environment and Geomatics</a><br><a href="https://www.uoguelph.ca/">University of Guelph</a><br>Guelph, Ontario, Canada</p></div>
 
 ## Professional profiles
 

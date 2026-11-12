@@ -26,5 +26,14 @@
     "original_height": 1086,
     "alt": "REAL Decision Lab logo showing agricultural fields and a magnifying glass over a map grid",
     "type": "logo"
+  },
+  {
+    "source": "field monitoring site.JPG",
+    "path": "assets/images/research/field-monitoring-site.webp",
+    "width": 1600,
+    "height": 960,
+    "original_width": 4000,
+    "original_height": 3000,
+    "alt": "Aerial view of a stream flowing through a culvert between cropland, with a small monitoring station on the bank"
   }
 ]

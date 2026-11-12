@@ -8,7 +8,13 @@ Environmental scientist and geographer specialising in agricultural water qualit
 
 [Download Full Academic CV (PDF)](assets/Md_Bodrud_Doza_Academic_CV.pdf?v=20261009-links){.button .primary}
 
-<nav class="page-shortcuts" aria-label="CV sections"><a href="#education">Education</a><a href="#academic-appointments">Appointments</a><a href="#research-and-publications">Research</a><a href="#teaching">Teaching</a><a href="#selected-awards">Awards</a><a href="#research-support-and-proposal-development">Funding</a><a href="#academic-service">Service</a></nav>
+<nav class="page-shortcuts" aria-label="CV sections"><a href="#short-biography">Short bio</a><a href="#education">Education</a><a href="#academic-appointments">Appointments</a><a href="#research-and-publications">Research</a><a href="#teaching">Teaching</a><a href="#selected-awards">Awards</a><a href="#research-support-and-proposal-development">Funding</a><a href="#academic-service">Service</a></nav>
+
+## Short biography {#short-biography}
+
+For introductions, programs and speaker notes.
+
+<div class="bio-panel"><p id="short-bio">Md Bodrud-Doza is a Postdoctoral Scholar in the Department of Geography, Environment and Geomatics at the University of Guelph, Canada. His research combines watershed modelling, geospatial analysis and machine learning to identify where agricultural conservation practices can most improve water quality. He holds a PhD in Geography from the University of Guelph (2026) and has published widely on water quality, precision conservation and climate resilience. Before his doctorate he spent six years in climate-adaptation research and program management in Bangladesh with BRAC and the International Centre for Climate Change and Development.</p><button class="copy-button" type="button" data-copy-target="short-bio" hidden>Copy biography</button><span class="copy-status" role="status" aria-live="polite"></span></div>
 
 ## Education
 
