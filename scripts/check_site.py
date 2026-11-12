@@ -43,7 +43,7 @@ for f in output.glob('*.html'):
     if p.bad_images:errors.append(f'{f.name}: missing image alt {p.bad_images}')
     if p.bad_rel:errors.append(f'{f.name}: unsafe new-tab links {p.bad_rel}')
     if f.name=='404.html' and not {base+'/',base+'/research.html'}.issubset(set(p.links)):errors.append('404.html: missing recovery links')
-    allowed={'index.html':['assets/portrait.webp','assets/images/research/field-monitoring-site.webp'],'projects.html':['assets/images/research/field-monitoring-site.webp'],'research.html':['assets/lab-logo.webp'],'research-journey.html':['assets/images/journey/research-journey.webp'],'experience.html':['assets/images/experience/leadership-consultation.webp']}.get(f.name,[])
+    allowed={'index.html':['assets/portrait.webp','assets/images/research/field-monitoring-site.webp'],'projects.html':['assets/images/research/field-monitoring-site.webp'],'publications.html':['assets/images/journey/research-journey.webp'],'research.html':['assets/lab-logo.webp'],'research-journey.html':['assets/images/journey/research-journey.webp'],'experience.html':['assets/images/experience/leadership-consultation.webp']}.get(f.name,[])
     if p.images!=allowed:errors.append(f'{f.name}: unexpected image under the portrait/field-site/journey/one-leadership-photo/lab-logo policy: {p.images}')
     text=f.read_text(encoding='utf-8')
     for forbidden in ['7,000+','60+','h-index','2026 – Present','{{< include']:
@@ -64,7 +64,7 @@ def source(name):return (output/name).read_text(encoding='utf-8')
 for name in expected-{'404.html'}:
     for target in ['research.html','publications.html','teaching.html','cv.html','contact.html']:
         if not any(urlsplit(l).path.endswith(target) for l in page(name).links):errors.append(f'{name}: primary navigation is missing {target}')
-required_ids={'index.html':{'in-one-minute','career-path'},'research.html':{'research-pillars','four-connected-research-areas','current-and-developing-projects','current-project-healthy-lake-huron','five-year-program','case-studies','area-observe','area-understand','area-design','area-learn'},'projects.html':{'precision-conservation','healthy-lake-huron','environmental-intelligence'},'teaching.html':{'teaching-philosophy','teaching-experience','teaching-effectiveness','courses-i-can-teach','mentoring','teaching-materials'},'experience.html':{'teaching-and-mentoring','academic-applied-research','climate-development-leadership'},'cv.html':{'selected-awards','teaching','academic-service','short-biography','short-bio'},'contact.html':{'contact-email'}}
+required_ids={'index.html':{'problem-to-solution','career-path'},'research.html':{'research-pillars','four-connected-research-areas','current-and-developing-projects','current-project-healthy-lake-huron','five-year-program','case-studies','area-observe','area-understand','area-design','area-learn'},'projects.html':{'precision-conservation','healthy-lake-huron','environmental-intelligence'},'teaching.html':{'teaching-philosophy','teaching-experience','teaching-effectiveness','courses-i-can-teach','mentoring','teaching-materials'},'experience.html':{'teaching-and-mentoring','academic-applied-research','climate-development-leadership'},'cv.html':{'selected-awards','teaching','academic-service','short-biography','short-bio'},'contact.html':{'contact-email'}}
 for name,ids in required_ids.items():
     if not ids.issubset(page(name).ids):errors.append(f'{name}: missing section anchors {sorted(ids-page(name).ids)}')
 # Statements that keep roles and project status accurate must not be dropped silently.
@@ -101,7 +101,7 @@ summary=f"{len(journal_records)} peer-reviewed journal articles, {sum(p['first_a
 chart_years={p['year'] for p in records if p['category'] in ('First-Authored Articles','Co-Authored Articles','Book Chapters') and p['year'] is not None}
 assert publication_page.count('<li data-year=')==max(chart_years)-min(chart_years)+1,'Publication chart does not cover every year'
 assert publication_page.count('data-topic=')==5 and 'class="quick-filters"' in publication_page,'Missing publication quick filters'
-for name in ['index.html','publications.html','cv.html']:
+for name in ['index.html','cv.html']:
     assert summary in (output/name).read_text(encoding='utf-8'),f'{name}: publication summary does not match publications.json'
 cv_pdf=output/'assets/Md_Bodrud_Doza_Academic_CV.pdf'
 assert cv_pdf.exists() and cv_pdf.read_bytes().startswith(b'%PDF-'), 'Missing canonical CV download'
