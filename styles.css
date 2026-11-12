@@ -447,3 +447,7 @@ main.content a.button + a.button { margin-left:.6rem; }
 
 .lead-statement.wide { max-width:46ch!important; }
 .journey-image figcaption a { white-space:nowrap; }
+
+/* CV: linked organisation under each professional role. */
+.appointment-list.linked-roles a { display:block;font-size:.95rem;font-weight:600;margin:.1rem 0 .2rem; }
+.appointment-list.linked-roles li { margin:1.25rem 0; }

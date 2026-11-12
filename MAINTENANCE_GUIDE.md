@@ -311,3 +311,5 @@ Do not require the `deploy` job before merging: it runs only after changes reach
 **Behaviour without JavaScript.** All content stays readable. The chart shows as labelled bars, and the copy buttons, quick filters, section highlighting and back-to-top button simply do not appear. Motion respects the reduced-motion setting.
 
 **Publications introduction.** `publications.qmd` opens with a statement of how the research evolved and the journey photograph (the same file used on Research Journey), then the by-year chart. The article counts appear on Home and the CV page only. Keep the statement consistent with `research-journey.qmd`.
+
+**Professional experience on the CV page.** `cv.qmd#professional-experience` lists the seven roles outside the university, each with a link to the organisation's official site. It repeats the roles in `experience.qmd` in shorter form; when a role, date or link changes, edit both pages and the master CV.
