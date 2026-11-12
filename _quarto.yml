@@ -11,7 +11,7 @@ project:
   resources:
     - assets/images/**
     - assets/portrait.webp
-    - assets/lab-logo.png
+    - assets/lab-logo.webp
     - assets/social-preview.png
     - robots.txt
     - assets/Md_Bodrud_Doza_Academic_CV.pdf
@@ -20,34 +20,43 @@ project:
 website:
   title: "Md Bodrud-Doza"
   site-url: https://bdzion.github.io
-  description: "Resilient agricultural landscapes, water quality, and spatial environmental decision-making."
+  description: "Md Bodrud-Doza, PhD: watershed modelling, precision conservation, geospatial analysis and environmental decision support for agricultural landscapes."
   favicon: assets/favicon.svg
   image: assets/social-preview.png
   open-graph: true
   twitter-card: true
   navbar:
     background: light
-    collapse-below: xl
+    collapse-below: lg
     left:
       - href: research.qmd
-        text: Research Lab
-      - href: research-journey.qmd
-        text: Research Journey
-      - href: experience.qmd
-        text: Experience
+        text: Research
       - href: publications.qmd
         text: Publications
+      - href: teaching.qmd
+        text: Teaching
       - href: cv.qmd
         text: CV
-      - href: collaboration.qmd
-        text: Collaboration
       - href: contact.qmd
         text: Contact
   page-footer:
     left: "Md Bodrud-Doza · University of Guelph, Canada"
+    center:
+      - text: Case studies
+        href: projects.qmd
+      - text: Research journey
+        href: research-journey.qmd
+      - text: Experience
+        href: experience.qmd
+      - text: Collaboration
+        href: collaboration.qmd
     right:
       - text: Email
         href: mailto:mbodrudd@uoguelph.ca
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=1VymNoIAAAAJ&hl=en
+      - text: ORCID
+        href: https://orcid.org/0000-0003-4694-4077
       - text: GitHub
         href: https://github.com/bdzion
   search:

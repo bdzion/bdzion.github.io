@@ -1,8 +1,22 @@
 ---
 title: "Publications"
-description: "Precision-conservation research, journal articles, policy contributions, and public writing by Md Bodrud-Doza, with links to the original work."
+description: "Selected and complete publications of Md Bodrud-Doza on precision conservation, agricultural water quality, geospatial analysis and climate resilience, with DOI links."
 page-layout: full
 ---
+
+{{< include _includes/record-summary.html >}}
+
+Peer-reviewed research, other scholarly outputs and public writing are listed separately below. For current citation information, visit [Google Scholar](https://scholar.google.com/citations?user=1VymNoIAAAAJ&hl=en) or [ORCID](https://orcid.org/0000-0003-4694-4077).
+
+<nav class="page-shortcuts" aria-label="Publications sections"><a href="#featured-research">Selected publications</a><a href="#research-publication-timeline">Research timeline</a><a href="#publication-record">Complete record and search</a></nav>
+
+## Selected publications {#featured-research}
+
+<p class="eyebrow">Peer-reviewed research</p>
+
+These papers are the most relevant to my current research. The first four report my doctoral work on precision conservation. The last two show the earlier foundations in groundwater-quality assessment and in climate adaptation.
+
+{{< include _includes/featured.html >}}
 
 <span id="how-the-research-program-developed" aria-hidden="true"></span>
 
@@ -12,14 +26,8 @@ My publication record has developed through overlapping research domains, from e
 
 {{< include _includes/publication-timeline.html >}}
 
-## Featured Research {#featured-research}
-
-<p class="eyebrow">Peer-reviewed research</p>
-
-{{< include _includes/featured.html >}}
-
 ## Complete Publication Record {#publication-record}
 
-Browse journal articles, book chapters, working papers, conference abstracts, technical reports, and public and policy writing. For current citation information, visit [Google Scholar](https://scholar.google.com/citations?user=1VymNoIAAAAJ&hl=en).
+Browse journal articles, book chapters, working papers, conference abstracts, technical reports, and public and policy writing. Use the search box and filters to narrow the list.
 
 {{< include _includes/publication-list.html >}}

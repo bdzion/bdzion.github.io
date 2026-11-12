@@ -103,10 +103,17 @@
     "doi": "10.1016/j.gsd.2020.100374",
     "url": "https://doi.org/10.1016/j.gsd.2020.100374",
     "first_authored": true,
-    "featured": false,
+    "featured": true,
     "topics": [
       "Water Quality & Watershed Science",
       "Environmental Quality & Groundwater"
+    ],
+    "title": "Groundwater quality and human health risk assessment for safe and sustainable water supply of Dhaka City dwellers in Bangladesh",
+    "journal": "Groundwater for Sustainable Development",
+    "contribution": "Assesses groundwater quality and the associated human health risk for the water supply of Dhaka City; an example of the earlier water-quality research that preceded my watershed work.",
+    "display_tags": [
+      "Groundwater quality",
+      "Health risk"
     ]
   },
   {
@@ -197,8 +204,15 @@
     "doi": "10.3389/fclim.2022.944736",
     "url": "https://doi.org/10.3389/fclim.2022.944736",
     "first_authored": false,
-    "featured": false,
-    "topics": []
+    "featured": true,
+    "topics": [],
+    "title": "An overview of disaster risk reduction and anticipatory action in Bangladesh",
+    "journal": "Frontiers in Climate",
+    "contribution": "Reviews disaster risk reduction and anticipatory action in Bangladesh; background for my developing interest in anticipatory decision-making.",
+    "display_tags": [
+      "Climate adaptation",
+      "Anticipatory action"
+    ]
   },
   {
     "id": "pub-014",
