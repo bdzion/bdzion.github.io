@@ -259,3 +259,95 @@ main.content .program-intro { max-width:none; }
  .lab-identity { grid-template-columns:1fr;gap:.7rem; }
  .lab-logo { width:180px; }
 }
+
+/* Faculty-recruitment portfolio: at-a-glance strip, pillars, status ledger, case studies, teaching. */
+.hero .affiliation { margin-bottom:0; }
+.summary-strip.glance { grid-template-columns:repeat(4,minmax(0,1fr));gap:1.4rem;margin:0 0 2.4rem; }
+.summary-strip.glance dd a { white-space:nowrap;font-weight:600; }
+.section-link { font-size:.92rem;font-weight:600;margin:1rem 0 0; }
+.cards + .section-link { margin-top:-.6rem; }
+.status-label.active { background:#e3edf0;color:#244e61; }
+.pillars .research-card h3,.compact-cards .research-card h3 { font-size:1.2rem;margin:.7rem 0 .6rem; }
+.compact-cards .research-card h3 { margin-top:0; }
+.compact-cards .research-card p,.pillars .research-card p:not(.status-label) { font-size:.94rem; }
+.compact-cards .research-card { display:flex;flex-direction:column; }
+.compact-cards .project-link { margin-top:auto;padding-top:.8rem; }
+.case-links { list-style:none;padding:0;margin:1.2rem 0 2rem;border-top:1px solid var(--line); }
+.case-links li { display:grid;grid-template-columns:13.5rem minmax(0,1fr);gap:.2rem 1.4rem;padding:1rem 0;border-bottom:1px solid var(--line);align-items:start; }
+.case-links .status-label { grid-row:1 / span 2;justify-self:start;margin-top:.2rem; }
+.case-links a { font-family:Georgia,"Times New Roman",serif;font-size:1.18rem;line-height:1.35;color:var(--ink);text-decoration-thickness:1px; }
+.case-links li > span:last-child { grid-column:2;font-size:.92rem;color:var(--muted); }
+.lab-status { font-size:.92rem;color:var(--muted);margin:.5rem 0 0; }
+.pillar-list { display:grid;gap:0;margin:1.4rem 0 2rem;border-top:1px solid var(--line); }
+.pillar { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:.4rem 2.5rem;padding:1.5rem 0;border-bottom:1px solid var(--line); }
+.pillar .status-label { grid-column:1;justify-self:start;align-self:start; }
+.pillar h3 { grid-column:1;font-size:1.35rem;margin:.4rem 0 0; }
+.pillar > p:not(.status-label) { grid-column:2;font-size:.97rem;margin:0 0 .7rem; }
+.pillar > p:nth-of-type(2) { grid-row:1 / span 2; }
+.pillar .pillar-evidence { font-size:.9rem;color:var(--muted);margin-bottom:0; }
+.status-ledger { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;margin:1.4rem 0 2rem; }
+.status-ledger section { background:#fff;border:1px solid var(--line);border-top:3px solid #75927d;padding:1.2rem 1.3rem;scroll-margin-top:6rem; }
+.status-ledger section:nth-child(2) { border-top-color:var(--blue); }
+.status-ledger section:nth-child(3) { border-top-color:var(--earth); }
+.status-ledger h3 { font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1rem;letter-spacing:0;margin:0 0 .8rem; }
+.status-ledger ul { padding-left:1.1rem;margin:0; }
+.status-ledger li { font-size:.93rem;margin-bottom:.8rem; }
+.status-ledger li:last-child { margin-bottom:0; }
+.plan-phases { list-style:none;padding:0;margin:1.4rem 0 1.6rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem; }
+.plan-phases li { background:var(--soft);border-top:4px solid var(--green);padding:1.2rem 1.3rem; }
+.plan-phases li:nth-child(2) { border-top-color:var(--blue); }
+.plan-phases li:nth-child(3) { border-top-color:var(--earth); }
+.plan-phases h3 { font-size:1.2rem;margin:.2rem 0 .7rem; }
+.plan-phases p:not(.eyebrow) { font-size:.93rem;margin:0; }
+.case-status { font-size:.9rem;color:var(--muted);margin:-.4rem 0 1rem; }
+.case-status .status-label { margin-right:.6rem; }
+main.content .case-study { margin:0 0 3rem;border-top:1px solid var(--line); }
+.case-study > div { display:grid;grid-template-columns:12rem minmax(0,1fr);gap:.3rem 2rem;padding:1.05rem 0;border-bottom:1px solid var(--line); }
+.case-study dt { font-size:.76rem;text-transform:uppercase;letter-spacing:.09em;font-weight:700;color:var(--muted);padding-top:.25rem; }
+.case-study dd { margin:0;font-size:.98rem;max-width:72ch; }
+.case-study dd > :last-child { margin-bottom:0; }
+.case-study dd ul { padding-left:1.1rem; }
+.case-study dd li { margin-bottom:.5rem; }
+.case-study .case-pubs li { font-size:.9rem; }
+.case-note { font-size:.85rem;color:var(--muted); }
+.case-study .project-sequence { margin:.2rem 0 .9rem; }
+h2[id] { scroll-margin-top:6rem; }
+.table-scroll { overflow-x:auto;margin:1.2rem 0 .8rem; }
+.course-table { width:100%;border-collapse:collapse;font-size:.93rem;background:#fff;border:1px solid var(--line); }
+.course-table th,.course-table td { padding:.75rem 1rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top; }
+.course-table thead th { background:var(--soft);font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted); }
+.course-table tbody th { font-weight:650;color:var(--ink);min-width:15rem; }
+.course-table td:nth-child(2) { white-space:nowrap;color:var(--muted); }
+.evidence-panel { background:#fff;border:1px solid var(--line);border-left:4px solid var(--green);padding:1.3rem 1.5rem;margin:1.4rem 0; }
+.rating-list { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem 2rem;margin:0; }
+.rating-list > div { border-top:1px solid var(--line);padding-top:.7rem; }
+.rating-list dt { font-size:.9rem;font-weight:400;color:var(--muted); }
+.rating-list dd { margin:.15rem 0 0;font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;color:var(--ink); }
+.teach-levels ul { padding-left:1.1rem;margin:0 0 .8rem;font-size:.94rem; }
+.teach-levels li { margin-bottom:.35rem; }
+.feature-role { font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:var(--muted);margin:0 0 .5rem; }
+.record-summary { font-weight:600; }
+.closing-callout .button { margin-right:.2rem; }
+.nav-footer .nav-footer-center { min-width:0; }
+.nav-footer .nav-link { padding:.35rem .6rem; }
+main.content a.button + a.button { margin-left:.6rem; }
+@media(max-width:1024px) {
+ .summary-strip.glance { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .plan-phases { grid-template-columns:1fr; }
+ .pillar { grid-template-columns:1fr; }
+ .pillar .status-label,.pillar h3,.pillar > p:not(.status-label) { grid-column:1; }
+ .pillar > p:nth-of-type(2) { grid-row:auto; }
+ .pillar h3 { margin-bottom:.7rem; }
+}
+@media(max-width:768px) {
+ .status-ledger,.rating-list { grid-template-columns:1fr; }
+ .case-links li { grid-template-columns:1fr; }
+ .case-links .status-label { grid-row:auto; }
+ .case-links li > span:last-child { grid-column:1; }
+ .case-study > div { grid-template-columns:1fr; }
+}
+@media(max-width:640px) {
+ .summary-strip.glance { grid-template-columns:1fr;padding:1rem 0; }
+ .course-table tbody th { min-width:10rem; }
+ main.content a.button + a.button { margin-left:0;margin-top:.6rem; }
+}

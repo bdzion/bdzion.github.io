@@ -4,7 +4,7 @@ description: "Current research setting and developing collaborations in food-sys
 page-layout: full
 ---
 
-I welcome collaboration that connects environmental evidence with decisions across agricultural landscapes, water resources, and food systems.
+I welcome collaboration that connects environmental evidence with decisions across agricultural landscapes, water resources, and food systems. The [research program](research.qmd) and [case studies](projects.qmd) describe the work these collaborations would build on.
 
 <nav class="page-shortcuts" aria-label="Collaboration sections"><a href="#current-research-setting">Current setting</a><a href="#current-applied-collaboration">Applied collaboration</a><a href="#omafa-precision-conservation-proposal">Developing proposals</a><a href="#place-based-research-interest-bangladesh">Bangladesh</a><a href="#collaboration-themes">Collaboration themes</a></nav>
 
@@ -14,7 +14,7 @@ I welcome collaboration that connects environmental evidence with decisions acro
 
 ## Current applied collaboration
 
-<div class="current-project"><p class="eyebrow">Active Mitacs Accelerate research</p><h3>University of Guelph and Healthy Lake Huron partners</h3><p>My current postdoctoral project connects University of Guelph research with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>, the main applied partnership for this work. <a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority (ABCA)</a> is the formal Mitacs partner.</p><p>ABCA, Maitland Valley Conservation Authority, and the wider Healthy Lake Huron partnership contribute watershed data and expertise. Planned maps, indicators, and monitoring recommendations will support conservation planning and stewardship decisions.</p><a href="research.qmd#current-project-healthy-lake-huron">Research methods and intended outputs →</a></div>
+<div class="current-project"><p class="eyebrow">Active Mitacs Accelerate research</p><h3>University of Guelph and Healthy Lake Huron partners</h3><p>My current postdoctoral project connects University of Guelph research with <a href="https://healthylakehuron.ca/">Healthy Lake Huron partners</a>, the main applied partnership for this work. <a href="https://www.abca.ca/">Ausable Bayfield Conservation Authority (ABCA)</a> is the formal Mitacs partner.</p><p>ABCA, Maitland Valley Conservation Authority, and the wider Healthy Lake Huron partnership contribute watershed data and expertise. Planned maps, indicators, and monitoring recommendations will support conservation planning and stewardship decisions.</p><a href="projects.qmd#healthy-lake-huron">Research methods and intended outputs →</a></div>
 
 ## Proposed extension of PhD research {#omafa-precision-conservation-proposal}
 

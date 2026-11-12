@@ -19,13 +19,22 @@ def item(p,featured=False):
   contribution=f'<p class="contribution"><strong>Contribution:</strong> {e(p["contribution"])}</p>' if p.get('contribution') else ''
   tags='<div class="topic-tags">'+''.join(f'<span>{e(t)}</span>' for t in p.get('display_tags',p['topics'])[:3])+'</div>'
   feature_link=link.replace(" ↗</a>"," →</a>")
-  return f'<article class="publication-feature"><h3>{e(p.get("title",p["citation"]))}</h3>{journal}{contribution}{tags}{feature_link}</article>'
+  role='<p class="feature-role">'+('First author' if p['first_authored'] else 'Co-author')+'</p>'
+  return f'<article class="publication-feature">{role}<h3>{e(p.get("title",p["citation"]))}</h3>{journal}{contribution}{tags}{feature_link}</article>'
  attrs=f'data-category="{e(p["category"])}" data-view="{e(view(p))}" data-year="{e(p["year"])}" data-topics="{e("|".join(p["topics"]))}" data-first="{str(p["first_authored"]).lower()}"'
  citation=re.sub(r'Bodrud-Doza(?:,?\s*M\.?)?',lambda m:'<strong>'+m[0]+'</strong>',e(p['citation']))
  return f'<article class="publication-entry" {attrs}><p class="citation">{citation}</p><div class="publication-meta">{badge}{link}</div></article>'
 featured=[p for p in records if p.get('featured')]
 for name,subset in [('featured.html',featured),('featured-home.html',featured[:3])]:
  (root/'_includes'/name).write_text(('<div class="featured-grid home-featured">' if name=='featured-home.html' else '<div class="featured-grid">')+''.join(item(p,True) for p in subset)+'</div>',encoding='utf-8')
+# One factual sentence, counted from the records so it cannot drift from the list.
+journal=[p for p in records if p['category'] in ('First-Authored Articles','Co-Authored Articles')]
+first=sum(1 for p in journal if p['first_authored'])
+chapters=sum(1 for p in records if p['category']=='Book Chapters')
+summary=f'{len(journal)} peer-reviewed journal articles, {first} of them first-authored, and {chapters} book chapters.'
+# Quarto includes must stand on their own line, so each file is a complete block.
+(root/'_includes/record-summary.html').write_text(f'<p class="record-summary">{summary}</p>',encoding='utf-8')
+(root/'_includes/record-glance.html').write_text(f'<div><dt>Scholarly record</dt><dd>{summary} <a href="publications.qmd">Publications →</a></dd></div>',encoding='utf-8')
 def select(id,label,values,first):
  return f'<div><label for="{id}">{label}</label><select id="{id}"><option value="">{first}</option>'+''.join(f'<option>{e(v)}</option>' for v in values)+'</select></div>'
 views=list(dict.fromkeys(view(p) for p in records))
