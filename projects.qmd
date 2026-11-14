@@ -4,13 +4,15 @@ description: "Three research case studies by Md Bodrud-Doza: published precision
 page-layout: full
 ---
 
-Three case studies show what I have done, what I am doing now, and where the work is heading. Each states its status plainly: the first is completed and published, the second is active and its outputs are still to come, and the third is a research plan.
+Three case studies show what I have done, what I am doing now, and where the work is heading. Each states its status plainly: the first is completed and published, the second is active and its outputs are still to come, and the third is a research plan. Each opens with a short plain-language summary; technical terms are explained on the [Research page](research.qmd#key-terms).
 
 <nav class="page-shortcuts" aria-label="Case studies"><a href="#precision-conservation">A · Precision conservation (published)</a><a href="#healthy-lake-huron">B · Healthy Lake Huron (active)</a><a href="#environmental-intelligence">C · Environmental intelligence (developing)</a></nav>
 
 ## A · Precision conservation in tile-drained agricultural watersheds {#precision-conservation}
 
 <p class="case-status"><span class="status-label">Completed · published</span> PhD research, University of Guelph, 2022–2026</p>
+
+<div class="in-brief"><p class="eyebrow">In brief</p><p>Nutrients, mainly phosphorus, wash off farm fields and feed algal blooms in the Great Lakes. Farmers can cut those losses with conservation practices, but a practice that works well on one field may do little on the next. My PhD research built a way to decide which fields should get which practices, so that limited conservation money goes where it helps most.</p></div>
 
 <figure class="field-banner compact"><img src="assets/images/research/field-monitoring-site.webp" width="1600" height="960" loading="lazy" alt="Aerial view of a stream flowing through a culvert between cropland, with a small monitoring station on the bank"><figcaption>A monitored stream between cropland, typical of the agricultural watersheds this research addresses.</figcaption></figure>
 
@@ -33,6 +35,8 @@ Three case studies show what I have done, what I am doing now, and where the wor
 
 <p class="case-status"><span class="status-label active">Active · Mitacs Accelerate</span> Postdoctoral project, University of Guelph, September 2026–present</p>
 
+<div class="in-brief"><p class="eyebrow">In brief</p><p>Conservation authorities on Lake Huron’s southeast shore have measured their streams for many years, but water-quality records change slowly and cannot show on their own which actions are working. This project joins those records with a computer model of how water and nutrients move through a watershed, to help partners decide where to invest next. It began in September 2026, so there are no results yet.</p></div>
+
 <dl class="case-study">
 <div><dt>Research question</dt><dd>How can long-term tributary monitoring and high-resolution watershed modelling be combined to explain what drives nutrient and sediment losses from small agricultural watersheds, and to give partners practical indicators for deciding where conservation investment should go?</dd></div>
 <div><dt>Why it matters</dt><dd>Agricultural tributaries along the southeast shore of Lake Huron carry nutrients and sediment that affect nearshore water quality and beaches. Conservation authorities have monitored these streams and supported beneficial management practices (BMPs) for many years. Water-quality measurements alone respond slowly and vary strongly from year to year, which makes it hard to tell which actions are working and where to act next.</dd></div>
@@ -49,6 +53,8 @@ Three case studies show what I have done, what I am doing now, and where the wor
 ## C · Future research: environmental intelligence and resilient agricultural landscapes {#environmental-intelligence}
 
 <p class="case-status"><span class="status-label">Developing · research plan</span> No results are reported in this section</p>
+
+<div class="in-brief"><p class="eyebrow">In brief</p><p>Watershed plans are usually made once and revised rarely, while conditions keep changing. This section sets out where my research is heading: using satellite images and AI to watch farm landscapes more often, and updating conservation priorities as new evidence arrives. It is a plan, not a set of results.</p></div>
 
 <dl class="case-study">
 <div><dt>Research questions</dt><dd><ul><li>Can satellite time series detect where and when cover, drainage and conservation practices change across whole agricultural regions, at a level of detail that field-scale planning can use?</li><li>How should observation-driven machine learning and process-based models be combined, so that predictions are both timely and physically credible?</li><li>How should conservation priorities be revised as monitoring shows what worked, and as climate and markets shift?</li><li>Which early signals show that an agricultural landscape or food system is losing its capacity to absorb shocks?</li></ul></dd></div>
