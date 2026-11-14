@@ -451,3 +451,16 @@ main.content a.button + a.button { margin-left:.6rem; }
 /* CV: linked organisation under each professional role. */
 .appointment-list.linked-roles a { display:block;font-size:.95rem;font-weight:600;margin:.1rem 0 .2rem; }
 .appointment-list.linked-roles li { margin:1.25rem 0; }
+
+/* Plain-language aids: "In brief" summaries on case studies and the key-terms panel on Research. */
+.in-brief { background:var(--soft);border-left:4px solid var(--earth);padding:1rem 1.3rem;margin:0 0 1.5rem; }
+.in-brief .eyebrow { margin-bottom:.35rem; }
+.in-brief p:last-child { margin-bottom:0;font-size:1.02rem; }
+.key-terms { scroll-margin-top:6rem;background:#fff;border:1px solid var(--line);padding:.85rem 1.2rem;margin:1.2rem 0 1.8rem; }
+.key-terms summary { cursor:pointer;font-weight:650;color:var(--green); }
+.key-terms dl { display:grid;grid-template-columns:minmax(9rem,15rem) minmax(0,1fr);gap:.55rem 1.4rem;margin:1rem 0 .3rem; }
+.key-terms dt { font-weight:650;color:var(--ink); }
+.key-terms dd { margin:0;font-size:.95rem; }
+.mentoring-case h3 { font-size:1.3rem;margin:.2rem 0 .7rem; }
+.mentoring-case p:last-child { margin-bottom:0; }
+@media(max-width:640px){ .key-terms dl { grid-template-columns:1fr;gap:.2rem; } .key-terms dd { margin-bottom:.7rem; } }
